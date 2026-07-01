@@ -1,0 +1,428 @@
+{
+  "experiment": "CF-Verify on Real HotpotQA distractor (validation split)",
+  "model": "gpt-5.4",
+  "date": "2026-06-29",
+  "total_questions": 30,
+  "flip_rate": 0.9333333333333333,
+  "hallucination_rate": 0.0,
+  "type_breakdown": {
+    "bridge": "17/17 = 100%",
+    "comparison": "11/13 = 85%"
+  },
+  "failed_cases": [
+    {
+      "qid": 18,
+      "reason": "supporting_facts under-labels: sents [3,5,13] also state opera composer"
+    },
+    {
+      "qid": 20,
+      "reason": "supporting_facts under-labels: sent [1] 'English-born writer' not in gold"
+    }
+  ],
+  "questions": [
+    {
+      "qid": 1,
+      "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+      "answer": "yes",
+      "type": "comparison",
+      "gold_indices": [
+        3,
+        16
+      ],
+      "full_answer": "yes",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 2,
+      "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+      "answer": "Chief of Protocol",
+      "type": "bridge",
+      "gold_indices": [
+        17,
+        4,
+        5
+      ],
+      "full_answer": "Chief of Protocol",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 3,
+      "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+      "answer": "Animorphs",
+      "type": "bridge",
+      "gold_indices": [
+        9,
+        10,
+        11,
+        39,
+        40
+      ],
+      "full_answer": "Animorphs",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 4,
+      "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+      "answer": "no",
+      "type": "comparison",
+      "gold_indices": [
+        21,
+        22
+      ],
+      "full_answer": "no",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 5,
+      "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+      "answer": "Greenwich Village, New York City",
+      "type": "bridge",
+      "gold_indices": [
+        49,
+        9
+      ],
+      "full_answer": "Greenwich Village, New York City",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 6,
+      "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+      "answer": "YG Entertainment",
+      "type": "bridge",
+      "gold_indices": [
+        11,
+        18
+      ],
+      "full_answer": "YG Entertainment",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 7,
+      "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+      "answer": "Eenasul Fateh",
+      "type": "bridge",
+      "gold_indices": [
+        20,
+        34
+      ],
+      "full_answer": "Eenasul Fateh",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 8,
+      "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+      "answer": "3,677 seated",
+      "type": "bridge",
+      "gold_indices": [
+        64,
+        54
+      ],
+      "full_answer": "3,677 seated",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 9,
+      "question": "Who is older, Annie Morton or Terry Richardson?",
+      "answer": "Terry Richardson",
+      "type": "bridge",
+      "gold_indices": [
+        0,
+        2,
+        10
+      ],
+      "full_answer": "Terry Richardson",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 10,
+      "question": "Are Local H and For Against both from the United States?",
+      "answer": "yes",
+      "type": "comparison",
+      "gold_indices": [
+        20,
+        30
+      ],
+      "full_answer": "yes",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 11,
+      "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+      "answer": "Kansas Song",
+      "type": "bridge",
+      "gold_indices": [
+        27,
+        44,
+        45
+      ],
+      "full_answer": "Kansas Song",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 12,
+      "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and Téa Leoni?",
+      "answer": "David Weissman",
+      "type": "bridge",
+      "gold_indices": [
+        18,
+        19,
+        37
+      ],
+      "full_answer": "David Weissman",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 13,
+      "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+      "answer": "1999",
+      "type": "bridge",
+      "gold_indices": [
+        39,
+        40,
+        38
+      ],
+      "full_answer": "1999",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 14,
+      "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+      "answer": "no",
+      "type": "comparison",
+      "gold_indices": [
+        16,
+        13
+      ],
+      "full_answer": "yes",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 15,
+      "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+      "answer": "from 1986 to 2013",
+      "type": "bridge",
+      "gold_indices": [
+        12,
+        13,
+        22
+      ],
+      "full_answer": "from 1986 to 2013",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 16,
+      "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+      "answer": "9,984",
+      "type": "bridge",
+      "gold_indices": [
+        11,
+        63
+      ],
+      "full_answer": "9,984",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 17,
+      "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+      "answer": "the North Atlantic Conference",
+      "type": "bridge",
+      "gold_indices": [
+        15,
+        16,
+        14
+      ],
+      "full_answer": "the North Atlantic Conference",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 18,
+      "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+      "answer": "yes",
+      "type": "comparison",
+      "gold_indices": [
+        12,
+        16
+      ],
+      "full_answer": "yes",
+      "removed_answer": "yes",
+      "flipped": false
+    },
+    {
+      "qid": 19,
+      "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+      "answer": "1969 until 1974",
+      "type": "bridge",
+      "gold_indices": [
+        38,
+        8
+      ],
+      "full_answer": "1969 until 1974",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 20,
+      "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+      "answer": "Robert Erskine Childers DSC",
+      "type": "comparison",
+      "gold_indices": [
+        3,
+        17
+      ],
+      "full_answer": "Robert Erskine Childers",
+      "removed_answer": "Robert Erskine Childers",
+      "flipped": false
+    },
+    {
+      "qid": 21,
+      "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+      "answer": "Pedro Rodríguez",
+      "type": "bridge",
+      "gold_indices": [
+        33,
+        34,
+        17
+      ],
+      "full_answer": "Pedro Rodríguez",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 22,
+      "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+      "answer": "Badly Drawn Boy",
+      "type": "comparison",
+      "gold_indices": [
+        20,
+        1
+      ],
+      "full_answer": "Badly Drawn Boy",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 23,
+      "question": "Are both Dictyosperma, and Huernia described as a genus?",
+      "answer": "yes",
+      "type": "comparison",
+      "gold_indices": [
+        0,
+        5
+      ],
+      "full_answer": "yes",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 24,
+      "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+      "answer": "Fujioka, Gunma",
+      "type": "comparison",
+      "gold_indices": [
+        4,
+        15
+      ],
+      "full_answer": "Fujioka, Gunma.",
+      "removed_answer": "insufficient evidence.",
+      "flipped": true
+    },
+    {
+      "qid": 25,
+      "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+      "answer": "no",
+      "type": "comparison",
+      "gold_indices": [
+        42,
+        39
+      ],
+      "full_answer": "no",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 26,
+      "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+      "answer": "Letters to Cleo",
+      "type": "comparison",
+      "gold_indices": [
+        0,
+        1,
+        30,
+        31
+      ],
+      "full_answer": "Letters to Cleo",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 27,
+      "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+      "answer": "no",
+      "type": "comparison",
+      "gold_indices": [
+        9,
+        10
+      ],
+      "full_answer": "no",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 28,
+      "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+      "answer": "Scotch Collie",
+      "type": "comparison",
+      "gold_indices": [
+        9,
+        38,
+        41
+      ],
+      "full_answer": "Scotch Collie",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 29,
+      "question": "Are Ferocactus and Silene both types of plant?",
+      "answer": "yes",
+      "type": "comparison",
+      "gold_indices": [
+        43,
+        11
+      ],
+      "full_answer": "yes",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    },
+    {
+      "qid": 30,
+      "question": "Are both Cypress and Ajuga genera?",
+      "answer": "no",
+      "type": "comparison",
+      "gold_indices": [
+        29,
+        8
+      ],
+      "full_answer": "no",
+      "removed_answer": "insufficient evidence",
+      "flipped": true
+    }
+  ]
+}

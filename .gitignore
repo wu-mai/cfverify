@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# LaTeX — main.bbl is intentionally tracked (Overleaf reads it);
+# other LaTeX intermediates are not.
+*.aux
+*.log
+*.out
+*.blg
+*.toc
+*.synctex.gz
+
+# Temporary scratch / local-only data
+self_rationale_prompts/
+self_rationale_results/ghat_removal/
+tmp_prompts/

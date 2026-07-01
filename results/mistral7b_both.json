@@ -1,0 +1,1056 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "timestamp": "2026-06-29T18:11:45",
+  "hotpotqa": [
+    {
+      "qid": 1,
+      "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+      "answer": "yes",
+      "type": "comparison",
+      "gold_indices": [
+        3,
+        16
+      ],
+      "random_removed": [
+        4,
+        19
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 2,
+      "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+      "answer": "Chief of Protocol",
+      "type": "bridge",
+      "gold_indices": [
+        4,
+        5,
+        17
+      ],
+      "random_removed": [
+        7,
+        20,
+        29
+      ],
+      "cond1_full": "Insufficient evidence. The evidence provided does not indicate that the woman who portrayed Corliss Archer in the film Kiss and Tell held a government position",
+      "cond2_gold_removed": "Insufficient evidence. The evidence provided does not mention any government position held by the woman who portrayed Corliss Archer in the film \"Kiss and Tell\"",
+      "cond3_random_removed": "Insufficient evidence. The evidence provided does not mention any government position held by the actress who portrayed Corliss Archer in the film \"Kiss and Tell\""
+    },
+    {
+      "qid": 3,
+      "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+      "answer": "Animorphs",
+      "type": "bridge",
+      "gold_indices": [
+        9,
+        10,
+        11,
+        39,
+        40
+      ],
+      "random_removed": [
+        2,
+        6,
+        27,
+        37,
+        38
+      ],
+      "cond1_full": "Insufficient evidence to determine a specific series. However, the evidence suggests that the \"Animorphs\" series has companion books (The Hork-Bajir Chronicles) and is a science",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence to determine a specific series. However, the evidence suggests that the \"Animorphs\" series has companion books narrating stories of enslaved worlds and alien species"
+    },
+    {
+      "qid": 4,
+      "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+      "answer": "no",
+      "type": "comparison",
+      "gold_indices": [
+        21,
+        22
+      ],
+      "random_removed": [
+        1,
+        10
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 5,
+      "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+      "answer": "Greenwich Village, New York City",
+      "type": "bridge",
+      "gold_indices": [
+        9,
+        49
+      ],
+      "random_removed": [
+        8,
+        11
+      ],
+      "cond1_full": "Greenwich Village",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Greenwich Village, New York City"
+    },
+    {
+      "qid": 6,
+      "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+      "answer": "YG Entertainment",
+      "type": "bridge",
+      "gold_indices": [
+        11,
+        18
+      ],
+      "random_removed": [
+        23,
+        37
+      ],
+      "cond1_full": "Insufficient evidence. The evidence does not specify the record label that formed the South Korean boy group that released the album \"2014 S/S\"",
+      "cond2_gold_removed": "Insufficient evidence. The evidence does not specify which South Korean boy group debuted an album in 2014 S/S",
+      "cond3_random_removed": "Insufficient evidence. The evidence does not specify the record label that released the 2014 S/S album"
+    },
+    {
+      "qid": 7,
+      "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+      "answer": "Eenasul Fateh",
+      "type": "bridge",
+      "gold_indices": [
+        20,
+        34
+      ],
+      "random_removed": [
+        22,
+        46
+      ],
+      "cond1_full": "Insufficient evidence. Neither James P. Comer nor Eenasul Fateh were referred to as Aladin in the provided evidence",
+      "cond2_gold_removed": "Insufficient evidence. No individual mentioned was known by the stage name Aladin and there is no evidence that any of them worked as a consultant to improve organizations' performance",
+      "cond3_random_removed": "Insufficient evidence. Neither James P. Comer nor Eenasul Fateh were referred to as Aladin in the provided evidence"
+    },
+    {
+      "qid": 8,
+      "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+      "answer": "3,677 seated",
+      "type": "bridge",
+      "gold_indices": [
+        54,
+        64
+      ],
+      "random_removed": [
+        20,
+        31
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 9,
+      "question": "Who is older, Annie Morton or Terry Richardson?",
+      "answer": "Terry Richardson",
+      "type": "bridge",
+      "gold_indices": [
+        0,
+        2,
+        10
+      ],
+      "random_removed": [
+        1,
+        7,
+        30
+      ],
+      "cond1_full": "Insufficient evidence. Both dates of birth are not provided",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence. Both dates of birth are not provided"
+    },
+    {
+      "qid": 10,
+      "question": "Are Local H and For Against both from the United States?",
+      "answer": "yes",
+      "type": "comparison",
+      "gold_indices": [
+        20,
+        30
+      ],
+      "random_removed": [
+        25,
+        40
+      ],
+      "cond1_full": "Yes, both Local H and For Against are from the United States",
+      "cond2_gold_removed": "Yes, Local H is from the United States. Insufficient evidence to determine if For Against is from the United States",
+      "cond3_random_removed": "Yes, both Local H and For Against are from the United States"
+    },
+    {
+      "qid": 11,
+      "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+      "answer": "Kansas Song",
+      "type": "bridge",
+      "gold_indices": [
+        27,
+        44,
+        45
+      ],
+      "random_removed": [
+        0,
+        4,
+        20
+      ],
+      "cond1_full": "Insufficient evidence. The evidence does not specify the fight song of the University of Kansas",
+      "cond2_gold_removed": "Insufficient evidence. The evidence does not specify the name of the fight song of the university with branch campuses in the Kansas City metropolitan area",
+      "cond3_random_removed": "Insufficient evidence. The evidence does not specify the name of the fight song of the University of Kansas"
+    },
+    {
+      "qid": 12,
+      "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and Téa Leoni?",
+      "answer": "David Weissman",
+      "type": "bridge",
+      "gold_indices": [
+        18,
+        19,
+        37
+      ],
+      "random_removed": [
+        2,
+        6,
+        30
+      ],
+      "cond1_full": "David Weissman",
+      "cond2_gold_removed": "Insufficient evidence. The evidence does not mention any screenwriter with credits for \"Evolution\" who co-wrote a film starring Nicolas Cage and Téa Leoni",
+      "cond3_random_removed": "David Weissman"
+    },
+    {
+      "qid": 13,
+      "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+      "answer": "1999",
+      "type": "bridge",
+      "gold_indices": [
+        38,
+        39,
+        40
+      ],
+      "random_removed": [
+        5,
+        9,
+        45
+      ],
+      "cond1_full": "Insufficient evidence. The evidence does not specify the year when Guns N Roses performed a promo for a movie starring Arnold Schwarzenegger",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence. The evidence does not specify the year when Guns N Roses performed a promo for a movie starring Arnold Schwarzenegger"
+    },
+    {
+      "qid": 14,
+      "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+      "answer": "no",
+      "type": "comparison",
+      "gold_indices": [
+        13,
+        16
+      ],
+      "random_removed": [
+        8,
+        52
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 15,
+      "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+      "answer": "from 1986 to 2013",
+      "type": "bridge",
+      "gold_indices": [
+        12,
+        13,
+        22
+      ],
+      "random_removed": [
+        0,
+        9,
+        15
+      ],
+      "cond1_full": "Sir Alexander Ferguson managed Manchester United from 1986 to 2013, which is the timeframe when David Beckham was recruited",
+      "cond2_gold_removed": "1993-1996 (insufficient evidence for exact start and end dates)",
+      "cond3_random_removed": "Sir Alexander Ferguson managed Manchester United from 1986 to 2013"
+    },
+    {
+      "qid": 16,
+      "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+      "answer": "9,984",
+      "type": "bridge",
+      "gold_indices": [
+        11,
+        63
+      ],
+      "random_removed": [
+        34,
+        62
+      ],
+      "cond1_full": "Insufficient evidence. The evidence provided does not specify the country of Brown State Fishing Lake",
+      "cond2_gold_removed": "Insufficient evidence. The evidence provided does not mention any \"Brown State Fishing Lake",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 17,
+      "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+      "answer": "the North Atlantic Conference",
+      "type": "bridge",
+      "gold_indices": [
+        14,
+        15,
+        16
+      ],
+      "random_removed": [
+        2,
+        22,
+        33
+      ],
+      "cond1_full": "North Atlantic Conference",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "North Atlantic Conference"
+    },
+    {
+      "qid": 18,
+      "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+      "answer": "yes",
+      "type": "comparison",
+      "gold_indices": [
+        12,
+        16
+      ],
+      "random_removed": [
+        23,
+        32
+      ],
+      "cond1_full": "Yes, both Giuseppe Verdi and Ambroise Thomas are opera composers",
+      "cond2_gold_removed": "Yes, both Giuseppe Verdi and Ambroise Thomas are opera composers",
+      "cond3_random_removed": "Yes, both Giuseppe Verdi and Ambroise Thomas are opera composers"
+    },
+    {
+      "qid": 19,
+      "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+      "answer": "1969 until 1974",
+      "type": "bridge",
+      "gold_indices": [
+        8,
+        38
+      ],
+      "random_removed": [
+        14,
+        40
+      ],
+      "cond1_full": "Insufficient evidence. The evidence does not specify the president during whose administration Roger O. Egeberg served as Assistant Secretary for Health and Scientific Affairs",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence. The evidence does not specify the president during whose administration Roger O. Egeberg served as Assistant Secretary for Health and Scientific Affairs"
+    },
+    {
+      "qid": 20,
+      "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+      "answer": "Robert Erskine Childers DSC",
+      "type": "comparison",
+      "gold_indices": [
+        3,
+        17
+      ],
+      "random_removed": [
+        18,
+        22
+      ],
+      "cond1_full": "Insufficient evidence. Both Henry Roth and Robert Erskine Childers are mentioned, but there is no evidence provided about their place of birth",
+      "cond2_gold_removed": "Robert Erskine Childers",
+      "cond3_random_removed": "Insufficient evidence. Both Henry Roth and Robert Erskine Childers are mentioned, but there is no evidence provided about their place of birth"
+    },
+    {
+      "qid": 21,
+      "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+      "answer": "Pedro Rodríguez",
+      "type": "bridge",
+      "gold_indices": [
+        17,
+        33,
+        34
+      ],
+      "random_removed": [
+        0,
+        21,
+        39
+      ],
+      "cond1_full": "Insufficient evidence. The evidence provided does not mention any other Mexican Formula One race car driver who has held the podium besides Sergio Pérez",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence. The evidence provided does not mention any other Mexican Formula One race car driver who has held the podium besides Sergio Pérez"
+    },
+    {
+      "qid": 22,
+      "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+      "answer": "Badly Drawn Boy",
+      "type": "comparison",
+      "gold_indices": [
+        1,
+        20
+      ],
+      "random_removed": [
+        13,
+        26
+      ],
+      "cond1_full": "Insufficient evidence. The evidence does not provide information about the number of instruments used by Wolf Alice",
+      "cond2_gold_removed": "Insufficient evidence to compare the instrument to person ratio between Badly Drawn Boy and Wolf Alice, as the number of instruments and band members for Wolf Alice is not specified in the evidence provided",
+      "cond3_random_removed": "Insufficient evidence to compare the instrument to person ratio between Badly Drawn Boy and Wolf Alice, as the number of instruments played by each member of Wolf Alice is not specified in the evidence provided"
+    },
+    {
+      "qid": 23,
+      "question": "Are both Dictyosperma, and Huernia described as a genus?",
+      "answer": "yes",
+      "type": "comparison",
+      "gold_indices": [
+        0,
+        5
+      ],
+      "random_removed": [
+        8,
+        10
+      ],
+      "cond1_full": "Yes, both Dictyosperma and Huernia are described as a genus",
+      "cond2_gold_removed": "Yes, both Dictyosperma and Huernia are described as a genus",
+      "cond3_random_removed": "Yes, both Dictyosperma and Huernia are described as a genus"
+    },
+    {
+      "qid": 24,
+      "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+      "answer": "Fujioka, Gunma",
+      "type": "comparison",
+      "gold_indices": [
+        4,
+        15
+      ],
+      "random_removed": [
+        36,
+        40
+      ],
+      "cond1_full": "Fujioka, Gunma (insufficient evidence for Buck-Tick specifically, but it is stated that they are from the same prefecture as Atsushi Sakurai)",
+      "cond2_gold_removed": "Insufficient evidence. The evidence provided does not specify the origin of Buck-Tick",
+      "cond3_random_removed": "Fujioka, Gunma (insufficient evidence for Buck-Tick specifically, but it is stated that they are from the same prefecture as Atsushi Sakurai)"
+    },
+    {
+      "qid": 25,
+      "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+      "answer": "no",
+      "type": "comparison",
+      "gold_indices": [
+        39,
+        42
+      ],
+      "random_removed": [
+        31,
+        33
+      ],
+      "cond1_full": "Yes, both Freakonomics and In the Realm of the Hackers are American documentaries",
+      "cond2_gold_removed": "Insufficient evidence. Neither \"Freakonomics\" nor \"In the Realm of the Hackers\" is explicitly identified as a documentary in the provided evidence",
+      "cond3_random_removed": "Yes, both Freakonomics and In the Realm of the Hackers are American documentaries"
+    },
+    {
+      "qid": 26,
+      "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+      "answer": "Letters to Cleo",
+      "type": "comparison",
+      "gold_indices": [
+        0,
+        1,
+        30,
+        31
+      ],
+      "random_removed": [
+        4,
+        25,
+        28,
+        36
+      ],
+      "cond1_full": "Insufficient evidence to compare the number of members in Letters to Cleo and Screaming Trees",
+      "cond2_gold_removed": "Screaming Trees (insufficient evidence for Letters to Cleo's member count)",
+      "cond3_random_removed": "Insufficient evidence to compare the number of members in Letters to Cleo and Screaming Trees"
+    },
+    {
+      "qid": 27,
+      "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+      "answer": "no",
+      "type": "comparison",
+      "gold_indices": [
+        9,
+        10
+      ],
+      "random_removed": [
+        5,
+        13
+      ],
+      "cond1_full": "Yes, Gerald R. Ford International Airport is located in Michigan. Elko Regional Airport is not located in Michigan",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Yes, Gerald R. Ford International Airport is located in Michigan. Elko Regional Airport is not located in Michigan"
+    },
+    {
+      "qid": 28,
+      "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+      "answer": "Scotch Collie",
+      "type": "comparison",
+      "gold_indices": [
+        9,
+        38,
+        41
+      ],
+      "random_removed": [
+        17,
+        32,
+        45
+      ],
+      "cond1_full": "Scotch Collie",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Scotch Collie"
+    },
+    {
+      "qid": 29,
+      "question": "Are Ferocactus and Silene both types of plant?",
+      "answer": "yes",
+      "type": "comparison",
+      "gold_indices": [
+        11,
+        43
+      ],
+      "random_removed": [
+        10,
+        22
+      ],
+      "cond1_full": "Yes, both Ferocactus and Silene are types of plants",
+      "cond2_gold_removed": "Yes, both Ferocactus and Silene are types of plants. (However, no evidence about Ferocactus was provided in the list.)",
+      "cond3_random_removed": "Yes, both Ferocactus and Silene are types of plants"
+    },
+    {
+      "qid": 30,
+      "question": "Are both Cypress and Ajuga genera?",
+      "answer": "no",
+      "type": "comparison",
+      "gold_indices": [
+        8,
+        29
+      ],
+      "random_removed": [
+        11,
+        18
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    }
+  ],
+  "twiki": [
+    {
+      "qid": 1,
+      "question": "Who is the father of the director of film Between Strangers?",
+      "answer": "Carlo Ponti",
+      "type": "compositional",
+      "gold_indices": [
+        4,
+        10
+      ],
+      "random_removed": [
+        0,
+        5
+      ],
+      "cond1_full": "Insufficient evidence. The evidence does not specify who the father of Edoardo Ponti, the director of \"Between Strangers\", is",
+      "cond2_gold_removed": "Insufficient evidence. The evidence does not mention any director named \"Between Strangers\"",
+      "cond3_random_removed": "Insufficient evidence. The evidence provided does not specify the father of Edoardo Ponti, the director of \"Between Strangers\""
+    },
+    {
+      "qid": 2,
+      "question": "Where was the director of film The Smiling Ghost born?",
+      "answer": "New York",
+      "type": "compositional",
+      "gold_indices": [
+        2,
+        3
+      ],
+      "random_removed": [
+        4,
+        15
+      ],
+      "cond1_full": "Insufficient evidence. The evidence provided does not specify the birthplace of the director of The Smiling Ghost",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence to determine the birthplace of the director of The Smiling Ghost"
+    },
+    {
+      "qid": 3,
+      "question": "What is the place of birth of the director of film Random Encounter (Film)?",
+      "answer": "Montreal, Quebec",
+      "type": "compositional",
+      "gold_indices": [
+        0,
+        2
+      ],
+      "random_removed": [
+        5,
+        10
+      ],
+      "cond1_full": "Insufficient evidence. The evidence provided does not specify the place of birth of the director of the film \"Random Encounter\"",
+      "cond2_gold_removed": "Insufficient evidence. The evidence does not provide information about the place of birth of the director of the film \"Random Encounter\"",
+      "cond3_random_removed": "Insufficient evidence. The evidence does not specify the place of birth of the director of the film \"Random Encounter"
+    },
+    {
+      "qid": 4,
+      "question": "Where was the place of death of Morris Engel's wife?",
+      "answer": "New York",
+      "type": "compositional",
+      "gold_indices": [
+        0,
+        7
+      ],
+      "random_removed": [
+        3,
+        26
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 5,
+      "question": "Where did the director of film No Sin On The Alpine Pastures (1950 Film) die?",
+      "answer": "Vienna",
+      "type": "compositional",
+      "gold_indices": [
+        10,
+        13
+      ],
+      "random_removed": [
+        36,
+        37
+      ],
+      "cond1_full": "Insufficient evidence. The evidence provided does not mention the death of any director associated with the 1950 film \"No Sin on the Alpine Pastures\"",
+      "cond2_gold_removed": "Insufficient evidence. The evidence provided does not specify a year for the film \"No Sin on the Alpine Pastures\" and the given individuals are not associated with that film",
+      "cond3_random_removed": "Insufficient evidence. The evidence provided does not mention the death of any director associated with the 1950 film \"No Sin on the Alpine Pastures\""
+    },
+    {
+      "qid": 6,
+      "question": "Which song came out earlier, Can'T Remember To Forget You or Distant Lover?",
+      "answer": "Distant Lover",
+      "type": "comparison",
+      "gold_indices": [
+        8,
+        24
+      ],
+      "random_removed": [
+        3,
+        22
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 7,
+      "question": "Are both businesses, Quarry (Company) and Fields (Department Store), located in the same country?",
+      "answer": "yes",
+      "type": "comparison",
+      "gold_indices": [
+        5,
+        6
+      ],
+      "random_removed": [
+        2,
+        13
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 8,
+      "question": "Who was born earlier, Martin Stapleton or Gina Fulton?",
+      "answer": "Gina Fulton",
+      "type": "comparison",
+      "gold_indices": [
+        3,
+        13
+      ],
+      "random_removed": [
+        6,
+        9
+      ],
+      "cond1_full": "Insufficient evidence. Both dates of birth are given, but there's no comparison between them in the evidence provided",
+      "cond2_gold_removed": "Insufficient evidence. Neither Martin Stapleton nor Gina Fulton's birth dates are provided in the evidence",
+      "cond3_random_removed": "Insufficient evidence. Both dates of birth are given, but not compared"
+    },
+    {
+      "qid": 9,
+      "question": "Where was the place of burial of Parysatis Ii's husband?",
+      "answer": "Alexandria",
+      "type": "compositional",
+      "gold_indices": [
+        22,
+        58
+      ],
+      "random_removed": [
+        21,
+        45
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 10,
+      "question": "Were Julien Guerrier and Marc Pajot of the same nationality?",
+      "answer": "yes",
+      "type": "comparison",
+      "gold_indices": [
+        23,
+        34
+      ],
+      "random_removed": [
+        10,
+        15
+      ],
+      "cond1_full": "Yes, Julien Guerrier and Marc Pajot are both French",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Yes, Julien Guerrier and Marc Pajot are both French"
+    },
+    {
+      "qid": 11,
+      "question": "Which film was released first, The Prince Of Temple Street or Traveler On All Saints' Day?",
+      "answer": "Traveler On All Saints' Day",
+      "type": "comparison",
+      "gold_indices": [
+        15,
+        18
+      ],
+      "random_removed": [
+        0,
+        29
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence. Neither film is mentioned in the provided evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 12,
+      "question": "What is the place of birth of the director of film Behind The Mask (1932 Film)?",
+      "answer": "New York",
+      "type": "compositional",
+      "gold_indices": [
+        21,
+        29
+      ],
+      "random_removed": [
+        2,
+        25
+      ],
+      "cond1_full": "Insufficient evidence. The evidence does not specify the place of birth of the director of the 1932 film \"Behind the Mask\"",
+      "cond2_gold_removed": "Insufficient evidence. The evidence provided does not mention the place of birth of the director of the film \"The Man Behind the Mask\" (1936)",
+      "cond3_random_removed": "Insufficient evidence. The evidence provided does not mention the place of birth of the director of the 1932 film \"Behind the Mask\""
+    },
+    {
+      "qid": 13,
+      "question": "Who died first, Mizzi Griebl or Constance Stuart Larrabee?",
+      "answer": "Mizzi Griebl",
+      "type": "comparison",
+      "gold_indices": [
+        1,
+        11
+      ],
+      "random_removed": [
+        10,
+        16
+      ],
+      "cond1_full": "Insufficient evidence. Both Mizzi Griebl and Constance Stuart Larrabee's dates of death are given, but there is no comparison between the two in the evidence provided",
+      "cond2_gold_removed": "Insufficient evidence. Neither Mizzi Griebl nor Constance Stuart Larrabee are mentioned in the provided evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 14,
+      "question": "Are Can She Bake A Cherry Pie? and Santiago Files both from the same country?",
+      "answer": "yes",
+      "type": "comparison",
+      "gold_indices": [
+        9,
+        19
+      ],
+      "random_removed": [
+        4,
+        26
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 15,
+      "question": "Are both mountains, Munti Wayi and Coñocranra, located in the same country?",
+      "answer": "yes",
+      "type": "comparison",
+      "gold_indices": [
+        9,
+        17
+      ],
+      "random_removed": [
+        0,
+        22
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence. The evidence does not mention Munti Wayi and Coñocranra",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 16,
+      "question": "Where did Princess Augusta Of Württemberg's father die?",
+      "answer": "Rosenstein Castle",
+      "type": "compositional",
+      "gold_indices": [
+        9,
+        15
+      ],
+      "random_removed": [
+        16,
+        25
+      ],
+      "cond1_full": "Insufficient evidence. The evidence does not specify where King William I of Württemberg died",
+      "cond2_gold_removed": "Insufficient evidence. The evidence does not provide information about the death location of Princess Augusta of Württemberg's father",
+      "cond3_random_removed": "Insufficient evidence. The evidence does not specify where King William I of Württemberg died"
+    },
+    {
+      "qid": 17,
+      "question": "Where was the place of death of Muqan Qaghan's father?",
+      "answer": "Turkic Khaganate",
+      "type": "compositional",
+      "gold_indices": [
+        16,
+        52
+      ],
+      "random_removed": [
+        2,
+        6
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 18,
+      "question": "Who is the spouse of the director of film Cross Country Cruise?",
+      "answer": "Ona Munson",
+      "type": "compositional",
+      "gold_indices": [
+        0,
+        12
+      ],
+      "random_removed": [
+        3,
+        23
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence. The evidence provided does not mention the director of the film \"Cross Country Cruise\"",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 19,
+      "question": "Who was born later, Haris Bashir or Mokete Mokhosi?",
+      "answer": "Haris Bashir",
+      "type": "comparison",
+      "gold_indices": [
+        3,
+        11
+      ],
+      "random_removed": [
+        5,
+        21
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 20,
+      "question": "Where was the place of death of the composer of film Alice (2005 Film)?",
+      "answer": "Cascais",
+      "type": "compositional",
+      "gold_indices": [
+        8,
+        30
+      ],
+      "random_removed": [
+        0,
+        26
+      ],
+      "cond1_full": "Insufficient evidence. The evidence provided does not mention the composer of the film \"Alice\" (2005) and their place of death",
+      "cond2_gold_removed": "Insufficient evidence. The evidence provided does not mention the composer of the film \"Alice\" (2005) or their place of death",
+      "cond3_random_removed": "Insufficient evidence. The evidence provided does not specify the composer of the film \"Alice\" (2005) or their place of death"
+    },
+    {
+      "qid": 21,
+      "question": "Are Lønavatnet and Nodlandsvatnet both located in the same country?",
+      "answer": "yes",
+      "type": "comparison",
+      "gold_indices": [
+        3,
+        12
+      ],
+      "random_removed": [
+        10,
+        15
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 22,
+      "question": "Who is younger, Andrea Grendene or Jung Il-Woo?",
+      "answer": "Jung Il-Woo",
+      "type": "comparison",
+      "gold_indices": [
+        11,
+        14
+      ],
+      "random_removed": [
+        4,
+        17
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 23,
+      "question": "What nationality is the composer of song Inescapable (Song)?",
+      "answer": "American",
+      "type": "compositional",
+      "gold_indices": [
+        6,
+        23
+      ],
+      "random_removed": [
+        2,
+        32
+      ],
+      "cond1_full": "Insufficient evidence. The evidence does not specify the nationality of the composer of the song \"Inescapable\"",
+      "cond2_gold_removed": "Insufficient evidence. The evidence provided does not specify the nationality of the composer of the song \"Inescapable",
+      "cond3_random_removed": "Insufficient evidence. The evidence does not specify the nationality of the composer of the song \"Inescapable\""
+    },
+    {
+      "qid": 24,
+      "question": "Who is younger, Mike Ratledge or Kim Ji-Sun?",
+      "answer": "Kim Ji-Sun",
+      "type": "comparison",
+      "gold_indices": [
+        6,
+        18
+      ],
+      "random_removed": [
+        10,
+        11
+      ],
+      "cond1_full": "Insufficient evidence. The ages of Mike Ratledge and Kim Ji-Sun are not provided in the evidence",
+      "cond2_gold_removed": "Insufficient evidence. The evidence provided does not mention Mike Ratledge",
+      "cond3_random_removed": "Insufficient evidence. The ages of Mike Ratledge and Kim Ji-Sun are not provided in the evidence"
+    },
+    {
+      "qid": 25,
+      "question": "What is the place of birth of the director of film Red (2016 Film)?",
+      "answer": "Münster",
+      "type": "compositional",
+      "gold_indices": [
+        12,
+        18
+      ],
+      "random_removed": [
+        16,
+        17
+      ],
+      "cond1_full": "Insufficient evidence. The evidence provided does not specify the birthplace of the director of the film \"Red\" (2016). Branko Tomović is mentioned as an actor in the",
+      "cond2_gold_removed": "Insufficient evidence. The evidence does not provide information about the place of birth of the director of the film \"Red\" (2016)",
+      "cond3_random_removed": "Insufficient evidence. The evidence does not specify the director of the film \"Red\" (2016)"
+    },
+    {
+      "qid": 26,
+      "question": "Which film came out earlier, Kevin Of The North or No Hay Pan?",
+      "answer": "Kevin Of The North",
+      "type": "comparison",
+      "gold_indices": [
+        15,
+        17
+      ],
+      "random_removed": [
+        6,
+        18
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 27,
+      "question": "Which country Mi Saw U's father is from?",
+      "answer": "Burma",
+      "type": "compositional",
+      "gold_indices": [
+        3,
+        22
+      ],
+      "random_removed": [
+        19,
+        27
+      ],
+      "cond1_full": "Burma (Myanmar)",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Burma (Myanmar)"
+    },
+    {
+      "qid": 28,
+      "question": "Are The Pursuit Of Happiness (1934 Film) and East Lynne (1931 Film) from the same country?",
+      "answer": "yes",
+      "type": "comparison",
+      "gold_indices": [
+        13,
+        16
+      ],
+      "random_removed": [
+        0,
+        22
+      ],
+      "cond1_full": "Insufficient evidence",
+      "cond2_gold_removed": "Insufficient evidence",
+      "cond3_random_removed": "Insufficient evidence"
+    },
+    {
+      "qid": 29,
+      "question": "Which film was released more recently, Girl Slaves Of Morgana Le Fay or Strawberry Shortcake: Rockaberry Roll?",
+      "answer": "Strawberry Shortcake: Rockaberry Roll",
+      "type": "comparison",
+      "gold_indices": [
+        1,
+        16
+      ],
+      "random_removed": [
+        13,
+        18
+      ],
+      "cond1_full": "Insufficient evidence. Neither film's release date is mentioned in the evidence provided",
+      "cond2_gold_removed": "Insufficient evidence. Neither film's release date is mentioned in the provided evidence",
+      "cond3_random_removed": "Insufficient evidence. Both film release dates are not provided in the evidence"
+    },
+    {
+      "qid": 30,
+      "question": "Where does Alexander Aris's mother work at?",
+      "answer": "United Nations",
+      "type": "compositional",
+      "gold_indices": [
+        11,
+        29
+      ],
+      "random_removed": [
+        28,
+        36
+      ],
+      "cond1_full": "Insufficient evidence. The evidence provided does not specify where Sheena Shahabadi works",
+      "cond2_gold_removed": "Insufficient evidence. The evidence provided does not mention where Alexander Aris's mother works",
+      "cond3_random_removed": "Insufficient evidence. The evidence provided does not specify where Alexander Aris's mother, Sadhana Singh, works"
+    }
+  ]
+}

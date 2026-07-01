@@ -1,0 +1,218 @@
+{
+  "experiment": "CF-Verify CONTROL (random non-gold removal)",
+  "total": 30,
+  "control_flip_rate": 0.03333333333333333,
+  "control_flipped_count": 1,
+  "results": [
+    {
+      "qid": 1,
+      "gold": "yes",
+      "control_answer": "Yes",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 2,
+      "gold": "Chief of Protocol",
+      "control_answer": "Chief of Protocol",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 3,
+      "gold": "Animorphs",
+      "control_answer": "Animorphs",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 4,
+      "gold": "no",
+      "control_answer": "No (Laleli/Ortaköy)",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 5,
+      "gold": "Greenwich Village, New York City",
+      "control_answer": "Greenwich Village",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 6,
+      "gold": "YG Entertainment",
+      "control_answer": "YG Entertainment",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 7,
+      "gold": "Eenasul Fateh",
+      "control_answer": "Eenasul Fateh",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 8,
+      "gold": "3,677 seated",
+      "control_answer": "3,677 seated",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 9,
+      "gold": "Terry Richardson",
+      "control_answer": "Annie Morton is older",
+      "control_correct": false,
+      "control_flipped": true
+    },
+    {
+      "qid": 10,
+      "gold": "yes",
+      "control_answer": "Yes",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 11,
+      "gold": "Kansas Song",
+      "control_answer": "Kansas Song",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 12,
+      "gold": "David Weissman",
+      "control_answer": "David Weissman",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 13,
+      "gold": "1999",
+      "control_answer": "1999",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 14,
+      "gold": "no",
+      "control_answer": "No",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 15,
+      "gold": "from 1986 to 2013",
+      "control_answer": "from 1986 to 2013",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 16,
+      "gold": "9,984",
+      "control_answer": "9,984",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 17,
+      "gold": "the North Atlantic Conference",
+      "control_answer": "the North Atlantic Conference",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 18,
+      "gold": "yes",
+      "control_answer": "Yes",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 19,
+      "gold": "1969 until 1974",
+      "control_answer": "1969 until 1974",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 20,
+      "gold": "Robert Erskine Childers DSC",
+      "control_answer": "Robert Erskine Childers DSC",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 21,
+      "gold": "Pedro Rodríguez",
+      "control_answer": "Pedro Rodríguez",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 22,
+      "gold": "Badly Drawn Boy",
+      "control_answer": "Badly Drawn Boy",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 23,
+      "gold": "yes",
+      "control_answer": "yes",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 24,
+      "gold": "Fujioka, Gunma",
+      "control_answer": "Fujioka, Gunma",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 25,
+      "gold": "no",
+      "control_answer": "no",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 26,
+      "gold": "Letters to Cleo",
+      "control_answer": "Letters to Cleo",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 27,
+      "gold": "no",
+      "control_answer": "no",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 28,
+      "gold": "Scotch Collie",
+      "control_answer": "Scotch Collie",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 29,
+      "gold": "yes",
+      "control_answer": "yes",
+      "control_correct": true,
+      "control_flipped": false
+    },
+    {
+      "qid": 30,
+      "gold": "no",
+      "control_answer": "no",
+      "control_correct": true,
+      "control_flipped": false
+    }
+  ]
+}

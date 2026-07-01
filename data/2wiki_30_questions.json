@@ -1,0 +1,3093 @@
+[
+  {
+    "question_id": 1,
+    "id": "8c4b51240bdd11eba7f7acde48001122",
+    "question": "Who is the father of the director of film Between Strangers?",
+    "answer": "Carlo Ponti",
+    "type": "compositional",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Peter Hamel\"",
+        "sentences": [
+          "Peter Hamel( 1911–1979) was a German screenwriter and a director of film and television.",
+          "He appeared as himself in the 1948 comedy\" Film Without a Title\".",
+          "He is the father of the composer Peter Michael Hamel."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Edoardo Ponti\"",
+        "sentences": [
+          "Edoardo Ponti is an Italian director.",
+          "He is the son of actress Sophia Loren and producer Carlo Ponti Sr. and the brother of conductor Carlo Ponti."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Paul Brooke\"",
+        "sentences": [
+          "Paul Brooke( born 22 November 1944) is a retired English actor of film, television and radio.",
+          "He is the father of actor Tom Brooke."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Yasuichi Oshima\"",
+        "sentences": [
+          "He is the father of manga artist Towa Oshima."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Obata Toramori\"",
+        "sentences": [
+          "He was the father of Obata Masamori."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Lars Eliasson\"",
+        "sentences": [
+          "He is the father of the later Member of Parliament Anna Eliasson."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Between Strangers\"",
+        "sentences": [
+          "Between Strangers is a 2002 film, written and directed by Edoardo Ponti, son of Sophia Loren, the first time they worked together."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Paul Schneider (writer)\"",
+        "sentences": [
+          "Paul Schneider (August 4, 1923 – October 13, 2008) was an American screenwriter who worked in television and film between the 1950s and the 1980s."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Inoue Masaru (bureaucrat)\"",
+        "sentences": [
+          "Viscount was the first Director of Railways in Japan and is known as the\" father of the Japanese railways\"."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Ian Barry (director)\"",
+        "sentences": [
+          "Ian Barry is an Australian director of film and TV."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      4,
+      10
+    ]
+  },
+  {
+    "question_id": 2,
+    "id": "5dac1e8e0bdd11eba7f7acde48001122",
+    "question": "Where was the director of film The Smiling Ghost born?",
+    "answer": "New York",
+    "type": "compositional",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Lewis Seiler\"",
+        "sentences": [
+          "Lewis Seiler (September 30, 1891 – January 8, 1963) was an American film director.",
+          "He directed 88 films between 1923 and 1958.",
+          "He was born in New York, New York and died in Hollywood, California."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"The Smiling Ghost\"",
+        "sentences": [
+          "The Smiling Ghost is a 1941 film directed by Lewis Seiler and starring Wayne Morris, Alexis Smith, and Alan Hale.",
+          "The film is in the horror comedy genre popular in the 1940s."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"S. N. Mathur\"",
+        "sentences": [
+          "S.N. Mathur was the Director of the Indian Intelligence Bureau between September 1975 and February 1980.",
+          "He was also the Director General of Police in Punjab."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Brian Kennedy (gallery director)\"",
+        "sentences": [
+          "Brian Patrick Kennedy( born 5 November 1961) is an Irish- born art museum director who has worked in Ireland and Australia, and now lives and works in the United States.",
+          "He is currently the director of the Peabody Essex Museum.",
+          "He was the director of the Toledo Museum of Art in Ohio from 2010 to 2019.",
+          "He was the director of the Hood Museum of Art from 2005 to 2010, and the National Gallery of Australia( Canberra) from 1997- 2004."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Ian Barry (director)\"",
+        "sentences": [
+          "Ian Barry is an Australian director of film and TV."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Jesse E. Hobson\"",
+        "sentences": [
+          "Jesse Edward Hobson( May 2, 1911 – November 5, 1970) was the director of SRI International from 1947 to 1955.",
+          "Prior to SRI, he was the director of the Armour Research Foundation."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Olav Aaraas\"",
+        "sentences": [
+          "Olav Aaraas( born 10 July 1950) is a Norwegian historian and museum director.",
+          "He was born in Fredrikstad.",
+          "From 1982 to 1993 he was the director of Sogn Folk Museum, from 1993 to 2010 he was the director of Maihaugen and from 2001 he has been the director of the Norwegian Museum of Cultural History.",
+          "In 2010 he was decorated with the Royal Norwegian Order of St. Olav."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Peter Levin\"",
+        "sentences": [
+          "Peter Levin is an American director of film, television and theatre."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Joe Ghost\"",
+        "sentences": [
+          "Joe Ghost( born January 29, 1987) is a Canadian electronic dance music producer and DJ.",
+          "He primarily producers in the electro house genre, but has also experimented with progressive house."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Grey Ghost (musician)\"",
+        "sentences": [
+          "Grey Ghost( born Jeremy Koren on 27 March 1984) is an Australian hip hop recording artist, visual artist and director from Melbourne, Australia.",
+          "He performed with several bands before signing with EMI and adopting the performance name Grey Ghost."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "question_id": 3,
+    "id": "7e221b200bdb11eba7f7acde48001122",
+    "question": "What is the place of birth of the director of film Random Encounter (Film)?",
+    "answer": "Montreal, Quebec",
+    "type": "compositional",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Random Encounter (film)\"",
+        "sentences": [
+          "Random Encounter is a 1998 movie directed by Douglas Jackson and written by Matt Dorff.",
+          "It stars Elizabeth Berkley as a young and rising public relations executive who meets a strange man after a cocktail party, and is framed for murder."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Douglas Jackson (filmmaker)\"",
+        "sentences": [
+          "Douglas Jackson (born January 26, 1940 in Montreal, Quebec) is a Canadian film and television director and producer.",
+          "As a television director, he is best known for the 1983 CBC Television miniseries \"Empire,",
+          "Inc.\", which he co-directed with Denys Arcand.",
+          "Jackson began his film career in the 1960s on staff at the National Film Board of Canada (NFB).",
+          "His NFB credits include producing Bill Mason's short documentary \"Blake\", nominated for an Academy Award for Best Live Action Short Film."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Jason Moore (director)\"",
+        "sentences": [
+          "Jason Moore( born October 22, 1970) is an American director of film, theatre and television."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Olav Aaraas\"",
+        "sentences": [
+          "Olav Aaraas( born 10 July 1950) is a Norwegian historian and museum director.",
+          "He was born in Fredrikstad.",
+          "From 1982 to 1993 he was the director of Sogn Folk Museum, from 1993 to 2010 he was the director of Maihaugen and from 2001 he has been the director of the Norwegian Museum of Cultural History.",
+          "In 2010 he was decorated with the Royal Norwegian Order of St. Olav."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Peter Levin\"",
+        "sentences": [
+          "Peter Levin is an American director of film, television and theatre."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Dana Blankstein\"",
+        "sentences": [
+          "Dana Blankstein- Cohen( born March 3, 1981) is the director of the Israeli Academy of Film and Television.",
+          "She is a film director, and an Israeli culture entrepreneur."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"S. N. Mathur\"",
+        "sentences": [
+          "S.N. Mathur was the Director of the Indian Intelligence Bureau between September 1975 and February 1980.",
+          "He was also the Director General of Police in Punjab."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Ian Barry (director)\"",
+        "sentences": [
+          "Ian Barry is an Australian director of film and TV."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Jesse E. Hobson\"",
+        "sentences": [
+          "Jesse Edward Hobson( May 2, 1911 – November 5, 1970) was the director of SRI International from 1947 to 1955.",
+          "Prior to SRI, he was the director of the Armour Research Foundation."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Brian Kennedy (gallery director)\"",
+        "sentences": [
+          "Brian Patrick Kennedy( born 5 November 1961) is an Irish- born art museum director who has worked in Ireland and Australia, and now lives and works in the United States.",
+          "He is currently the director of the Peabody Essex Museum.",
+          "He was the director of the Toledo Museum of Art in Ohio from 2010 to 2019.",
+          "He was the director of the Hood Museum of Art from 2005 to 2010, and the National Gallery of Australia( Canberra) from 1997- 2004."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      0,
+      2
+    ]
+  },
+  {
+    "question_id": 4,
+    "id": "694bc6fa0bdc11eba7f7acde48001122",
+    "question": "Where was the place of death of Morris Engel's wife?",
+    "answer": "New York",
+    "type": "compositional",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Ruth Orkin\"",
+        "sentences": [
+          "Ruth Orkin (September 3, 1921 – January 16, 1985) was an American photographer, photojournalist, and filmmaker, with ties to New York City and Hollywood.",
+          "Best known for her photograph \"",
+          "An American Girl in Italy\" (1951)",
+          ", she photographed many celebrities and personalities including Lauren Bacall, Doris Day, Ava Gardner, Tennessee Williams, Marlon Brando, and Alfred Hitchcock."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"S. Morris Engel\"",
+        "sentences": [
+          "S. Morris Engel( born 1931) is an author, philosopher, and linguist.",
+          "He received his PhD from the University of Toronto in 1959, writing on The philosophy of language in Hobbes and Locke.",
+          "He was a professor of philosophy at the University of Southern California and York University."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Morris Engel\"",
+        "sentences": [
+          "Morris Engel (April 8, 1918 – March 5, 2005) was an American photographer, cinematographer and filmmaker best known for directing the 1953 film \"Little Fugitive\" in collaboration with his wife, photographer Ruth Orkin, and their friend, writer Raymond Abrashkin.",
+          "Engel completed two more features during the 1950s, \"Lovers and Lollipops\" (1956) and \"Weddings and Babies\" (1960).",
+          "Engel was a pioneer in the use of hand-held cameras and nonprofessional actors in his films, using cameras that he helped design, and his naturalistic films influenced future prominent independent and French New Wave filmmakers."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Beaulieu-sur-Loire\"",
+        "sentences": [
+          "Beaulieu- sur- Loire is a commune in the Loiret department in north -central France.",
+          "It is also the place of death of Jacques MacDonald, a French general who served in the Napoleonic Wars"
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Where Was I\"",
+        "sentences": [
+          "\" Where Was I?\" may refer to:"
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Morris (village), New York\"",
+        "sentences": [
+          "Morris is a village in Otsego County, New York, United States.",
+          "The population was 583 at the 2010 census.",
+          "The Village of Morris is centrally located in the Town of Morris and is northwest of the City of Oneonta."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Motherland (disambiguation)\"",
+        "sentences": [
+          "Motherland is the place of one's birth, the place of one's ancestors, or the place of origin of an ethnic group.",
+          "Motherland may also refer to:"
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Place of birth\"",
+        "sentences": [
+          "The place of birth( POB) or birthplace is the place where a person was born.",
+          "This place is often used in legal documents, together with name and date of birth, to uniquely identify a person.",
+          "As a general rule with respect to passports, the place of birth is determined to be the country that currently has\" sovereignty\" over the actual place of birth, regardless of when the birth actually occurred.",
+          "The place of birth is not necessarily the place where the parents of the new baby live.",
+          "If the baby is born in a hospital in another place, that place is the place of birth.",
+          "In many countries, this also means that the government requires that the birth of the new baby is registered in the place of birth.",
+          "Some countries place less or no importance on the place of birth, instead using alternative geographical characteristics for the purpose of identity documents.",
+          "For example, Sweden has used the concept of\" födelsehemortdomicile of birth\") since 1947.",
+          "This means that the domicile of the baby's mother is the registered place of birth.",
+          "The location of the maternity ward or other physical birthplace is considered unimportant.",
+          "Similarly, Switzerland uses the concept of\" Heimatortlieu d'origineluogo d'origineplace of origin\" in German, French and Italian respectively).",
+          "A child born to Swiss parents is automatically assigned the place of origin of the parent with the same last name, so the child either gets their mother's or father's place of origin.",
+          "A child born to one Swiss parent and one foreign parent acquires the place of origin of their Swiss parent.",
+          "In a Swiss passport and identity card, the holder's place of origin is stated, not their place of birth.",
+          "In some countries( primarily in the Americas), the place of birth automatically determines the nationality of the baby, a practice often referred to by the Latin phrase\" jus soli\".",
+          "Almost all countries outside the Americas instead attribute nationality based on the nationality( ies) of the baby's parents( referred to as\" jus sanguinis\").",
+          "There can be some confusion regarding the place of birth if the birth takes place in an unusual way: when babies are born on an airplane or at sea, difficulties can arise.",
+          "The place of birth of such a person depends on the law of the countries involved, which include the nationality of the plane or ship, the nationality( ies) of the parents and/ or the location of the plane or ship( if the birth occurs in the territorial waters or airspace of a country).",
+          "Some administrative forms may request the applicant's\" country of birth\".",
+          "It is important to determine from the requester whether the information requested refers to the applicant's\" place of birth\" or\" nationality at birth\".",
+          "For US citizens born abroad who under the US Constitution acquire US citizenship at the time of birth, the nationality at birth will be USA( American), while the place of birth would be the country in which the actual birth takes place."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Great Grandson of Morris On\"",
+        "sentences": [
+          "Great Grandson of Morris",
+          "On, produced by Ashley Hutchings, and recorded and released in 2004, is the fourth volume in the series of Morris dance tunes.",
+          "Spiers and Boden experienced a blaze of publicity shortly after recording their contribution to this album( track 3), which later appeared on the compilation album\" The Magic of Morris\".",
+          "There are more amateur musicians on this album than on the previous volumes in the series."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Dance of Death (disambiguation)\"",
+        "sentences": [
+          "Dance of Death, also called\" Danse Macabre\", is a late- medieval allegory of the universality of death.",
+          "Dance of Death or The Dance of Death may also refer to:"
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      0,
+      7
+    ]
+  },
+  {
+    "question_id": 5,
+    "id": "113cba620bde11eba7f7acde48001122",
+    "question": "Where did the director of film No Sin On The Alpine Pastures (1950 Film) die?",
+    "answer": "Vienna",
+    "type": "compositional",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Olav Aaraas\"",
+        "sentences": [
+          "Olav Aaraas( born 10 July 1950) is a Norwegian historian and museum director.",
+          "He was born in Fredrikstad.",
+          "From 1982 to 1993 he was the director of Sogn Folk Museum, from 1993 to 2010 he was the director of Maihaugen and from 2001 he has been the director of the Norwegian Museum of Cultural History.",
+          "In 2010 he was decorated with the Royal Norwegian Order of St. Olav."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Jesse E. Hobson\"",
+        "sentences": [
+          "Jesse Edward Hobson( May 2, 1911 – November 5, 1970) was the director of SRI International from 1947 to 1955.",
+          "Prior to SRI, he was the director of the Armour Research Foundation."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Ian Barry (director)\"",
+        "sentences": [
+          "Ian Barry is an Australian director of film and TV."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"No Sin on the Alpine Pastures (1974 film)\"",
+        "sentences": [
+          "No Sin on the Alpine Pastures( German: Auf der Alm da gibt's koa Sünd) is a 1974 West German comedy film directed by Franz Josef Gottlieb and starring Alena Penz, Alexander Grill and Rinaldo Talamonti.",
+          "It is part of the cycle of Bavarian sex comedies made during the era Location shooting took place in Austria."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"No Sin on the Alpine Pastures (1950 film)\"",
+        "sentences": [
+          "No Sin on the Alpine Pastures (German:",
+          "Auf der Alm, da gibt's ka Sünd) is a 1950 Austrian comedy film directed by Franz Antel and starring Maria Andergast, Inge Egger and Rudolf Carl.",
+          "The film's sets were designed by the art director Gustav Abel."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Franz Antel\"",
+        "sentences": [
+          "Franz Antel (28 June 1913 – 11 August 2007) was a veteran Austrian filmmaker.",
+          "Born in Vienna, Antel worked mainly as a film producer in the interwar years.",
+          "After World War II, he began writing and directing films on a large scale.",
+          "In the late 1940s, 1950s and 1960s these were mainly comedies (romantic, slapstick, and/or musical) and \"K.u.k.",
+          "films\" all of which, for Austrian and German TV stations alike, have been a staple of weekend afternoon programming ever since.",
+          "In between there is quite a sober film about the Oberst (Colonel) Redl affair that shook the Austro-Hungarian Monarchy on the eve of World War I. Antel himself later commented on this period, \"I always wanted to provide good entertainment for the people at the cinema.",
+          "After the screening, people should say: Well now, I am in a good mood, I will go out and have a glass of wine.\"",
+          "(German original:",
+          "\"Ich wollte die Leute im Kino immer gut unterhalten.",
+          "Die Besucher sollten nach der Filmvorführung sagen:",
+          "So, jetzt bin ich gut aufgelegt, jetzt geh ich auf ein Viertel Wein.\")",
+          "From the late 1960s, encouraged by the new opportunities in the film industry brought about by the sexual revolution, Antel gradually switched his main interest to soft porn and ribaldry.",
+          "It was in particular his series of \"Frau Wirtinhostess\") films, directed under the pseudonym François Legrand, with which he tried to win international recognition.",
+          "Titles included \"The Sweet Sins of Sexy Susan\" (1967), \"Sexy Susan Sins Again\" (1968), \"Wild, Willing & Sexy\" (1969) and \"Don't Tell Daddy\" (aka \"Naughty Nymphs\" in the U.S.A.) (1972).",
+          "Antel would recount an anecdote about himself describing how, in order to live up to his reputation as a womanizer, he used to carry a pair of high heels in his luggage which he then would occasionally place in the corridor in front of his hotel room – especially when he was travelling alone.",
+          "Among the best known actors Antel had worked with from the 1940s to the 1970s were Hans Moser, Paul Hörbiger, Oskar Werner, Curd Jürgens, Tony Curtis, Herbert Fux, Heinrich Schweiger, Arthur Kennedy, Carroll Baker, Edwige Fenech, George Hilton, Marisa Berenson, Britt Ekland, Andréa Ferréol.",
+          "1981 was a turning point in Antel's career when he adapted for the big screen a stage play by Ulrich Becher and Peter Preses.",
+          "Set from the days of the Anschluss of 1938 until after the end of the war, \"Der Bockerer\" is about a Viennese butcher named Karl Bockerer (Karl Merkatz) whose common sense rather than intellect tells him to oppose the Nazis and who dares to show resistance just because he is never fully aware of the possible fateful consequences of his actions.",
+          "While Bockerer and his wife survive the war unscathed, their son joins the SA but, after some internal intrigue, is sent to the front and killed.",
+          "The film was entered into the 12th Moscow International Film Festival.",
+          "The film's strong anti-fascist message, the moving dialogue, and performances by the \"crème de la crème\" of Austrian actors and actresses",
+          "(Ida Krottendorf, Alfred Böhm, Heinz Marecek, Hans Holt, Dolores Schmidinger and many more) made \"Der Bockerer\" an unusually successful film and gave new impetus to Antel's career.",
+          "He made three sequels, which follow the lives of the Bockerers well into the 1960s, each depicting a crucial historical event in Austria or one of its neighbouring countries:"
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Peter Levin\"",
+        "sentences": [
+          "Peter Levin is an American director of film, television and theatre."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Brian Kennedy (gallery director)\"",
+        "sentences": [
+          "Brian Patrick Kennedy( born 5 November 1961) is an Irish- born art museum director who has worked in Ireland and Australia, and now lives and works in the United States.",
+          "He is currently the director of the Peabody Essex Museum.",
+          "He was the director of the Toledo Museum of Art in Ohio from 2010 to 2019.",
+          "He was the director of the Hood Museum of Art from 2005 to 2010, and the National Gallery of Australia( Canberra) from 1997- 2004."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"No Sin on the Alpine Pastures (1915 film)\"",
+        "sentences": [
+          "No Sin on the Alpine Pastures( German: Auf der Alm, da gibt's ka Sünd) is a 1915 German silent comedy film directed by Rudolf Biebrach and starring Henny Porten, Emmy Wyda and Lupu Pick.",
+          "Location shooting took place in the Bavarian town of Bad Reichenhall."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Sam Aryeetey\"",
+        "sentences": [
+          "Sam Greatorex Aryeetey( born 23 August 1929 or 1927) is a Ghanaian film producer, film director and writer.",
+          "He is often credited as the director of the first Ghanaian feature film,\" No Tears for Ananse\"."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      10,
+      13
+    ]
+  },
+  {
+    "question_id": 6,
+    "id": "16e1006809ab11ebbdb0ac1f6bf848b6",
+    "question": "Which song came out earlier, Can'T Remember To Forget You or Distant Lover?",
+    "answer": "Distant Lover",
+    "type": "comparison",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"I Won't Forget You (Jim Reeves song)\"",
+        "sentences": [
+          "\" I Wo n't Forget You\" is a single by American singer Jim Reeves.",
+          "It was released in 1964 by RCA Victor and peaked at number three on the UK Singles Chart.",
+          "It was the 56th biggest- selling single in the United Kingdom during the 1960s."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Can't Forget You (Gloria Estefan song)\"",
+        "sentences": [
+          "\" Ca n't Forget You\" is a single by American singer and songwriter Gloria Estefan.",
+          "It was released in 1991 as the third single from Estefan's second solo album\" Into the Light\"."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"I Forgot to Remember to Forget\"",
+        "sentences": [
+          "\" I Forgot to Remember to Forget\" is a 1955 country song first recorded by Elvis Presley written by Stan Kesler and Charlie Feathers."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Can't Remember to Forget You\"",
+        "sentences": [
+          "\"Can't Remember to Forget You\" is a song recorded by Colombian singer-songwriter Shakira from her fourth English and overall tenth studio album, \"Shakira\", featuring Barbadian singer Rihanna.",
+          "Shakira began planning to new music in 2011; work continued into 2012, at which time she left her previous label Epic Records and joined RCA Records.",
+          "The song was released as the lead single of the album on 13 January 2014 through RCA Records and Sony Latin Iberia.",
+          "A solo Spanish-language version of the song, entitled \"Nunca Me Acuerdo de Olvidarte\", was released on 24 January 2014.",
+          "The song was co-written by Shakira, Rihanna, John Hill, Tom \"Kid Harpoon\" Hull, Daniel Alexander, and Erik Hassle, while production was handled by Shakira, Hill, and Hull.",
+          "\"Can't Remember to Forget You\" is an uptempo track that fuses reggae, rock and new wave pop.",
+          "Lyrically the song revolves around forgetting someone who is bad even though you love the person.",
+          "Upon its release, \"Can't Remember to Forget You\" was met with mixed reviews from critics; while critics praised the ska influences, they felt that the song overall was not memorable.",
+          "Other critics noted similarities between the song and the music of The Police and Bruno Mars.",
+          "Commercially, the single fared well, peaking at eleven in the United Kingdom; the song also peaked within the top ten of Spain, France, Germany and Switzerland.",
+          "In the US the song debuted on the \"Billboard\" Hot 100 at twenty-eight and later went on to peak at fifteen on the chart, becoming Shakira's highest-debuting track in the region.",
+          "The music video, which was shot in a Los Angeles mansion, was directed by Joseph Kahn and was premiered and uploaded to YouTube on 30 January 2014.",
+          "The accompanying video featured both Shakira and Rihanna in revealing outfits and a \"naked embrace\".",
+          "The song was performed live for the first time on iHeartRadio."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Can't Forget You (Sonia song)\"",
+        "sentences": [
+          "\" Ca n't Forget You\" was Sonia's second single, released in September 1989.",
+          "The mid- tempo song later appeared on her debut album,\" Everybody Knows\", released in 1990.",
+          "Contrary to fan speculation,\" Ca n't Forget You\" was written specifically for Sonia by Stock Aitken Waterman; it was not initially offered to Kylie Minogue."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Distant Lover\"",
+        "sentences": [
+          "\" Distant Lover\" is the sixth song issued on singer Marvin Gaye's 1973 album,\" Let's Get It On\" and the b-side of the second single from that album,\" Come Get to This.\"",
+          "A live recording was issued as a single in 1974.",
+          "The live version of the song was Gaye's most successful single during the three- year gap between\" Let's Get It On\" and his following 1976 album,\" I Want You\"."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Katy Too\"",
+        "sentences": [
+          "\" Katy Too\" is a song co-written and originally recorded by Johnny Cash.",
+          "The song was recorded by Cash at Sun Records on May 28, 1958 and released by Sun as a single( Sun 321, with\" I Forgot to Remember to Forget\" on the opposite side) in June 1959, when he already left the label for Columbia."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Fuck You (CeeLo Green song)\"",
+        "sentences": [
+          "\" Fuck You\"( stylized as\" Fuck You!\" or\" F**k You!\"), also titled\" Forget You\" or\" FU\" for the clean versions, is a song by American recording artist CeeLo Green.",
+          "It was written as a collaboration between Green, Bruno Mars, the Smeezingtons, and Brody Brown and produced by the Smeezingtons.",
+          "It was released on August 19, 2010 as the first single from Green's third solo studio album,\" The Lady Killer\"( 2010).",
+          "\" Fuck You\" received positive reviews from music critics, and was an international commercial success, making the top- 10 in thirteen countries, including topping charts in the United Kingdom, and number two on the\" Billboard\" Hot 100."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Never Forget You\"",
+        "sentences": [
+          "Never Forget You may refer to:"
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Can't Forget You\"",
+        "sentences": [
+          "Can't Forget You may refer to:"
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      8,
+      24
+    ]
+  },
+  {
+    "question_id": 7,
+    "id": "d3867189095111ebbdaeac1f6bf848b6",
+    "question": "Are both businesses, Quarry (Company) and Fields (Department Store), located in the same country?",
+    "answer": "yes",
+    "type": "comparison",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Esslemont & Macintosh\"",
+        "sentences": [
+          "Esslemont& Macintosh was a department store located in Aberdeen, Scotland."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"William Harvey (department store)\"",
+        "sentences": [
+          "William Harvey was a department store located in Guildford."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Dey Brothers\"",
+        "sentences": [
+          "Dey Brothers was a department store located in and around Syracuse, New York."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Orr's\"",
+        "sentences": [
+          "Orr's was a department store located in downtown Bethlehem, Pennsylvania."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Isaac Benzie\"",
+        "sentences": [
+          "Isaac Benzie was a department store located in Aberdeen, Scotland."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Fields (department store)\"",
+        "sentences": [
+          "FIELDS Stores Ltd. is a Canadian discount store company owned by FHC Holdings, with 63 locations in British Columbia, Alberta, Saskatchewan, Manitoba, and the Northwest Territories."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Quarry (company)\"",
+        "sentences": [
+          "Quarry( formerly Quarry Integrated Communications) is a privately held marketing communications and advertising agency headquartered in St. Jacobs, Ontario, Canada.",
+          "Quarry employs approximately 100 people in its headquarters and its locations in Durham, North Carolina and San Jose, California, USA.",
+          "Quarry was an early adopter and is a leading practitioner of Integrated Marketing Communications( IMC).",
+          "Quarry ’s offering includes customer experience marketing, and it has been cited as a leader in the field of personas development by Forrester Research.",
+          "Quarry ’s services include strategic insight and research, branding, advertising, public relations, marketing automation, sales force support and Web and digital media."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Bearmans\"",
+        "sentences": [
+          "Bearmans was a small department store located in Leytonstone, London."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Cole Brothers\"",
+        "sentences": [
+          "Cole Brothers was a department store located in Sheffield in South Yorkshire, United Kingdom"
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Snowball & Son\"",
+        "sentences": [
+          "Snowball& Son was a department store located in Gateshead."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      5,
+      6
+    ]
+  },
+  {
+    "question_id": 8,
+    "id": "f7a8440208ab11ebbd82ac1f6bf848b6",
+    "question": "Who was born earlier, Martin Stapleton or Gina Fulton?",
+    "answer": "Gina Fulton",
+    "type": "comparison",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Evan Crooks\"",
+        "sentences": [
+          "Evan Crooks is an American actor who was born in Fresno County, California."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Huc-Mazelet Luquiens\"",
+        "sentences": [
+          "Huc- Mazelet Luquiens( 1881 — 1961) was an American printmaker, painter and art educator who was born June 30, 1881 in Massachusetts to Jules Luquiens a French- speaking Swiss and Emma Clark who was born in Ohio."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Jo\\u00ebl Henry (journalist)\"",
+        "sentences": [
+          "Joël Henry( born 1955) is a French journalist who was born in Strasbourg."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Gina Fulton\"",
+        "sentences": [
+          "Gina Fulton Carter( born 13 February 1971) is a British former competitive figure skater in ladies' singles.",
+          "She is the 1990 Piruetten silver medalist, a three- time British national medalist, and competed at the 1988 Winter Olympics in Calgary.",
+          "Her best result at an ISU Championship was 12th at the 1987 European Championships in Sarajevo."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"John Veltri\"",
+        "sentences": [
+          "John Veltri is a photographer who was born in 1938 in New Jersey."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Pauline Delpech\"",
+        "sentences": [
+          "Pauline Delpech is a writer and a French actress who was born in 1981."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Jeff Barlow\"",
+        "sentences": [
+          "Jeff Barlow was a British actor who was born in Lancashire in 1871."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Zaven Par\\u00e9\"",
+        "sentences": [
+          "Zaven Paré is a French new media artist who was born in 1961."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"John Stapleton\"",
+        "sentences": [
+          "John Martin Stapleton( born 24 February 1946) is an English journalist and broadcaster.",
+          "He is known for his work as a presenter and reporter on ITV breakfast television(\" TV- amGMTV\" and\" Daybreak\") in addition to hosting\" Nationwide\" and\" Watchdog\" for the BBC.",
+          "He won the Royal Television Society's News Presenter of the Year award for 2003."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Martin Stapleton\"",
+        "sentences": [
+          "Martin Stapleton( born 9 May 1983 in Rochdale, England), is an English mixed martial artist currently competing in the Lightweight division.",
+          "A professional competitor since 2007, Stapleton has competed for Bellator, Cage Warriors, BAMMA and was a contestant on the The Ultimate Fighter representing Team UK.",
+          "He is the former BAMMA World Lightweight Champion."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      3,
+      13
+    ]
+  },
+  {
+    "question_id": 9,
+    "id": "a4d8ea760bdd11eba7f7acde48001122",
+    "question": "Where was the place of burial of Parysatis Ii's husband?",
+    "answer": "Alexandria",
+    "type": "compositional",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"William Rockhill Nelson\"",
+        "sentences": [
+          "William Rockhill Nelson( March 7, 1841 – April 13, 1915) was a real estate developer and co-founder of The Kansas City Star in Kansas City, Missouri.",
+          "He donated his estate( and home) for the establishment of the Nelson- Atkins Museum of Art.",
+          "Place of burial: Mount Washington Cemetery, Independence Missouri."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Emperor Daigo\"",
+        "sentences": [
+          "Daigo's reign spanned the years from 897 through 930.",
+          "He is named after his place of burial."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Emperor Daigo\"",
+        "sentences": [
+          "Daigo's reign spanned the years from 897 through 930.",
+          "He is named after his place of burial."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Alexander the Great\"",
+        "sentences": [
+          "Alexander III of Macedon (20/21 July 356 BC – 10/11 June 323 BC), commonly known as Alexander the Great , was a king (\"basileus\") of the ancient Greek kingdom of Macedon and a member of the Argead dynasty.",
+          "He was born in Pella in 356 BC and succeeded his father Philip II to the throne at the age of 20.",
+          "He spent most of his ruling years on an unprecedented military campaign through Asia and northeast Africa, and by the age of thirty, he had created one of the largest empires of the ancient world, stretching from Greece to northwestern India.",
+          "He was undefeated in battle and is widely considered one of history's most successful military commanders.",
+          "During his youth, Alexander was tutored by Aristotle until age 16.",
+          "After Philip's assassination in 336 BC, he succeeded his father to the throne and inherited a strong kingdom and an experienced army.",
+          "Alexander was awarded the generalship of Greece and used this authority to launch his father's pan-Hellenic project to lead the Greeks in the conquest of Persia.",
+          "In 334 BC, he invaded the Achaemenid Empire (Persian Empire) and began a series of campaigns that lasted 10 years.",
+          "Following the conquest of Anatolia, Alexander broke the power of Persia in a series of decisive battles, most notably the battles of Issus and Gaugamela.",
+          "He subsequently overthrew Persian King Darius III and conquered the Achaemenid Empire in its entirety.",
+          "At that point, his empire stretched from the Adriatic Sea to the Beas River.",
+          "Alexander endeavoured to reach the \"ends of the world and the Great Outer Sea\" and invaded India in 326 BC, winning an important victory over the Pauravas at the Battle of the Hydaspes.",
+          "He eventually turned back at the demand of his homesick troops, dying in Babylon in 323 BC, the city that he planned to establish as his capital, without executing a series of planned campaigns that would have begun with an invasion of Arabia.",
+          "In the years following his death, a series of civil wars tore his empire apart, resulting in the establishment of several states ruled by the Diadochi: Alexander's surviving generals and heirs.",
+          "Alexander's legacy includes the cultural diffusion and syncretism which his conquests engendered, such as Greco-Buddhism.",
+          "He founded some twenty cities that bore his name, most notably Alexandria in Egypt.",
+          "Alexander's settlement of Greek colonists and the resulting spread of Greek culture in the east resulted in a new Hellenistic civilization, aspects of which were still evident in the traditions of the Byzantine Empire in the mid-15th century AD and the presence of Greek speakers in central and far eastern Anatolia until the 1920s.",
+          "Alexander became legendary as a classical hero in the mould of Achilles, and he features prominently in the history and mythic traditions of both Greek and non-Greek cultures.",
+          "He became the measure against which military leaders compared themselves, and military academies throughout the world still teach his tactics.",
+          "He is often ranked among the most influential people in history."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Motherland (disambiguation)\"",
+        "sentences": [
+          "Motherland is the place of one's birth, the place of one's ancestors, or the place of origin of an ethnic group.",
+          "Motherland may also refer to:"
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Where Was I\"",
+        "sentences": [
+          "\" Where Was I?\" may refer to:"
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Sennedjem\"",
+        "sentences": [
+          "The Ancient Egyptian artisan Sennedjem lived in Set Maat( translated as\" The Place of Truth\"), contemporary Deir el- Medina, on the west bank of the Nile, opposite Thebes, during the reigns of Seti I and Ramesses II.",
+          "Sennedjem had the title\" Servant in the Place of Truth\".",
+          "He was buried along with his wife, Iyneferti, and family in a tomb in the village necropolis.",
+          "His tomb was discovered January 31, 1886.",
+          "When Sennedjem's tomb was found, in it there was regular furniture from his home, including a stool and a bed, which he actually used when he was alive.",
+          "His titles included Servant in the Place of Truth, meaning that he worked on the excavation and decoration of the nearby royal tombs."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Place of birth\"",
+        "sentences": [
+          "The place of birth( POB) or birthplace is the place where a person was born.",
+          "This place is often used in legal documents, together with name and date of birth, to uniquely identify a person.",
+          "As a general rule with respect to passports, the place of birth is determined to be the country that currently has\" sovereignty\" over the actual place of birth, regardless of when the birth actually occurred.",
+          "The place of birth is not necessarily the place where the parents of the new baby live.",
+          "If the baby is born in a hospital in another place, that place is the place of birth.",
+          "In many countries, this also means that the government requires that the birth of the new baby is registered in the place of birth.",
+          "Some countries place less or no importance on the place of birth, instead using alternative geographical characteristics for the purpose of identity documents.",
+          "For example, Sweden has used the concept of\" födelsehemortdomicile of birth\") since 1947.",
+          "This means that the domicile of the baby's mother is the registered place of birth.",
+          "The location of the maternity ward or other physical birthplace is considered unimportant.",
+          "Similarly, Switzerland uses the concept of\" Heimatortlieu d'origineluogo d'origineplace of origin\" in German, French and Italian respectively).",
+          "A child born to Swiss parents is automatically assigned the place of origin of the parent with the same last name, so the child either gets their mother's or father's place of origin.",
+          "A child born to one Swiss parent and one foreign parent acquires the place of origin of their Swiss parent.",
+          "In a Swiss passport and identity card, the holder's place of origin is stated, not their place of birth.",
+          "In some countries( primarily in the Americas), the place of birth automatically determines the nationality of the baby, a practice often referred to by the Latin phrase\" jus soli\".",
+          "Almost all countries outside the Americas instead attribute nationality based on the nationality( ies) of the baby's parents( referred to as\" jus sanguinis\").",
+          "There can be some confusion regarding the place of birth if the birth takes place in an unusual way: when babies are born on an airplane or at sea, difficulties can arise.",
+          "The place of birth of such a person depends on the law of the countries involved, which include the nationality of the plane or ship, the nationality( ies) of the parents and/ or the location of the plane or ship( if the birth occurs in the territorial waters or airspace of a country).",
+          "Some administrative forms may request the applicant's\" country of birth\".",
+          "It is important to determine from the requester whether the information requested refers to the applicant's\" place of birth\" or\" nationality at birth\".",
+          "For US citizens born abroad who under the US Constitution acquire US citizenship at the time of birth, the nationality at birth will be USA( American), while the place of birth would be the country in which the actual birth takes place."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Sarre Anglo-Saxon cemetery\"",
+        "sentences": [
+          "Sarre Anglo- Saxon cemetery is a place of burial that was used in the sixth and seventh centuries CE."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Parysatis II\"",
+        "sentences": [
+          "Parysatis, the youngest daughter of Artaxerxes III of Persia, married Alexander the Great in 324 BC at the Susa weddings.",
+          "She may have been murdered by Alexander's first wife, Roxana, in 323 BC."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      22,
+      58
+    ]
+  },
+  {
+    "question_id": 10,
+    "id": "ce0a4f9408eb11ebbda7ac1f6bf848b6",
+    "question": "Were Julien Guerrier and Marc Pajot of the same nationality?",
+    "answer": "yes",
+    "type": "comparison",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"The Zone (2017 film)\"",
+        "sentences": [
+          "The Zone is a 2017 English- language Quebecois film written, directed, produced, and edited by Denys Desjardins under the name of Syned Sindrajed.",
+          "It stars Vlasta Vrana, Renee- Madeleine Le Guerrier and Catherine Dumas."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Short Trips: Time Signature\"",
+        "sentences": [
+          "Short Trips: Time Signature is a Big Finish original anthology edited by Simon Guerrier and based on the long- running British science fiction television series\" Doctor Who\".",
+          "The collection is themed loosely around music, time and consequences."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Short Trips: Dalek Empire\"",
+        "sentences": [
+          "Short Trips: Dalek Empire is a Big Finish original anthology edited by Nicholas Briggs with Simon Guerrier and based on the long- running British science fiction television series\" Doctor Who\".",
+          "The collection explores characters and events from the Dalek Empire audio series."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"David Ji\"",
+        "sentences": [
+          "David Longfen Ji is an American businessman who co-founded Apex Digital, an electronics manufacturer.",
+          "In 2004, he was arrested in China following a dispute with Sichuan Changhong Electric, a supplier owned by the city of Mianyang and the province of Sichuan.",
+          "Changhong accused him of defrauding them through bad checks.",
+          "Ji was taken, according to an account by his lawyer, to the senior management and told, \"I decide whether you live or die.\"",
+          "He has been held in China without charges.",
+          "Ji's case highlighted an \"implicit racism\" in dealings with American businessmen.",
+          "As a U.S. citizen he was not granted the same treatment by authorities as non-ethnically Chinese businessmen sharing the same nationality."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Short Trips: The History of Christmas\"",
+        "sentences": [
+          "Short Trips:",
+          "The History of Christmas is a Big Finish original anthology edited by Simon Guerrier and based on the long- running British science fiction television series\" Doctor Who\".",
+          "It is the second Christmas anthology released under the Short Trips title."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Julien Mitchell\"",
+        "sentences": [
+          "Julien Mitchell( 13 November 1888 – 4 November 1954) was an English actor, in films from the mid-1930s.",
+          "Mitchell supported comedians George Formby and Will Hay, and appeared in some Hollywood films in the early war years, but is perhaps best remembered for his role as a mad train driver in the quota quickie\" The Last Journey\", made in 1936.",
+          "Mitchell was born in Glossop, Derbyshire.",
+          "His parents were Julien Mitchell, a dentist, born in Haworth, West Riding of Yorkshire, and Ellen Kitchen, born in Bolton( in the Moor), Lancashire.",
+          "His siblings born in Bolton were Martha Elizabeth, Josephine Mariner, Ada and Gertrude.",
+          "Born in Glossop were Mary Hannah and Hilda.",
+          "Mitchell died in London, aged 65."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Julien Guerrier\"",
+        "sentences": [
+          "Julien Guerrier (born 1 July 1985) is a French professional golfer.",
+          "Guerrier was born in Évreux.",
+          "He has a successful amateur career, which included winning The Amateur Championship in 2006, and turned professional in 2007 after competing in the Masters Tournament.",
+          "He finished third on the Alps Tour Order of Merit in 2008 to graduate to the second tier Challenge Tour for 2009.",
+          "He again progressed, finishing 16th on the 2009 Challenge Tour Rankings to earn a European Tour card for 2010, although he later improved his exemption category at qualifying school, recording a record low round of 60 in the process."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"\\u00c1lex M\\u00e1rquez\"",
+        "sentences": [
+          "Álex Márquez Alentà( born 23 April 1996) is a Spanish Grand Prix motorcycle road racer, and the younger brother of Marc Márquez, who also competes at Grand Prix level.",
+          "Márquez was the 2012 Spanish Moto3 Championship winner, and won the 2014 Moto3 World Championship at the last round in Valencia.",
+          "In the process, he and Marc became the first brothers to win world motorcycle racing titles in the same year, a feat that was repeated in 2019 when Alex won the Moto2 championship and Marc the MotoGP championship."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Short Trips: How the Doctor Changed My Life\"",
+        "sentences": [
+          "Short Trips: How",
+          "The Doctor Changed My Life is a Big Finish original anthology edited by Simon Guerrier and based on the long- running British science fiction television series\" Doctor Who\".",
+          "The theme of the collection is how the Doctor affects those he meets."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Marc Pajot\"",
+        "sentences": [
+          "Marc Pajot( born 21 September 1953 in La Baule) is a French sailor.",
+          "He has been a crew member on Éric Tabarly ’s boats.",
+          "Noted for winning the Silver medal at the 1972 Olympics at 19 with his older brother Yves, 5 times world champion, winner of the cross- Atlantic Route du Rhum, twice semi-finalist representing France at the America ’s Cup as a Project Manager and Skipper, he has been representing French sailing achievement around the world.",
+          "Member of French Maritime Academy, the French Yacht Club, and the Monaco Yacht Club he is now settled in Cannes, Côte d’ Azur, running a Yacht Selection activity and a consulting activity in marina landscaping."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      23,
+      34
+    ]
+  },
+  {
+    "question_id": 11,
+    "id": "430459be08bf11ebbd8aac1f6bf848b6",
+    "question": "Which film was released first, The Prince Of Temple Street or Traveler On All Saints' Day?",
+    "answer": "Traveler On All Saints' Day",
+    "type": "comparison",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"All Saints' Day\"",
+        "sentences": [
+          "All Saints' Day, also known as All Hallows' Day, Hallowmas, the Feast of All Saints, or Solemnity of All Saints, is a Christian festival celebrated in honour of all the saints, known and unknown.",
+          "In Western Christianity, it is celebrated on November the 1st by the Roman Catholic Church, the Anglican Communion, the Methodist Church, the Church of the Nazarene, the Lutheran Church, the Reformed Church, and other Protestant churches, November 1st is also the day before All Souls' Day.",
+          "The Eastern Orthodox Church and associated Eastern Catholic Churches and Byzantine Lutheran Churches celebrate it on the first Sunday after Pentecost.",
+          "Oriental Orthodox churches of Chaldea and associated Eastern Catholic churches celebrate All Saints' Day on the first Friday after Easter.",
+          "In the Western Christian practice, the liturgical celebration begins at Vespers on the evening of 31 October, All Hallows' Eve( All Saints' Eve), and ends at the close of 1 November.",
+          "It is thus the day before All Souls' Day, which commemorates the faithful departed.",
+          "In many traditions, All Saints' Day is part of the season of Allhallowtide, which includes the three days from 31 October to 2 November inclusive and in some denominations, such as Anglicanism, extends to Remembrance Sunday.",
+          "In places where All Saints' Day is observed as a public holiday but All Souls' Day is not, cemetery and grave rituals such as offerings of flowers, candles and prayers or blessings for the graves of loved ones often take place on All Saints Day.",
+          "In Austria and Germany, godparents gift their godchildren Allerheiligenstriezel( All Saint's Braid) on All Saint's Day, while the practice of souling remains popular in Portugal.",
+          "It is a national holiday in many Christian countries.",
+          "The Christian celebration of All Saints' Day and All Souls'",
+          "Day stems from a belief that there is a powerful spiritual bond between those in heaven( the\" Church triumphant\"), and the living( the\" Church militant\").",
+          "In Catholic theology, the day commemorates all those who have attained the beatific vision in Heaven.",
+          "In Methodist theology, All Saints Day revolves around\" giving God solemn thanks for the lives and deaths of his saints\", including those who are\" famous or obscure\".",
+          "As such, individuals throughout the Church Universal are honoured, such as Paul the Apostle, Augustine of Hippo and John Wesley, in addition to individuals who have personally led one to faith in Jesus, such as one's grandmother or friend."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Traveler on All Saints' Day\"",
+        "sentences": [
+          "Traveler on All Saints' Day)( French: Le voyageur de la Toussaint) is a 1943 French detective film directed by Louis Daquin and starring Assia Noris, Jules Berry, Gabrielle Dorziat and Guillaume de Sax.",
+          "It is an adaptation of a story by Georges Simenon.",
+          "A young man makes a triumphant return to his hometown of La Rochelle."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"The Prince of Temple Street\"",
+        "sentences": [
+          "The Prince of Temple Street is a 1992 Hong Kong crime drama film directed by Jeffrey Chiang and starring Andy Lau, Joey Wong, Deanie Ip and Ng Man-tat.",
+          "Aside of portraying the titular protagonist in the film, Lau also briefly reprises his role as\" Lee Rock\", the real life- inspired protagonist from the film series of the same name."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"All Saints Church, Lund\"",
+        "sentences": [
+          "All Saints Church is a church in Lund, Sweden.",
+          "Belonging to the Lunds All Saints Parish(\" Lunds Allhelgonaförsamling\") of the Diocese of Lund, it was opened on All Saints' Day 1891.",
+          "It is situated roughly 600 meters north of Lund Cathedral."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"All Saints\"",
+        "sentences": [
+          "All Saints' Day is a Christian holiday.",
+          "All Saints, All Saints Day or Feast of All Saints may also refer to:"
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Toussaint\"",
+        "sentences": [
+          "Toussaint (French for All Saints' Day, literally: \"All Saints\") may refer to:"
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Queen of Temple Street\"",
+        "sentences": [
+          "Queen of Temple Street is a 1990 Hong Kong film directed by Lawrence Ah Mon.",
+          "It has a Category III rating in Hong Kong."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Temple Street\"",
+        "sentences": [
+          "Temple Street may refer to:"
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"The Prince of Pilsen\"",
+        "sentences": [
+          "The Prince of Pilsen is a lost 1926 silent film comedy- romance directed by Paul Powell and starring Anita Stewart.",
+          "David Belasco produced the film.",
+          "It was based on a 1903 Broadway musical,\" The Prince of Pilsen\", by Gustav Luders.",
+          "The film was parodied by Mack Sennett that same year as\" The Prince of Pilsener\"."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Toussaint Rouge\"",
+        "sentences": [
+          "'(\" Red All Saints' Day\"), also known as'(\" Bloody All- Saints' Day\") is the name given to the series of attacks that took place on 1 November 1954 — the Catholic festival of All Saints' Day—in French Algeria.",
+          "It is usually taken as the starting date for the Algerian War which lasted until 1962 and led to Algerian independence from France."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      15,
+      18
+    ]
+  },
+  {
+    "question_id": 12,
+    "id": "7ab091520bda11eba7f7acde48001122",
+    "question": "What is the place of birth of the director of film Behind The Mask (1932 Film)?",
+    "answer": "New York",
+    "type": "compositional",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Son of the Mask\"",
+        "sentences": [
+          "Son of the Mask is a 2005 superhero comedy film directed by Lawrence Guterman.",
+          "The film stars Jamie Kennedy as Tim Avery, an aspiring cartoonist from Fringe City who has just had his first child born with the powers of the Mask.",
+          "It is a stand- alone sequel to the 1994 film\" The Mask\", an adaptation of Dark Horse Comics which starred Jim Carrey and Cameron Diaz.",
+          "It also stars Alan Cumming as the god of mischief, Loki, whom Odin has ordered to find the Mask.",
+          "It co-stars Traylor Howard, Kal Penn, Steven Wright, Bob Hoskins as Odin, and Ryan and Liam Falconer as Tim's baby Alvey.",
+          "Ben Stein makes a brief reappearance in the beginning of the film as Dr. Arthur Neuman from\" The Mask\" to reestablish the relationship with the mask and Loki.",
+          "Bill Farmer and Richard Steven Horvitz provide the voice and vocal effects of Masked Otis.",
+          "The film was panned by critics and became a box office bomb, grossing just$ 59 million against its$ 84–100 million budget."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Ian Barry (director)\"",
+        "sentences": [
+          "Ian Barry is an Australian director of film and TV."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Shannon Keith\"",
+        "sentences": [
+          "Shannon Keith is an American animal rights lawyer, activist, and documentary director/ producer.",
+          "She is the director of the Animal Liberation Front documentary,\" Behind the Mask: The Story Of The People Who Risk Everything To Save Animals\"."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Peter Levin\"",
+        "sentences": [
+          "Peter Levin is an American director of film, television and theatre."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"The Man Behind the Mask\"",
+        "sentences": [
+          "The Man Behind the Mask is a 1936 British mystery film directed by Michael Powell and starring Hugh Williams, Jane Baxter, Ronald Ward, Maurice Schwartz, George Merritt, Henry Oscar and Peter Gawthorne.",
+          "A man assaults and switches places with another at a masked ball, and then attempts a major theft – casting suspicion on the original man.",
+          "\" The Man Behind the Mask\" was produced by Joe Rock, for Joe Rock Productions.",
+          "It was made at one of the Elstree Studios.",
+          "\" The Man Behind the Mask\" was missing from the BFI National Archive, and was one of three Powell films included on the British Film Institute's\" 75 Most Wanted\" list of lost films.",
+          "It is the last of Powell's\" quota quickies\".",
+          "A print of the American release, titled Behind the Mask, has been found, but it is a cut version of the original UK film."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Barry Mask\"",
+        "sentences": [
+          "Barry Mask( born July 25, 1959) is an American politician who served in the Alabama House of Representatives from the 31st district from 2006 to 2013."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"The Face Behind the Mask (1977 film)\"",
+        "sentences": [
+          "The Face Behind The Mask is a 1977 Taiwanese \"wuxia\" film directed by Chen Chi-hwa."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Behind the Mask (1932 film)\"",
+        "sentences": [
+          "Behind the Mask is a 1932 American pre-Code crime film directed by John Francis Dillon, starring Jack Holt and featuring Boris Karloff."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Olav Aaraas\"",
+        "sentences": [
+          "Olav Aaraas( born 10 July 1950) is a Norwegian historian and museum director.",
+          "He was born in Fredrikstad.",
+          "From 1982 to 1993 he was the director of Sogn Folk Museum, from 1993 to 2010 he was the director of Maihaugen and from 2001 he has been the director of the Norwegian Museum of Cultural History.",
+          "In 2010 he was decorated with the Royal Norwegian Order of St. Olav."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"John Francis Dillon (director)\"",
+        "sentences": [
+          "John Francis Dillon (July 13, 1884 – April 4, 1934) was an American film director and actor of the silent era.",
+          "He directed 130 films between 1914 and 1934.",
+          "He also appeared in 74 films between 1914 and 1931.",
+          "He was born in New York, New York, was a brother of Robert A. Dillon, and died in Los Angeles, California from a heart attack."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      21,
+      29
+    ]
+  },
+  {
+    "question_id": 13,
+    "id": "1feee710086111ebbd5dac1f6bf848b6",
+    "question": "Who died first, Mizzi Griebl or Constance Stuart Larrabee?",
+    "answer": "Mizzi Griebl",
+    "type": "comparison",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Muiredach Ua h\\u00c9nlainge\"",
+        "sentences": [
+          "Muiredach Ua hÉnlainge was a Bishop of Clonfert who died in 1117."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Mizzi Griebl\"",
+        "sentences": [
+          "Mizzi Griebl( 27 February 1872 – 8 June 1952) was an Austrian stage and film actress.",
+          "She appeared in a number of supporting roles during the silent and early sound era."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Frances Lasker Brody\"",
+        "sentences": [
+          "Frances Lasker Brody( 1916–2009) was an American arts advocate, collector, and philanthropist who influenced the development of Los Angeles' cultural life as a founding benefactor of the Los Angeles County Museum of Art and later as a guiding patron of the Huntington Library, Art Collections and Gardens.",
+          "Mrs. Brody, who died on November 12, 2009 at 93, was the wife of Sidney F. Brody, a real estate developer who died in 1983, and the stepdaughter of Mary Lasker, a philanthropist and champion of medical research who died in 1994.",
+          "The Brodys lived in a modernist house in the Holmby Hills neighborhood of Los Angeles that was designed by the architect A. Quincy Jones and the decorator William Haines to show off the couple ’s collection."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"H\\u00e9l\\u00e8ne Grenier\"",
+        "sentences": [
+          "Hélène Grenier was a Canadian librarian born in 1900 who died in 1992."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Constance Jones\"",
+        "sentences": [
+          "Emily Elizabeth Constance Jones( 19 February 1848 – 9 April 1922) known as Constance Jones or E.E. Constance Jones, was an English philosopher and educator.",
+          "She worked in logic and ethics."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"David Scotus\"",
+        "sentences": [
+          "David Scotus was a Gaelic chronicler who died in 1139."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Constance Stuart Larrabee\"",
+        "sentences": [
+          "Constance Stuart Larrabee",
+          "( 7 August 1914 – 27 July 2000) was a photographer best known for her images of South Africa and her photo- journalism on Europe during World War II.",
+          "She was South Africa's first female war correspondent."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Nicolas Barat\"",
+        "sentences": [
+          "Nicolas Barat was a French Catholic scholar of Hebrew works, who died in 1706."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Johann Schreck\"",
+        "sentences": [
+          "Johann( es) Schreck, also Terrenz or Terrentius Constantiensis, Deng Yuhan Hanpo 鄧玉函, Deng Zhen Lohan,( 1576, Bingen, Baden- Württemberg or Constance – 11 May 1630, Beijing) was a German Jesuit, missionary to China and polymath.",
+          "He is credited with the development of scientific- technical terminology in Chinese."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Michael Mavroudis\"",
+        "sentences": [
+          "Michael Mavroudis was a martyr from Granitsa, who died in 1544."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      1,
+      11
+    ]
+  },
+  {
+    "question_id": 14,
+    "id": "2c5930fa096011ebbdafac1f6bf848b6",
+    "question": "Are Can She Bake A Cherry Pie? and Santiago Files both from the same country?",
+    "answer": "yes",
+    "type": "comparison",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Monterey Media\"",
+        "sentences": [
+          "Monterey Media Inc. started as a home video company founded in 1982 by Scott Mansfield.",
+          "Monterey is the second sub-label of NCB Entertainment, after FHE.",
+          "After many years the company has now expanded from home video into independent theatrical distribution, film festivals, and other venues including television, digital delivery and home entertainment markets.",
+          "Its first release was Deadly Games, a film made by Mansfield.",
+          "Mansfield then released more titles under the Monterey label; early releases included a Dorsey Burnette tribute concert, a Sandahl Bergman aerobic dance video,\" Dynamite Chicken\", a concert by The Tubes,\" Oh, Alfie!",
+          "The Werewolf of Washington Can She Bake a Cherry Pie? And Nothing But the TruthTomorrow The Children of Sanchez\", and\" Autumn Born\".",
+          "The company was also the exclusive distributor for All Grateful Dead concert videos/ DVDs for over 20 years, including\" The Grateful Dead Movie\" and.",
+          "Currently, they distribute their films at festivals and events, in theaters, and on DVD and VOD, including feature films, documentaries, self- help videos, and PBS programs.",
+          "In 2019, Monterey was acquired by BayView Entertainment."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Can She Bake a Cherry Pie?\"",
+        "sentences": [
+          "Can She Bake a Cherry Pie? is a 1983 American comedy film directed by Henry Jaglom.",
+          "It was screened in the Un Certain Regard section at the 1983 Cannes Film Festival.",
+          "The film takes place in and was filmed in the New York City borough of Manhattan.",
+          "It was released to mixed reviews."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"MILF (film)\"",
+        "sentences": [
+          "MILF is a 2010 sex comedy film by The Asylum.",
+          "The film borrows elements from\" American Pie\" and\" Revenge of the Nerds\"."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Cherry pie (disambiguation)\"",
+        "sentences": [
+          "A cherry pie an epic filling",
+          "Cherry Pie may also refer to:"
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Santiago Files\"",
+        "sentences": [
+          "Santiago Files, directed by Cetywa Powell, is a feature- length documentary film about Salvador Allende's topple from Chile's unstable government and the players in his downfall: the CIA, Chile's military, and Allende himself.",
+          "Malcolm McDowell narrates the film, which premiered in September 2011.",
+          "The documentary is in the permanent collection of the American Documentary Film Festival's archives( AmDocs), housed at the Rancho Mirage Library in Palm Springs."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Greatest & Latest (Warrant album)\"",
+        "sentences": [
+          "Greatest& Latest is a music album by American rock band Warrant originally released in 1999.",
+          "The album features new recorded studio versions of their( greatest) material.",
+          "It also features three previously unreleased( latest) songs\" The JonesSouthern Comfort\", and\" Bad Tattoo\".",
+          "The album was re released twice in 2004 under new titles\"' Cherry Pie all the Hitz' n' More\" and the import version\" Most Wanted\" with slightly different track lists to the original.",
+          "The album features new versions of Warrant's biggest hit singles\" Heaven\" which peaked at number 2 on The Billboard Hot 100 and\" Cherry Pie\" which peaked at# 10.",
+          "The re-recorded\" Heaven\" and\" Cherry Pie\" were released as promo and later iTunes singles and were also released on several mixed compilation albums.",
+          "In 2004 Jani Lane re-recorded acoustic versions of\" Cherry Pie\" and\" Heaven\" which featured on the\" VH1 Classic Metal Mania: Stripped\" compilations.",
+          "\" Heaven\" was also used in\" Tool Academy\"'s series finale, and was covered by American punk band New Found Glory on the compilation album\" Punk Goes Metal\"."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Bobbie Brown\"",
+        "sentences": [
+          "Bobbie Jean Brown( born October 7, 1969), sometimes credited as Bobbie Brown- Lane, is an American actress, model and former beauty pageant contestant.",
+          "She appeared in the video for Warrant's glam metal anthem\" Cherry Pie\" and the cover of the album of the same name."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"But Can She Type?\"",
+        "sentences": [
+          "\" But Can She Type?\" is the second segment of the thirteenth episode from the first season( 1985 – 86) of the television series\" The Twilight Zone\"."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"We Are What We Are\"",
+        "sentences": [
+          "We Are What We Are can refer to:"
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Cherry pie\"",
+        "sentences": [
+          "Cherry pie is a pie baked with a cherry filling.",
+          "Traditionally, cherry pie is made with tart rather than sweet cherries.",
+          "Morello cherries are one of the most common kinds of cherry used, but other varieties such as the black cherry may also be used.",
+          "Cherry pie is associated with Europe, North America and is mentioned in the lyrics of American folk songs such as Billy Boy.",
+          "Due to the cherry harvest in midsummer coinciding with Canada Day on July 1 and America's Independence Day on July 4, cherry pie is often pie served on these pie pie holidays.",
+          "It is also associated with the celebration of Washington's Birthday because of the legend of young Washington ’s honesty regarding the felling of a cherry tree.",
+          "Cherry pie is often eaten with whipped cream or ice cream.",
+          "A common preparation tradition in the United States is to decorate the crust with ornate pastry patterns.",
+          "A very different cherry- based dessert is Donauwelle in Germany and Austria."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      9,
+      19
+    ]
+  },
+  {
+    "question_id": 15,
+    "id": "f2d62e4b09b511ebbdb0ac1f6bf848b6",
+    "question": "Are both mountains, Munti Wayi and Coñocranra, located in the same country?",
+    "answer": "yes",
+    "type": "comparison",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Mount Heng (Shanxi)\"",
+        "sentences": [
+          "Mount Heng, also known by its Chinese name Hengshan, is a mountain in north- central China's Shanxi Province, known as the northern mountain of the Five Great Mountains of China.",
+          "Heng Shan in Shanxi Province is sometimes known as the Northern Heng Shan, and the one in Hunan Province as Southern Heng Shan.",
+          "Both mountains have the same pronunciation in Chinese, and the Southern Heng Shan is also one of the Five Sacred Mountains."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Blanchview, Queensland\"",
+        "sentences": [
+          "Blanchview is a locality in the Lockyer Valley Region, Queensland, Australia.",
+          "It had a population of 229 in.",
+          "The southern half of Blanchview features two mountains.",
+          "In the west the elevations rise to 600 metres surrounding the peak of Mount Tabletop which is located in the adjacent suburb of Rangeville.",
+          "Across a narrow valley to the east, Mount Davidson rises to similar heights.",
+          "The steep slopes of both mountains have remained naturally vegetated."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Co\\u00f1ocranra\"",
+        "sentences": [
+          "Coñocranra( possibly from Quechua\" quñuq\" warm, lukewarm,\" ranra\" stony, stony place) is a mountain of Peru located in the Ancash Region, Santa Province.",
+          "It is the highest mountain in the Cordillera Negra at( 5181 m).",
+          "From its summit is the scenery of the Andes mountain range around.",
+          "To the west, is the profile of the coast, usually in a misty background.",
+          "To the east, is the Cordillera Blanca where the highest peaks of Peru can be seen, especially Huascarán( 6768 m).",
+          "Between the two mountain ranges, runs the Santa River, which gives life to the Callejón de Huaylas.",
+          "Then the two mountain ranges come close to giving birth to the Canyon del Pato.",
+          "Finally the Santa River, after cutting the Cordillera Negra, flows into the Pacific Ocean."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Munti Wayi\"",
+        "sentences": [
+          "Munti Wayi( Ancash Quechua\" munti\" tree,\" wayi\" house,\" tree house\", Hispanicized spelling\" Monte Huay\") is a mountain in the Cordillera Blanca in the Andes of Peru.",
+          "It is located in the Ancash Region, Bolognesi Province, Aquia District.",
+          "It lies northeast of Rahu Kutaq and southeast of Pastu Ruri."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Language Management\"",
+        "sentences": [
+          "Language management is a discipline that consists of satisfying the needs of people who speak multiple different languages.",
+          "These may be in the same country, in companies, and in cultural or international institutions where one must use multiple languages."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Hound's Tooth (mountain)\"",
+        "sentences": [
+          "Hound's Tooth is a peak in the Purcell Mountains of the Columbia Mountains in southeastern British Columbia, Canada.",
+          "Hound's Tooth is a rock pinnacle at the end of Marmolata Mountain's northeast ridge.",
+          "Both mountains are Nunataks, sticking up from the middle of the Bugaboo Glacier.",
+          "The Hounds' Tooth is composed of a coarse, fractured granite."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Satellite tournament\"",
+        "sentences": [
+          "A satellite tournament is either a minor tournament or event on a competitive sporting tour or one of a group of such tournaments that form a series played in the same country or region."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Mount Hardisty\"",
+        "sentences": [
+          "Mount Hardisty is a mountain summit located in the Athabasca River valley of Jasper National Park, in the Canadian Rockies of Alberta, Canada.",
+          "Its nearest higher peak is Mount Kerkeslin, to the south.",
+          "Both mountains are part of the Maligne Range and both are visible from the Icefields Parkway."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Telephone numbers in Ascension Island\"",
+        "sentences": [
+          "Country Code:+ 247< br> International Call Prefix: 00 Ascension Island does not share the same country code( +290) with the rest of St Helena."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Mount Hardisty\"",
+        "sentences": [
+          "Mount Hardisty is a mountain summit located in the Athabasca River valley of Jasper National Park, in the Canadian Rockies of Alberta, Canada.",
+          "Its nearest higher peak is Mount Kerkeslin, to the south.",
+          "Both mountains are part of the Maligne Range and both are visible from the Icefields Parkway."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      9,
+      17
+    ]
+  },
+  {
+    "question_id": 16,
+    "id": "c38bd9b80bda11eba7f7acde48001122",
+    "question": "Where did Princess Augusta Of Württemberg's father die?",
+    "answer": "Rosenstein Castle",
+    "type": "compositional",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"William I of W\\u00fcrttemberg\"",
+        "sentences": [
+          "William I (27 September 1781 – 25 June 1864) was King of Württemberg from 30 October 1816 until his death.",
+          "Upon William's accession, Württemberg was suffering crop failures and famine in the \"Year Without a Summer\", in 1816.",
+          "After taking office, he initiated sweeping reforms, resulting in the approval of the Estates of Württemberg to a constitution on September 25, 1819.",
+          "In his 48-year reign, the kingdom moved from one that was created from different denominational principalities and a heterogeneous agricultural country, into a constitutional state with a common identity and a well-organised management.",
+          "In addition to his successful domestic policy, he pursued throughout his reign an ambition focused on German and European foreign policy.",
+          "Alongside the great powers of Prussia and Austria, he imagined a third major German power in the form of Bavaria, Saxony, Hanover and Württemberg.",
+          "Although this plan never succeeded, it ensured a consistent, coherent and targeted policy during his reign.",
+          "William was the only German monarch who was forced to recognise the Frankfurt Constitution of 1848.",
+          "After the failure of the March Revolution of 1848, he pursued restorative policies that counteracted his liberal image from before the revolution.",
+          "He died in 1864 at Rosenstein Castle in Bad Cannstatt and is buried in the Württemberg Mausoleum."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Princess Catherine of W\\u00fcrttemberg\"",
+        "sentences": [
+          "Princess Catherine Frederica Charlotte of Württemberg (Stuttgart, 24 August 1821 – Stuttgart, 6 December 1898) was a daughter of William I of Württemberg and Pauline Therese of Württemberg.",
+          "She was the mother of William II of Württemberg."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Prince Frederick of W\\u00fcrttemberg\"",
+        "sentences": [
+          "Prince\" Frederick\" Charles Augustus of Württemberg( 21 February 1808 – 9 May 1870) was a General in the Army of Württemberg and the father of William II of Württemberg.",
+          "Frederick was a member of the Royal Family of Württemberg and a Prince of Württemberg."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Prince Edward, Duke of York and Albany\"",
+        "sentences": [
+          "Prince Edward, Duke of York and Albany,( Edward Augustus; 25 March 1739 – 17 September 1767) was the younger brother of George III of the United Kingdom and the second son of Frederick, Prince of Wales, and Princess Augusta of Saxe- Gotha."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Princess Augusta of W\\u00fcrttemberg\"",
+        "sentences": [
+          "Princess Augusta of Württemberg (4 October 1826 in Stuttgart – 3 December 1898, ibid.) was a daughter of King William I of Württemberg and his wife, Pauline of Württemberg."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Princess Augusta of Bavaria\"",
+        "sentences": [
+          "Princess Augusta of Bavaria, Duchess of Leuchtenberg( Strasbourg, 21 June",
+          "1788 – Munich, 13 May 1851) was the second child and eldest daughter of Maximilian I Joseph of Bavaria and Princess Augusta Wilhelmine of Hesse- Darmstadt.",
+          "By marriage, she was a French Princess."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Louis Frederick, Duke of W\\u00fcrttemberg-Montb\\u00e9liard\"",
+        "sentences": [
+          "Louis Frederick of Württemberg- Montbéliard( 29 January 1586 in Montbéliard – 26 January 1631 in Montbéliard) was the founder of a cadet line of the House of Württemberg known as the Dukes of Württemberg- Montbéliard.",
+          "Louis Frederick of Württemberg was born at Montbéliard Castle as the fifth child and second son of Duke Frederick I of Württemberg, and princess Sibylla of Anhalt."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Duke Carl Alexander of W\\u00fcrttemberg\"",
+        "sentences": [
+          "Carl Alexander Herzog von Württemberg( Father Odo OSB)( 12 March 1896 – 27 December 1964) was a member of the House of Württemberg who became a Benedictine monk.",
+          "(\" Herzog von Württemberg\" is German for\" Duke of Württemberg\".)",
+          "During, and following, the Nazi era he provided aid to refugees, Jews, and prisoners of war, and was reported for these activities to the Nazi rulers of Germany."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Augusta of Saxe-Weimar-Eisenach\"",
+        "sentences": [
+          "Princess Augusta of Saxe- Weimar- Eisenach( Augusta Marie Luise Katharina; 30 September 1811 – 7 January 1890) was the Queen of Prussia and the first German Empress as the consort of William I, German Emperor."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Frederick II Eugene, Duke of W\\u00fcrttemberg\"",
+        "sentences": [
+          "Friedrich Eugen, Duke of Württemberg( 21 January 1732 – 23 December 1797) was the fourth son of Karl Alexander, Duke of Württemberg, and Princess Maria Augusta of Thurn and Taxis( 11 August 1706 – 1 February 1756).",
+          "He was born in Stuttgart.",
+          "From 1795 until 1797 he was Duke of Württemberg."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      9,
+      15
+    ]
+  },
+  {
+    "question_id": 17,
+    "id": "38050e100bde11eba7f7acde48001122",
+    "question": "Where was the place of death of Muqan Qaghan's father?",
+    "answer": "Turkic Khaganate",
+    "type": "compositional",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Where Was I\"",
+        "sentences": [
+          "\" Where Was I?\" may refer to:"
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Yangsu Tegin\"",
+        "sentences": [
+          "Yangsu Tegin was a Gökturk prince.",
+          "Long thought to be a son of Tardu, however Takeshi Osawa indicated that he was a son of Muqan Qaghan and father of Niri Qaghan."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Beaulieu-sur-Loire\"",
+        "sentences": [
+          "Beaulieu- sur- Loire is a commune in the Loiret department in north -central France.",
+          "It is also the place of death of Jacques MacDonald, a French general who served in the Napoleonic Wars"
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Apa Qaghan\"",
+        "sentences": [
+          "Apa Qaghan (Chinese: 阿波可汗, Modern Chinese: Pinyin:",
+          "ābō kěhàn, Wade-Giles: a-po k'o-han, Middle Chinese: (Guangyun) , personal name: 大邏便/大逻便, dàluóbiàn, ta-lo-pien, reigned: 581–587)",
+          "was son of Muqan Qaghan, declared himself qaghan of the Turkic Khaganate.",
+          "His claim of power came with the will of Taspar.",
+          "He did not accept Ishbara Qaghan as rightful emperor, leading to Gokturk Civil War."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Yangsu Tegin\"",
+        "sentences": [
+          "Yangsu Tegin was a Gökturk prince.",
+          "Long thought to be a son of Tardu, however Takeshi Osawa indicated that he was a son of Muqan Qaghan and father of Niri Qaghan."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Bumin Qaghan\"",
+        "sentences": [
+          "Bumin Qaghan , Bumın Kagan or Illig Qaghan",
+          "(Chinese: 伊利可汗, Pinyin:",
+          "Yīlì Kèhán, Wade–",
+          "Giles:",
+          "i-li k'o-han, died 552 AD) was the founder of the Turkic Khaganate.",
+          "He was the eldest son of Ashina Tuwu (吐務 / 吐务).",
+          "He was the chieftain of the Turks under the sovereignty of Rouran Khaganate.",
+          "He is also mentioned as \"Tumen\" (commander of ten thousand) of the Rouran Khaganate."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Motherland (disambiguation)\"",
+        "sentences": [
+          "Motherland is the place of one's birth, the place of one's ancestors, or the place of origin of an ethnic group.",
+          "Motherland may also refer to:"
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Place of birth\"",
+        "sentences": [
+          "The place of birth( POB) or birthplace is the place where a person was born.",
+          "This place is often used in legal documents, together with name and date of birth, to uniquely identify a person.",
+          "As a general rule with respect to passports, the place of birth is determined to be the country that currently has\" sovereignty\" over the actual place of birth, regardless of when the birth actually occurred.",
+          "The place of birth is not necessarily the place where the parents of the new baby live.",
+          "If the baby is born in a hospital in another place, that place is the place of birth.",
+          "In many countries, this also means that the government requires that the birth of the new baby is registered in the place of birth.",
+          "Some countries place less or no importance on the place of birth, instead using alternative geographical characteristics for the purpose of identity documents.",
+          "For example, Sweden has used the concept of\" födelsehemortdomicile of birth\") since 1947.",
+          "This means that the domicile of the baby's mother is the registered place of birth.",
+          "The location of the maternity ward or other physical birthplace is considered unimportant.",
+          "Similarly, Switzerland uses the concept of\" Heimatortlieu d'origineluogo d'origineplace of origin\" in German, French and Italian respectively).",
+          "A child born to Swiss parents is automatically assigned the place of origin of the parent with the same last name, so the child either gets their mother's or father's place of origin.",
+          "A child born to one Swiss parent and one foreign parent acquires the place of origin of their Swiss parent.",
+          "In a Swiss passport and identity card, the holder's place of origin is stated, not their place of birth.",
+          "In some countries( primarily in the Americas), the place of birth automatically determines the nationality of the baby, a practice often referred to by the Latin phrase\" jus soli\".",
+          "Almost all countries outside the Americas instead attribute nationality based on the nationality( ies) of the baby's parents( referred to as\" jus sanguinis\").",
+          "There can be some confusion regarding the place of birth if the birth takes place in an unusual way: when babies are born on an airplane or at sea, difficulties can arise.",
+          "The place of birth of such a person depends on the law of the countries involved, which include the nationality of the plane or ship, the nationality( ies) of the parents and/ or the location of the plane or ship( if the birth occurs in the territorial waters or airspace of a country).",
+          "Some administrative forms may request the applicant's\" country of birth\".",
+          "It is important to determine from the requester whether the information requested refers to the applicant's\" place of birth\" or\" nationality at birth\".",
+          "For US citizens born abroad who under the US Constitution acquire US citizenship at the time of birth, the nationality at birth will be USA( American), while the place of birth would be the country in which the actual birth takes place."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Sennedjem\"",
+        "sentences": [
+          "The Ancient Egyptian artisan Sennedjem lived in Set Maat( translated as\" The Place of Truth\"), contemporary Deir el- Medina, on the west bank of the Nile, opposite Thebes, during the reigns of Seti I and Ramesses II.",
+          "Sennedjem had the title\" Servant in the Place of Truth\".",
+          "He was buried along with his wife, Iyneferti, and family in a tomb in the village necropolis.",
+          "His tomb was discovered January 31, 1886.",
+          "When Sennedjem's tomb was found, in it there was regular furniture from his home, including a stool and a bed, which he actually used when he was alive.",
+          "His titles included Servant in the Place of Truth, meaning that he worked on the excavation and decoration of the nearby royal tombs."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Muqan Qaghan\"",
+        "sentences": [
+          "Muqan Qaghan; (Old Turkic: 𐰢𐰆𐰴𐰣𐰴𐰍𐰣 Muqan qaγan, Chinese:木桿可汗/木杆可汗, Pinyin:",
+          "mùgǎn kěhàn, Wade-Giles:",
+          "mu-kan k'o-han or 木汗可汗, mùhàn kěhàn, mu-han k'o-han",
+          ", personal name: 阿史那燕都, āshǐnà yàndōu, a-shih-na yen-to) was the second son of Bumin Qaghan and the third khagan of the Göktürks who expanded their khaganate and secured the borders against the Hephthalites."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      16,
+      52
+    ]
+  },
+  {
+    "question_id": 18,
+    "id": "7e2f54a20bdb11eba7f7acde48001122",
+    "question": "Who is the spouse of the director of film Cross Country Cruise?",
+    "answer": "Ona Munson",
+    "type": "compositional",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Cross Country Cruise\"",
+        "sentences": [
+          "Cross Country Cruise is a 1934 American Pre-Code romance film directed by Edward Buzzell and written by Elmer Blaney Harris.",
+          "The film stars Lew Ayres, June Knight, Alice White, Alan Dinehart, Minna Gombell and Eugene Pallette.",
+          "The film was released on January 15, 1934, by Universal Pictures.",
+          "Parts of the film were shot in Salt Lake City, Utah."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Adib Kheir\"",
+        "sentences": [
+          "Adib Kheir was a leading Syrian nationalist of the 1920s.",
+          "He was the owner of the Librairie Universelle in Damascus.",
+          "His granddaughter is the spouse of Manaf Tlass."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Edward Buzzell\"",
+        "sentences": [
+          "Edward Buzzell (November 13, 1895 – January 11, 1985) was an American film director whose credits include \"Child of Manhattan\" (1933); \"Honolulu\" (1939); the Marx Brothers films \"At the Circus\" (1939) and",
+          "\"Go West\" (1940); the musicals \"Best Foot Forward\" (1943), \"Song of the Thin Man\" (1947), and \"Neptune's Daughter\" (1949); and \"Easy to Wed\".",
+          "Born in Brooklyn, Buzzell appeared in vaudeville and on Broadway, and he was hired to star in the 1929 film version of George M. Cohan's \"Little Johnny Jones\" with Alice Day.",
+          "Buzzell appeared in a few Vitaphone shorts and the two-strip Technicolor short \"The Devil's Cabaret\" (1930) as Satan's assistant.",
+          "He wrote screenplays in the early 1930s and later produced the popular \"The Milton Berle Show\", which premiered on television in 1948.",
+          "In 1926, Buzzell married actress Ona Munson, who later played Belle Watling in \"Gone with the Wind\".",
+          "They divorced in 1931.",
+          "He married socialite Sara Clark on August 11, 1934, but the marriage only lasted five weeks.",
+          "He married actress Lorraine Miller on December 10, 1949.",
+          "He died in Los Angeles in 1985 at the age of 89."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Heather D. Gibson\"",
+        "sentences": [
+          "Heather Denise Gibson is a Scottish economist currently serving as Director- Advisor to the Bank of Greece( since 2011).",
+          "She is the spouse of Euclid Tsakalotos, former Greek Minister of Finance."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Maria Teresa, Grand Duchess of Luxembourg\"",
+        "sentences": [
+          "Maria Teresa, Grand Duchess of Luxembourg( born María Teresa Mestre y Batista; on 22 March 1956), is the spouse of Grand Duke Henri."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Marie-Louise Coidavid\"",
+        "sentences": [
+          "Marie Louise Coidavid( 1778 – March 11, 1851), was the Queen of the Kingdom of Haiti 1811 – 20 as the spouse of Henri I of Haiti."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Princess Auguste of Bavaria (1875\\u20131964)\"",
+        "sentences": [
+          "Princess Auguste of Bavaria( 28 April 1877 – 25 June 1964) was a member of the Bavarian Royal House of Wittelsbach and the spouse of Archduke Joseph August of Austria."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Gertrude of Bavaria\"",
+        "sentences": [
+          "Gertrude of Saxony and Bavaria( 1152/55–1197) was Duchess of Swabia as the spouse of Duke Frederick IV, and Queen of Denmark as the spouse of King Canute VI."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Mehdi Abrishamchi\"",
+        "sentences": [
+          "Mehdi Abrishamchi is an Iranian People's Mujahedin of Iran( MEK) politician who has been described as\" the right hand man of Massoud Rajavi\".",
+          "He is the former spouse of the group's current leader, Maryam Rajavi, whom he divorced so that she could become the spouse of Massoud Rajavi."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Sophia Magdalena of Denmark\"",
+        "sentences": [
+          "Sophia Magdalena of Denmark (3 July 1746 – 21 August 1813) was Queen of Sweden as the spouse of King Gustav III."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      0,
+      12
+    ]
+  },
+  {
+    "question_id": 19,
+    "id": "1c6aa99808e911ebbda7ac1f6bf848b6",
+    "question": "Who was born later, Haris Bashir or Mokete Mokhosi?",
+    "answer": "Haris Bashir",
+    "type": "comparison",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Dorothee Metlitzki\"",
+        "sentences": [
+          "Dorothee Metlitzki( or Devora Metlitsky; July 27, 1914 – April 14, 2001) was a German- born, later American, author and professor of English at the University of California, Berkeley and, for most of her career, at Yale University.",
+          "She was a specialist in medieval English literature and history, Arabic literature and language and of the author Herman Melville.",
+          "In addition she was a Zionist who played an important role in the foundation of the modern State of Israel."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Haris Bashir\"",
+        "sentences": [
+          "Haris Bashir( born 28 May 1993) is a Pakistani cricketer.",
+          "He made his List A debut for Lahore Whites in the 2018 –19 Quaid- e- Azam One Day Cup on 30 September 2018."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Alexander Fuks\"",
+        "sentences": [
+          "Alexander Fuks( 30 May 1917 – 29 November 1978) was a German- born, later Israeli historian, archaeologist and papyrologist.",
+          "He worked with Victor Tcherikover and Menahem Stern on the standard edition of Jewish papyri.",
+          "He was a specialist in the study of Hellenistic Judaism."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Jacob Knaani\"",
+        "sentences": [
+          "Jacob Knaani( Kishenev, 1894- Jerusalem, 1978) was a Moldavian born, later Israeli, lexicographer.",
+          "He is not to be confused with another Hebrew lexicographer, Judah Even Shemuel, who also had the German- Yiddish surname Kaufmann, and whose English- Hebrew dictionary was known as the\" Kaufmann Dictionary\"."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Catherine I of Russia\"",
+        "sentences": [
+          "Catherine I( born, later known as Marta Samuilovna Skavronskaya; –) was the second wife of Peter the Great and Empress of Russia from 1725 until her death."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Mokete Mokhosi\"",
+        "sentences": [
+          "Mokete Mokhosi( born 7 May 1969) is a Lesotho taekwondo practitioner.",
+          "He competed in the men's 80 kg category during the 2000 Summer Olympics.",
+          "He also competed in the 1997 and 1999 World Taekwondo Championships."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Edwin Richards (field hockey)\"",
+        "sentences": [
+          "Edwin William Gruffydd Richards (sometimes referred to as Edward; 15 December 1879 – 10 December 1930) was a Welsh field hockey player from Abergavenny who competed in the 1908 Summer Olympics where he won the bronze medal as a member of the Wales team.",
+          "Richards was the son of Susanna Thomas and Edwin William Richards, an iron monger from Goytre.",
+          "His father died from Typhoid on the 3 September 1879; Edwin was born later that year on 15 December.",
+          "He died in Ipswich on 10 December 1930."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"W. Augustus Barratt\"",
+        "sentences": [
+          "W. Augustus Barratt( 1873- 1947) was a Scottish- born, later American, songwriter and musician."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Bushra al-Thamali\"",
+        "sentences": [
+          "Bashir or Bushra al- Thamali was an Abbasid military commander and governor(\" wali\" or\" amir\") of Tarsus and the borderlands with the Byzantine Empire in Cilicia(\" al- thughur al- Shamiya\")."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Judah Even Shemuel\"",
+        "sentences": [
+          "Judah Even Shemuel( Ukraine, 1886- Jerusalem, 1976) was a Ukrainian born, later Israeli, lexicographer, whose English- Hebrew dictionary was known as\" The Kaufman Dictionary\".",
+          "He is not to be confused with another Hebrew lexicographer, Jacob Knaani, who also had the German- Yiddish surname Kaufmann."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      3,
+      11
+    ]
+  },
+  {
+    "question_id": 20,
+    "id": "1732d6ea0bde11eba7f7acde48001122",
+    "question": "Where was the place of death of the composer of film Alice (2005 Film)?",
+    "answer": "Cascais",
+    "type": "compositional",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Tarcisio Fusco\"",
+        "sentences": [
+          "Tarcisio Fusco was an Italian composer of film scores.",
+          "He was the brother of the composer Giovanni Fusco and the uncle of operatic soprano Cecilia Fusco."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Thomas Morse\"",
+        "sentences": [
+          "Thomas Morse( born June 30, 1968) is an American composer of film and concert music."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Alonso Mudarra\"",
+        "sentences": [
+          "Alonso Mudarra( c. 1510 – April 1, 1580) was a Spanish composer of the Renaissance, and also played the vihuela, a guitar- shaped string instrument.",
+          "He was an innovative composer of instrumental music as well as songs, and was the composer of the earliest surviving music for the guitar."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Alice (2005 film)\"",
+        "sentences": [
+          "Alice is a Portuguese film directed by Marco Martins, released in 2005.",
+          "\"Alice\" stars Nuno Lopes as Mário, the father, and Beatriz Batarda as Luísa, his wife, as well as Miguel Guilherme, Ana Bustorff, Gonçalo Waddington, Carla Maciel, Laura Soveral and José Wallenstein.",
+          "\"Alice\" was produced by Paulo Branco.",
+          "Music is by Bernardo Sassetti.",
+          "Shot in a dark, depressive undertone, \"Alice\" unveils a Lisbon whose mists, colours, alleys and moods are strangers, despite the familiarity of the locations.",
+          "All seems odd, silently cruel, as cruel is the disappearance of a child from the path she'd traveled every day in (apparent) safety.",
+          "The anguish is masterfully conveyed, and so is the loneliness of both parents."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Bert Grund\"",
+        "sentences": [
+          "Bert Grund( 1920–1992) was a German composer of film scores."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Abe Meyer\"",
+        "sentences": [
+          "Abe Meyer( 1901 – 1969) was an American composer of film scores."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Henri Verdun\"",
+        "sentences": [
+          "Henri Verdun( 1895–1977) was a French composer of film scores."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Amedeo Escobar\"",
+        "sentences": [
+          "Amedeo Escobar( 1888–1973) was an Italian composer of film scores."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Walter Ulfig\"",
+        "sentences": [
+          "Walter Ulfig was a German composer of film scores."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Bernardo Sassetti\"",
+        "sentences": [
+          "Bernardo da Costa Sassetti Pais (24 June 1970 – 10 May 2012) was a Portuguese jazz pianist and film composer.",
+          "Sassetti was born in Lisbon.",
+          "He was a great-grandson of Sidónio Pais, President of the First Republic.",
+          "He initially played guitar, then began studying piano and music theory at age nine.",
+          "He became interested in jazz after hearing Bill Evans.",
+          "By the late 1980s, he was backing visiting musicians and teaching jazz piano in Lisbon (and, later, taught throughout other lusophonic areas).",
+          "During the 1990s, he worked in London, where he recorded three albums with Guy Barker's group.",
+          "Anthony Minghella invited them to appear as the Napoli Jazz Sextet in \"The Talented Mr. Ripley\".",
+          "His 2006 album \"Unreal:",
+          "Sidewalk Cartoon\" received a four-star rating (of a possible four) in \"The Penguin Guide to Jazz\"",
+          "(9th ed.), and was selected for \"The Penguin Jazz Guide: The History of the Music in the 1000 Best Albums\".",
+          "In addition to his jazz work, Sassetti has composed numerous film scores.",
+          "Bernardo Sassetti was married to actress Beatriz Batarda, with whom he had two daughters.",
+          "He died on 10 May 2012 after falling off a cliff in Guincho Cascais (Portugal), where he was shooting pictures for his next book."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      8,
+      30
+    ]
+  },
+  {
+    "question_id": 21,
+    "id": "b09a1e79088d11ebbd70ac1f6bf848b6",
+    "question": "Are Lønavatnet and Nodlandsvatnet both located in the same country?",
+    "answer": "yes",
+    "type": "comparison",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Lubnowy\"",
+        "sentences": [
+          "Lubnowy is part of the name of two villages, both located in Gmina Susz, within Iława County, Warmian- Masurian Voivodeship, Poland:"
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Telephone numbers in Ascension Island\"",
+        "sentences": [
+          "Country Code:+ 247< br> International Call Prefix: 00 Ascension Island does not share the same country code( +290) with the rest of St Helena."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Satellite tournament\"",
+        "sentences": [
+          "A satellite tournament is either a minor tournament or event on a competitive sporting tour or one of a group of such tournaments that form a series played in the same country or region."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Nodlandsvatnet\"",
+        "sentences": [
+          "Nodlandsvatnet is a lake in the municipality of Eigersund in Rogaland county, Norway.",
+          "It is located about east of the town of Egersund.",
+          "The lake is a major reservoir for the local energy company Dalane Energi, and has a capacity of, the second largest in the area after the lake Spjodevatnet with.",
+          "The lake also serves a recreational function.",
+          "The\" Opplev Dalane\"( Explore Dalane) hiking path runs past the lake, and an open hut for hikers opened in December 2007 at Imeseid.",
+          "The lake also has a sandy beach."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Limestone Coast\"",
+        "sentences": [
+          "The Limestone Coast is a name used since the early twenty- first century for a South Australian government region located in the south east of South Australia which immediately adjoins the continental coastline and the Victorian border.",
+          "The name is also used for a tourist region and a wine zone both located in the same part of South Australia."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Radzice\"",
+        "sentences": [
+          "Radzice is part of the name of two villages, both located in Gmina Drzewica, within Opoczno County, Łódź Voivodeship, Poland:"
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"L\\u00f8navatnet\"",
+        "sentences": [
+          "Lønavatnet is a lake in the municipality of Voss in Hordaland county, Norway.",
+          "The lake lies along the river Strandaelvi which runs from Vinje south to Vossevangen.",
+          "The lake lies about north of the village of Vossevangen, with the European route E16 highway running along the western shore and Norwegian County Road 309 along the eastern shore."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Tunstall, Virginia\"",
+        "sentences": [
+          "Tunstall is an unincorporated community in New Kent County, Virginia, United States.",
+          "Foster's Castle and Hampstead, both located in Tunstall, are listed on the National Register of Historic Places."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Jawty\"",
+        "sentences": [
+          "Jawty is part of the name of two villages, both located in Gmina Susz, within Iława County, Warmian- Masurian Voivodeship, Poland:"
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Greenbury Point Light\"",
+        "sentences": [
+          "Greenbury Point Light was the name of two lighthouses in the Chesapeake Bay, both located at the mouth of the Severn River in Annapolis, Maryland."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      3,
+      12
+    ]
+  },
+  {
+    "question_id": 22,
+    "id": "edde756608df11ebbda1ac1f6bf848b6",
+    "question": "Who is younger, Andrea Grendene or Jung Il-Woo?",
+    "answer": "Jung Il-Woo",
+    "type": "comparison",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Byun Jung-il\"",
+        "sentences": [
+          "Byun Jung- il( born 16 November 1968 in Seoul) is a former South Korean professional boxer.",
+          "He competed in the men's bantamweight event at the 1988 Summer Olympics."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Milo\\u0161 Zli\\u010di\\u0107\"",
+        "sentences": [
+          "Miloš Zličić( born 29 December 1999) is a Serbian football forward.",
+          "He is a younger brother of Lazar Zličić."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Kim Il-woo (actor, born 1953)\"",
+        "sentences": [
+          "Kim Il- woo( born May 24, 1953 – June 13, 2004) is a South Korean actor.",
+          "A veteran actor, Kim died of gastric cancer at the age of 49 on June 13, 2004."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Kim Il-woo\"",
+        "sentences": [
+          "Kim Il- woo( born June 19, 1963) is a South Korean actor."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Jung Il-woo (athlete)\"",
+        "sentences": [
+          "Jung Il- woo( born 28 March 1986) is a South Korean athlete specialising in the shot put.",
+          "He won a bronze medal at the 2017 Asian Indoor and Martial Arts Games.",
+          "His personal bests in the event are 19.49 metres outdoors( Sapporo 2015) and 19. 24 metres indoors( Ashgabat 2017).",
+          "Both are current national records."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Andrea Grendene\"",
+        "sentences": [
+          "Andrea Grendene( born 4 July 1986) is a former Italian professional road bicycle racer, who rode as a professional between 2009 and 2011."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Nam Il-woo\"",
+        "sentences": [
+          "Nam Il- woo( born August 28, 1981) is a South Korean football player."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Kim Jung-il (writer)\"",
+        "sentences": [
+          "Kim Jung- il( born 1977) is a South Korean poet."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Jung Il-woo\"",
+        "sentences": [
+          "Jung Il- woo( born 9 September 1987) is a South Korean actor.",
+          "He is best known for his roles in the sitcom\" Unstoppable High Kick\"( 2006), and the television dramas\" The Return of Iljimae\"( 2009),\" 49 Days\"( 2011),\" Cool Guys, Hot Ramen\"( 2011),\" Moon Embracing the Sun\"( 2012) and\" Cinderella with Four Knights\"( 2016)."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Jang Jung-il\"",
+        "sentences": [
+          "Jang Jung-il",
+          "( This is the author's preferred Romanization per LTI Korea) is a Korean poet and novelist."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      11,
+      14
+    ]
+  },
+  {
+    "question_id": 23,
+    "id": "2c7d1dd00bde11eba7f7acde48001122",
+    "question": "What nationality is the composer of song Inescapable (Song)?",
+    "answer": "American",
+    "type": "compositional",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Alexandru Cristea\"",
+        "sentences": [
+          "Alexandru Cristea( 1890 – 1942) was the composer of the music for\" Limba Noastră\", current national anthem of Moldova."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Alexander Courage\"",
+        "sentences": [
+          "Alexander Mair\" Sandy\" Courage Jr.( December 10, 1919",
+          "May 15, 2008) was an American orchestrator, arranger, and composer of music, primarily for television and film.",
+          "He is best known as the composer of the theme music for the original\" Star Trek\" series."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Karl Wilhelm (conductor)\"",
+        "sentences": [
+          "Karl Wilhelm, also Carl Wilhelm( 5 September 1815, Schmalkalden – 26 August 1873, Schmalkalden) was a German choral director.",
+          "He is best known as the composer of the music of the song “ Die Wacht am Rhein. ”"
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Diane Warren\"",
+        "sentences": [
+          "Diane Eve Warren (born September 7, 1956) is an American songwriter.",
+          "She rose to prominence in 1983, and has since written songs for and co-written songs with multiple singers, as well as for several films.",
+          "Warren has written nine number-one songs and 32 top 10 songs on the \"Billboard\" Hot 100 chart.",
+          "Additionally, two of the top 13 hits in the Hot 100's 57-year history were composed by her.",
+          "Warren's career catapulted in the late 1980s shortly after joining forces with the UK music company EMI when Warren became the first songwriter in the history of \"Billboard\" magazine to have seven hits, all by different artists, on the singles chart at the same time prompting the UK's former Chairman of EMI Music Publishing Peter Reichardt to credit her as \"the most important songwriter in the world\".",
+          "She has been rated the third most successful female artist in the UK.",
+          "Warren has won a Grammy Award, an Emmy Award, a Golden Globe Award, three consecutive \"Billboard\" Music Awards for Songwriter of the Year, and has been nominated for ten Academy Awards.",
+          "She has been inducted into the Songwriters Hall of Fame and received a star on the Hollywood Walk of Fame.",
+          "Her UK success saw her win an Ivor Novello Award from the British Academy of Songwriters, Composers and Authors when she received the Special International Award in 2008.",
+          "Warren owns a publishing company, Realsongs, which gives her control over her compositions."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Walter Robinson (composer)\"",
+        "sentences": [
+          "Walter Robinson is an African American composer of the late 20th century.",
+          "He is most notable for his 1977 song\" Harriet Tubman\", which has been recorded by folk musicians such as Holly Near, John McCutcheon, and others.",
+          "He is also the composer of several operas."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Petrus de Domarto\"",
+        "sentences": [
+          "Petrus de Domarto( fl. c. 1445– 1455) was a Franco- Flemish composer of the Renaissance.",
+          "He was a contemporary and probable acquaintance of Ockeghem, and was the composer of at least one of the first unified mass cycles to be written in continental Europe."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Pydimarri Venkata Subba Rao\"",
+        "sentences": [
+          "Pydimarri Venkata Subba Rao( June 10, 1916 – 1988) was a Telugu author who is best remembered as the composer of the National Pledge of India."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Inescapable (song)\"",
+        "sentences": [
+          "\"Inescapable\" is a song by Australian recording artist Jessica Mauboy.",
+          "It was written by Diane Warren and produced by Youngboyz, Anthony Egizii and David Musumeci.",
+          "\"",
+          "Inescapable\" was sent to Australian contemporary hit radio on 4 July 2011, and was released for digital download on 15 July 2011 as the first single from the deluxe edition of Mauboy's second studio album \"",
+          "Get 'Em Girls\".",
+          "The song's lyrics revolve around \"a relationship",
+          "all gone wrong but also a celebration.\"",
+          "\"Inescapable\" peaked at number four on the ARIA Singles Chart and became Mauboy's highest-charting single since 2008's \"Burn\".",
+          "It was certified double platinum by the Australian Recording Industry Association (ARIA).",
+          "The accompanying music video was directed by Mark Alston and features scenes of Mauboy on different coloured backdrops and a dedication to Jay Dee Springbett."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Alonso Mudarra\"",
+        "sentences": [
+          "Alonso Mudarra( c. 1510 – April 1, 1580) was a Spanish composer of the Renaissance, and also played the vihuela, a guitar- shaped string instrument.",
+          "He was an innovative composer of instrumental music as well as songs, and was the composer of the earliest surviving music for the guitar."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Michelangelo Faggioli\"",
+        "sentences": [
+          "Michelangelo Faggioli( 1666–1733) was an Italian lawyer and celebrated amateur composer of humorous cantatas in Neapolitan dialect.",
+          "A founder of a new genre of Neapolitan comedy, he was the composer of the opera buffa\" La Cilla\" in 1706."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      6,
+      23
+    ]
+  },
+  {
+    "question_id": 24,
+    "id": "dc56871408f211ebbdaaac1f6bf848b6",
+    "question": "Who is younger, Mike Ratledge or Kim Ji-Sun?",
+    "answer": "Kim Ji-Sun",
+    "type": "comparison",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Kim Ji-soo (singer, born 1990)\"",
+        "sentences": [
+          "Kim Ji-soo( born February 5, 1990) is a South Korean singer- songwriter and musician."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Lee Seul-bee\"",
+        "sentences": [
+          "Lee Seul- bee( born June 25, 1988 in North Gyeongsang Province) is a South Korean curler from Gyeonggi Province.",
+          "She played third for the Kim Ji-sun team representing South Korea at the 2014 Winter Olympics in Sochi, Russia."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Kim Ji-woong\"",
+        "sentences": [
+          "Kim Ji-Woong( born January 14, 1989) is a South Korean football player."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Kim Ji-hyeon (footballer)\"",
+        "sentences": [
+          "Kim Ji-hyeon( born 22 July 1996) is a South Korean footballer who plays as forward."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Kim Ji-hoon (director)\"",
+        "sentences": [
+          "Kim Ji-hoon( born 1971), also spelled Kim Ji-hun, is a South Korean film director."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Mike Ratledge\"",
+        "sentences": [
+          "Michael Roland\" Mike\" Ratledge( born 6 May 1943) is a British musician.",
+          "A part of the Canterbury scene, he was a long- time member of Soft Machine."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Shin Mi-sung\"",
+        "sentences": [
+          "Shin Mi-sung( born April 15, 1978 in Seoul) is a South Korean curler.",
+          "Shin competed at the 2014 Winter Olympics for South Korea.",
+          "She teamed with Kim Ji-sun, Lee Seul- bee, Gim Un-chi and Um Min- ji in the women's tournament.",
+          "She began the tournament playing second, but ended up playing only four of the nine games, as the South Korean team went 3- 6 to finish in a tie for 8th.",
+          "She curled 73%, which was 9th out of the 10 seconds.",
+          "Shin made her World Curling Championships debut in 2002.",
+          "As of 2014, she has represented Korea all five times that they have participated at the Worlds, though she did not play in the 2014 championships.",
+          "Her best finish was in 2012, when she finished 4th with skip Kim Ji-sun.",
+          "As of 2014, Shin has participated in 10 Pacific- Asia Curling Championships, winning the event on three occasions."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Kim Ji-eun\"",
+        "sentences": [
+          "Kim Ji-eun( born October 9, 1993) is a South Korean actress and model."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Kim Ji-sun\"",
+        "sentences": [
+          "Kim Ji-sun( born June 27, 1987) is a South Korean curler from Gyeonggi Province.",
+          "She was the skip of the 2014 South Korean Olympic Curling Team."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Kim Ji-ho\"",
+        "sentences": [
+          "Kim Ji- Ho( born July 22, 1974) is a South Korean actress."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      6,
+      18
+    ]
+  },
+  {
+    "question_id": 25,
+    "id": "0c3675d40bda11eba7f7acde48001122",
+    "question": "What is the place of birth of the director of film Red (2016 Film)?",
+    "answer": "Münster",
+    "type": "compositional",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Jesse E. Hobson\"",
+        "sentences": [
+          "Jesse Edward Hobson( May 2, 1911 – November 5, 1970) was the director of SRI International from 1947 to 1955.",
+          "Prior to SRI, he was the director of the Armour Research Foundation."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Mia Riverton\"",
+        "sentences": [
+          "Mia Riverton is an American film actress and producer, best known for her role in the 2005 film\" Red Doors\"."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Olav Aaraas\"",
+        "sentences": [
+          "Olav Aaraas( born 10 July 1950) is a Norwegian historian and museum director.",
+          "He was born in Fredrikstad.",
+          "From 1982 to 1993 he was the director of Sogn Folk Museum, from 1993 to 2010 he was the director of Maihaugen and from 2001 he has been the director of the Norwegian Museum of Cultural History.",
+          "In 2010 he was decorated with the Royal Norwegian Order of St. Olav."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Brian Kennedy (gallery director)\"",
+        "sentences": [
+          "Brian Patrick Kennedy( born 5 November 1961) is an Irish- born art museum director who has worked in Ireland and Australia, and now lives and works in the United States.",
+          "He is currently the director of the Peabody Essex Museum.",
+          "He was the director of the Toledo Museum of Art in Ohio from 2010 to 2019.",
+          "He was the director of the Hood Museum of Art from 2005 to 2010, and the National Gallery of Australia( Canberra) from 1997- 2004."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Branko Tomovi\\u0107\"",
+        "sentences": [
+          "Branko Tomović (born June 17, 1980) is a German-Serbian actor.",
+          "He was born in Münster, Germany, though his actual origin is from the Carpathians in Serbia.",
+          "His parents emigrated in the '70s from the Golubac Fortress area on the Danube and Tomović was raised between Germany and Serbia before he studied acting at the prestigious Lee Strasberg Theatre Institute in New York City."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Ed Red\"",
+        "sentences": [
+          "Walter Edward\" Ed\" Red( born March 6, 1942) is an American athlete.",
+          "He competed in the men's javelin throw at the 1964 Summer Olympics.",
+          "Known as Ed Red, he had one of the shortest names of any Olympian."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Red (2016 film)\"",
+        "sentences": [
+          "Red is a short dark thriller set in the underground world of illegal organ smuggling, the so-called red market.",
+          "It's the directing debut of Branko Tomovic who is probably best known in the US for playing Jack Bauer's sidekick in the recent \"24: Live Another Day\" series and stars",
+          "British actress Francesca Fowler (",
+          "Doctor Who, Rome, Closure) with the acclaimed Irish actress Dervla Kirwan (Ondine, Ballykissangel, The Silence, Doctor Who) as the sadistic and cruel crime boss."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Georgia Lee\"",
+        "sentences": [
+          "Georgia Lee is an American independent film director.",
+          "Her work includes the 2006 film \"Red Doors\"."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Peter Levin\"",
+        "sentences": [
+          "Peter Levin is an American director of film, television and theatre."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Ian Barry (director)\"",
+        "sentences": [
+          "Ian Barry is an Australian director of film and TV."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      12,
+      18
+    ]
+  },
+  {
+    "question_id": 26,
+    "id": "cf776ad6091d11ebbdaeac1f6bf848b6",
+    "question": "Which film came out earlier, Kevin Of The North or No Hay Pan?",
+    "answer": "Kevin Of The North",
+    "type": "comparison",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Como yo no hay dos\"",
+        "sentences": [
+          "Como yo no hay dos is a 1952 Argentine film."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Como yo no hay dos\"",
+        "sentences": [
+          "Como yo no hay dos is a 1952 Argentine film."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"As\\u00ed No Hay Cama Que Aguante\"",
+        "sentences": [
+          "As í no hay cama que aguante is a 1980 Argentine comedy film directed and written by Hugo Sofovich."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"King in the North\"",
+        "sentences": [
+          "King in the North or King of the North may refer to:"
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Operation Leopard\"",
+        "sentences": [
+          "La légion saute sur Kolwezi also known as\" Operation Leopard\" is a French war film directed by Raoul Coutard filmed in French Guiana.",
+          "The script is based on the true story of the Battle of Kolwezi that happened in 1978.",
+          "It was diligently described in a book of the same name by former 1 REP Captain Pierre Sergent.",
+          "He published his book in 1979; the film came out in 1980.",
+          "Raoul Coutard shot the film in a documentary style."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Don't Be Weak with Life\"",
+        "sentences": [
+          "Do n't Be Weak with Life( Spanish:\" No hay que aflojarle a la vida\") is a 1975 Argentine film."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Como M\\u00e9xico no hay dos\"",
+        "sentences": [
+          "Como México no hay dos is a 1979 Mexican film.",
+          "It stars Sara García."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Battle of the North\"",
+        "sentences": [
+          "Battle of the North or Battle of North may refer to;"
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"No Hay Pan\"",
+        "sentences": [
+          "No Hay Pan is a Chilean short film, directed by Macarena Monrós.",
+          "The plot deals with issues such as capitalism, modernity, the loss of heritage and traditions.",
+          "It was produced by Iván Nakouzi and premiered on August 21 of the year 2012, at the Santiago International Film Festival( SANFIC) in Chile.",
+          "On 24 January 2013 it was internationally premiered at the International Film Festival Rotterdam( IFFR)."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Kevin of the North\"",
+        "sentences": [
+          "Kevin of the North is a 2001 American comedy film directed by Bob Spiers.",
+          "It stars Skeet Ulrich, Natasha Henstridge, Leslie Nielsen, and Rik Mayall and is about an Alaskan Iditarod Trail Sled Dog Race in which Kevin Manley, whose grandfather has passed on and now must participate in the state's Iditarod Trail Sled Dog Race in order to prove he's worthy enough for his grandfather's estate.",
+          "The film was released to DVD in the United States with the alternate title of\" Chilly Dogs\" on February 4, 2003."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      15,
+      17
+    ]
+  },
+  {
+    "question_id": 27,
+    "id": "5cb814860bda11eba7f7acde48001122",
+    "question": "Which country Mi Saw U's father is from?",
+    "answer": "Burma",
+    "type": "compositional",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Trina Roache\"",
+        "sentences": [
+          "Trina Roache is a Mi'kmaq video journalist, educated at University of King's College.",
+          "She has worked with CBC, as a freelancer and with APTN National News at the Aboriginal Peoples Television Network covering the issues and stories of the Mi’kmaq, Maliseet and Passamaquoddy people in the Atlantic Canada."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Narathihapate\"",
+        "sentences": [
+          "Narathihapate (also Sithu IV of Pagan; 23 April 1238 – 1 July 1287) was the last king of the Pagan Empire who reigned from 1256 to 1287.",
+          "The king is known in Burmese history as the \"Taruk-Pyay Minthe King who Fled from the Taruk [Mongols]\") for his flight from Pagan (Bagan) to Lower Burma in 1285 during the first Mongol invasion (1277–87) of the kingdom.",
+          "He eventually submitted to Kublai Khan, founder of the Yuan dynasty in January 1287 in exchange for a Mongol withdrawal from northern Burma.",
+          "But when the king was assassinated six months later by his son Thihathu, the Viceroy of Prome, the 250-year-old Pagan Empire broke apart into multiple petty states.",
+          "The political fragmentation of the Irrawaddy valley and its periphery would last for another 250 years until the mid-16th century.",
+          "The king is unkindly remembered in the royal chronicles, which in addition to calling a cowardly king who fled from the invaders, also call him \"an ogre\" and \"glutton\" who was \"great in wrath, haughtiness and envy, exceeding covetous and ambitious.\"",
+          "According to scholarship, he was certainly an ineffective ruler but unfairly scapegoated by the chronicles for the fall of the empire, whose decline predated his reign, and in fact had been \"more prolonged and agonized\"."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"List of Victoria Cross recipients of uncertain nationality\"",
+        "sentences": [
+          "The following is a list of Victoria Cross recipients whose nationality is uncertain."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Gail Tremblay\"",
+        "sentences": [
+          "Gail Tremblay( born 1945) is a Mi'kmaq and Onondaga writer and artist."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Tala Mi Saw\"",
+        "sentences": [
+          "Tala Mi Saw was a princess of Hanthawaddy Pegu.",
+          "A daughter of King Razadarit( r. 1384–1421), Saw was married to Gen. Smin Bayan.",
+          "She may have been appointed governor of Martaban in 1442 or 1443 by her brother King Binnya Ran I, after the death of her other brother Viceroy Binnya Kyan."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Shin Shwe of Pagan\"",
+        "sentences": [
+          "Shin Shwe was a principal queen consort of King Narathihapate of the Pagan Dynasty of Burma( Myanmar).",
+          "She was the mother of Queen Mi Saw U of Pagan and later Pinya, and the maternal grandmother of kings Uzana I of Pinya and Kyawswa I of Pinya."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Eleni Gabre-Madhin\"",
+        "sentences": [
+          "Eleni Zaude Gabre- Madhin, an Ethiopian economist with Swiss nationality, is a former Chief Executive Officer of the Ethiopia Commodity Exchange( ECX).",
+          "She has had many years of experience working on agricultural markets – particularly in Sub- Saharan Africa – and has held senior positions in the World Bank, the International Food Policy Research Institute( Washington), and United Nations( Geneva)."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Ali Rahuma\"",
+        "sentences": [
+          "Ali Khalifa Rahuma( born May 16, 1982) is a Libyan football midfielder who's nationality is Libyan.",
+          "He currently plays for Al- Ittihad, and is a member of the Libya national football team."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Mi Saw U\"",
+        "sentences": [
+          "Mi Saw U (also known as Min Saw U) was a Pagan princess, who was queen of two kings, Kyawswa of Pagan and Thihathu of Pinya, and mother of two kings, Uzana I of Pinya and Kyawswa",
+          "I of Pinya.",
+          "Saw U was a daughter of Narathihapate, the last sovereign king of Pagan.",
+          "Married to her half-brother Kyawswa, Saw U was pregnant with Kyawswa's child (Uzana) in December 1297 when she was seized by Thihathu who had just overthrown Kyawswa.",
+          "Thihathu raised Uzana as his own child and later selected him as heir apparent.",
+          "Saw U also gave birth to Thihathu's child, also named Kyawswa.",
+          "Both Uzana and Kyawswa went on to become kings of Pinya.",
+          "Her youngest son Nawrahta defected to the Sagaing Kingdom c. 1349 after a disagreement with his brother Kyawswa."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Iraqi nationality law\"",
+        "sentences": [
+          "Iraqi nationality is transmitted by one's parents."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      3,
+      22
+    ]
+  },
+  {
+    "question_id": 28,
+    "id": "6ea8eab8090111ebbdadac1f6bf848b6",
+    "question": "Are The Pursuit Of Happiness (1934 Film) and East Lynne (1931 Film) from the same country?",
+    "answer": "yes",
+    "type": "comparison",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"East Lynne (1913 film)\"",
+        "sentences": [
+          "East Lynne is a 1913 British silent drama film directed by Bert Haldane and starring Blanche Forsythe, Fred Paul and Fred Morgan.",
+          "It is based on the 1861 novel\" East Lynne\" by Ellen Wood."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"East Lynne (1916 film)\"",
+        "sentences": [
+          "East Lynne is a 1916 American silent drama film directed by Bertram Bracken and starring Theda Bara.",
+          "It is based on the 1861 novel \"East Lynne\" by Mrs. Henry Wood.",
+          "A 16mm print of the film was discovered in 1971 and purchased from Fox by the Museum of Modern Art where it is currently preserved.",
+          "It is one of the few extant films of Theda Bara."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Stricken (2010 film)\"",
+        "sentences": [
+          "Stricken is an American film that premiered on June 25, 2010,",
+          "It was directed and written by Matthew Sconce, the movie starred Stephanie French and David Fine of Rent, Sweet November, The Pursuit of Happiness, and many other films.",
+          "It is based on the short film of the same name that won Best Sound Design at the Action On Film Festival in 2007, and its screenplay won Best Adapted Screenplay in 2008."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"And the Pursuit of Happiness\"",
+        "sentences": [
+          "And the Pursuit of Happiness is a 1986 documentary film for television directed by Louis Malle about the experiences of immigrants in the United States during the 1980s.",
+          "It was originally released as part of HBO's\" America Undercover\" series on Independence Day 1986.",
+          "It was screened in the Un Certain Regard section at the 1987 Cannes Film Festival.",
+          "It was released on public television in 1988 and won a Peabody Award the following year."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"The Pursuit of Happiness (1934 film)\"",
+        "sentences": [
+          "The Pursuit of Happiness is a 1934 American historical comedy film directed by Alexander Hall and written by Stephen Morehouse Avery, J.P. McEvoy and Virginia Van Upp.",
+          "The film stars Francis Lederer, Joan Bennett, Charlie Ruggles, Mary Boland, Walter Kingsford, Minor Watson and Adrian Morris.",
+          "The film was released on September 28, 1934, by Paramount Pictures."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"East Lynne (1931 film)\"",
+        "sentences": [
+          "East Lynne is a 1931 American pre-Code film version of Ellen Wood's eponymous 1861 novel, which was adapted by Tom Barry and Bradley King and directed by Frank Lloyd.",
+          "The film received an Academy Award nomination for Best Picture but lost to RKO- Radio's\" Cimarron East Lynne\" is a melodrama starring Ann Harding, Clive Brook, Conrad Nagel and Cecilia Loftus.",
+          "Only one copy of the film is known to exist, although, somehow, bootleg DVD copies exist, minus the final scene.",
+          "This print is in good shape, although several frames have an\" X\" on them, indicating they were to be removed in the film editing stage.",
+          "One frame has a\" crosshairs\" on it while several frames have ink marks.",
+          "People may view the film at University of California Los Angeles's Instructional Media Lab, Powell Library, after arranging an appointment.",
+          "The film is the third adaptation of the book produced by Fox.",
+          "Previous versions are the 1916 release with Theda Bara and the one in 1922 starring Alma Rubens."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"The Pursuit of Happiness (1971 film)\"",
+        "sentences": [
+          "The Pursuit of Happiness is a 1971 American drama film about a student who goes on the run to avoid serving his full prison sentence for vehicular manslaughter.",
+          "The film was directed by Robert Mulligan.",
+          "The producer was David Susskind and the associate producer, Alan Shayne.",
+          "The screenplay was written by Jon Boothe and George L. Sherman."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Happiness Is (film)\"",
+        "sentences": [
+          "Happiness Is is a 2009 documentary film that the examines the different interpretations of the \"pursuit of happiness\" in America.",
+          "The film features interviews with notable personalities such as the Dalai Lama, Willie Nelson and John Mellencamp as well as happiness authors Daniel Gilbert, Gretchen Rubin and Darrin McMahon.",
+          "It's the second film from director and writer Andrew Shapter."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"East Lynne (1925 film)\"",
+        "sentences": [
+          "East Lynne is a 1925 American silent drama film directed by Emmett J. Flynn and starring Alma Rubens, Edmund Lowe, and Lou Tellegen.",
+          "The film is based on the bestselling 1861 Victorian novel of the same name by Ellen Wood.",
+          "The scenario was written by Lenore Coffee and the film's director, Emmett J. Flynn.",
+          "Distributed by Fox Film Corporation, the film was a hit for the studio grossing$ 1.1 million.",
+          "A print of this 1925\" East Lynne\" still exists at the Museum of Modern Art( MOMA)."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Gridiron Flash\"",
+        "sentences": [
+          "Gridiron Flash is a 1934 film.",
+          "It made a profit of$ 43,000."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      13,
+      16
+    ]
+  },
+  {
+    "question_id": 29,
+    "id": "a3939d3b08a111ebbd79ac1f6bf848b6",
+    "question": "Which film was released more recently, Girl Slaves Of Morgana Le Fay or Strawberry Shortcake: Rockaberry Roll?",
+    "answer": "Strawberry Shortcake: Rockaberry Roll",
+    "type": "comparison",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Girl Slaves of Morgana Le Fay\"",
+        "sentences": [
+          "Girl Slaves of Morgana",
+          "Le Fay is a 1971 French film by Bruno Gantillon, an erotic and parodic tale involving Morgan le Fay and a castle full of women in the French countryside.",
+          "Morgan rules the island Avalon as if it were Lesbos in a lesbian exploitative movie praised by critics for its setup and characters, and named a\" neglected Eurotrash classic\"."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Strawberry Shortcake: Let's Dance\"",
+        "sentences": [
+          "Strawberry Shortcake:",
+          "Let's Dance is a Direct- to- DVD feature that was released on October 2, 2007 by 20th Century Fox Home Entertainment, although it was given an early release by Kidtoon Films on September 1, 2007 in select Cinemas."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Love Slaves of the Amazons\"",
+        "sentences": [
+          "Love Slaves of the Amazons is a 1957 adventure film, written and directed by Curt Siodmak."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"The Strawberry Shortcake Movie: Sky's the Limit\"",
+        "sentences": [
+          "The Strawberry Shortcake Movie: Sky's the Limit (known as The Strawberry Shortcake Movie by viewers) is a 2009 American/Canadian/French CGI-animated direct-to-video film directed by Michael Hack and Mucci Fassett.",
+          "It serves as the pilot for Strawberry Shortcake's Berry Bitty Adventures, a series that aired one year after the film's release.",
+          "It also takes place after a pilot cartoon based on it."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Strawberry Shortcake: The Sweet Dreams Movie\"",
+        "sentences": [
+          "Strawberry Shortcake:",
+          "The Sweet Dreams Movie is a 2006 American computer- animated family fantasy adventure film produced by DIC Entertainment Corporation and released theatrically in select cities on October 7, 2006 by Kidtoon Films.",
+          "It was the first feature- length film to feature the eponymous American Greetings property, and stars the voices of Sarah Heinke, Rachel Ware, Nils Haaland, and Bridget Robbins.",
+          "The film also includes the first appearance of the villain, the Peculiar Pie Man, since Nelvana's Strawberry Shortcake specials from more than twenty years earlier."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Strawberry Shortcake Meets the Berrykins\"",
+        "sentences": [
+          "Strawberry Shortcake Meets the Berrykins is a 1985 animated television special from Canada's Nelvana Limited, and the last one until DiC's revival to feature the American Greetings character, Strawberry Shortcake (2003–2009).",
+          "In 1985, the special gained popularity in the United Kingdom when it was used as a theatrical featurette alongside \"The Care Bears Movie\", introducing the Strawberry Shortcake franchise to a British public who at the time were largely unaware of it."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"The Wonderful World of Captain Kuhio\"",
+        "sentences": [
+          "The film was released in Japan on 10 October 2009."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Strawberry Shortcake: Rockaberry Roll\"",
+        "sentences": [
+          "Strawberry Shortcake: Rockaberry Roll is a Direct-to-DVD feature that was released on August 12, 2008 by 20th Century Fox Home Entertainment, and was later shown theaterically by Kidtoon Films in October 2008."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Azaad Desh Ke Gulam\"",
+        "sentences": [
+          "Azaad Desh Ke Gulam(\" Slaves of a Free Nation\") is a 1990 Indian Hindi film released on 6 April, starring Jackie Shroff and Rekha.",
+          "The film was a remake of Tamil film\" Sudhanthira Naattin Adimaigal\".",
+          "The film was a hit."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"Slaves of Babylon\"",
+        "sentences": [
+          "Slaves of Babylon is a 1953 American Technicolor adventure film directed by William Castle and starring Richard Conte and Linda Christian"
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      1,
+      16
+    ]
+  },
+  {
+    "question_id": 30,
+    "id": "20cc79b80bde11eba7f7acde48001122",
+    "question": "Where does Alexander Aris's mother work at?",
+    "answer": "United Nations",
+    "type": "compositional",
+    "documents": [
+      {
+        "doc_idx": 0,
+        "title": "\"Alan McKenzie\"",
+        "sentences": [
+          "Alan McKenzie is a British comics writer and editor known for his work at\" 2000 AD\"."
+        ]
+      },
+      {
+        "doc_idx": 1,
+        "title": "\"Frank Wildhorn\"",
+        "sentences": [
+          "Frank Wildhorn( born November 29, 1958) is an American composer known for both his musicals and popular songs.",
+          "He is most known for his musical\" Jekyll& Hyde\", which ran four years on Broadway, and for writing the# 1 International hit song\" Where Do Broken Hearts Go\" for Whitney Houston."
+        ]
+      },
+      {
+        "doc_idx": 2,
+        "title": "\"Sheena Shahabadi\"",
+        "sentences": [
+          "Sheena Shahabadi( born 10 April 1986 in Mumbai) is an Indian film actress.",
+          "Her first film role was starring in the film\" Teree Sang\"( 2009).",
+          "She is the daughter of the, rajkumar shahbadi.",
+          "And, actress, Sadhana Singh.",
+          "She became interested in acting because of her mother's work.",
+          "Shahabadi was formerly married to Vaibhav Gore."
+        ]
+      },
+      {
+        "doc_idx": 3,
+        "title": "\"Mordechai Rotenberg\"",
+        "sentences": [
+          "Mordechai Rotenberg( 1932) is an Israeli professor of social work at the Hebrew University of Jerusalem."
+        ]
+      },
+      {
+        "doc_idx": 4,
+        "title": "\"Alexander Aris\"",
+        "sentences": [
+          "Alexander Aris Myint San Aung (born 12 April 1973) is a British civil rights activist.",
+          "Alexander Aris is the elder son of Aung San Suu Kyi and Michael Aris.",
+          "He is also a grandson of Aung San, who achieved the independence Of Myanmar (although he was assassinated in 1947, six months before the independence)."
+        ]
+      },
+      {
+        "doc_idx": 5,
+        "title": "\"Christopher Shinn\"",
+        "sentences": [
+          "Christopher Shinn is an American playwright.",
+          "His play\" Dying City\"( 2006) was a finalist for the 2008 Pulitzer Prize for Drama, and\" Where Do We Live\"( 2004) won the 2005 Obie Award, Playwriting."
+        ]
+      },
+      {
+        "doc_idx": 6,
+        "title": "\"Jonathan Woodhouse\"",
+        "sentences": [
+          "Jonathan Woodhouse( born 1987) is an English actor, director and producer.",
+          "Woodhouse was born in London and attended school and college in the London Borough of Newham.",
+          "He is of English and Filipino descent.",
+          "He studied for a Master of Arts in Theatre at Royal Holloway, University of London before founding Encompass Productions, an artistic production company.",
+          "He directed and produced Encompass' first major project' What It Feels Like', a new play that premiered at the 2011 Edinburgh Fringe festival to critical acclaim.",
+          "His first major acting role was in the film The Lady directed by Luc Besson, playing' Alexander Aris', the eldest son of Burmese opposition leader Aung San Suu Kyi( played by Michelle Yeoh) and Michael Aris( David Thewlis).",
+          "He is currently working in London on a number of theatre and short film projects."
+        ]
+      },
+      {
+        "doc_idx": 7,
+        "title": "\"Dave Grossman (game developer)\"",
+        "sentences": [
+          "Dave Grossman is an American game programmer and game designer, most known for his work at Telltale Games and early work at LucasArts.",
+          "He has also written several children's books, and a book of\" guy poetry\" called\" Ode to the Stuff in the Sink\"."
+        ]
+      },
+      {
+        "doc_idx": 8,
+        "title": "\"Aung San Suu Kyi\"",
+        "sentences": [
+          "Aung San Suu Kyi (born 19 June 1945) is a Burmese politician, diplomat, author, and Nobel Peace Prize laureate (1991).",
+          "The first and incumbent State Counsellor (a position akin to a prime minister leader) of Myanmar",
+          ", she is also the leader of the National League for Democracy and played a vital role in the state's transition from military junta to partial democracy.",
+          "Of late, she has attracted considerable criticism for having enabled the state-perpetrated genocide of Rohingyas.",
+          "The youngest daughter of Aung San, Father of the Nation of modern-day Myanmar, and Khin Kyi, Aung San Suu Kyi was born in Rangoon, British Burma.",
+          "After graduating from the University of Delhi in 1964 and the University of Oxford in 1968, she worked at the United Nations for three years.",
+          "She married Michael Aris in 1972, with whom she had two children.",
+          "Aung San Suu Kyi rose to prominence in the 1988 Uprisings, and became the General Secretary of the National League for Democracy (NLD), which she had newly formed with the help of several retired army officials who criticized the military junta.",
+          "In the 1990 elections, NLD won 81% of the seats in Parliament, but the results were nullified, as the military refused to hand over power, resulting in an international outcry.",
+          "She had, however, already been detained under house arrest before the elections.",
+          "She remained under house arrest for almost 15 of the 21 years from 1989 to 2010, becoming one of the world's most prominent political prisoners.",
+          "Her party boycotted the 2010 elections, resulting in a decisive victory for the military-backed Union Solidarity and Development Party.",
+          "Aung San Suu Kyi became a Pyithu Hluttaw MP while her party won 43 of the 45 vacant seats in the 2012 by-elections.",
+          "In the 2015 elections, her party won a landslide victory, taking 86% of the seats in the Assembly of the Union – well more than the 67% supermajority needed to ensure that its preferred candidates were elected President and Second Vice President in the Presidential Electoral College.",
+          "Although she was prohibited from becoming the President due to a clause in the constitution –",
+          "her late husband and children are foreign citizens – she assumed the newly created role of State Counsellor, a role akin to a Prime Minister or a head of government.",
+          "Aung San Suu Kyi's honours include the Nobel Peace Prize (1991).",
+          "\"",
+          "Time Magazine\" had named her one of the \"Children of Gandhi\" and his spiritual heir to nonviolence.\nSince ascending to the office of State Counsellor, Aung San Suu Kyi has drawn criticism from several countries, organisations and figures over her alleged inaction in response to the genocide of the Rohingya people in Rakhine State and refusal to accept that Myanmar's military has committed massacres.",
+          "Under her leadership, Myanmar has also drawn criticism for prosecutions of journalists."
+        ]
+      },
+      {
+        "doc_idx": 9,
+        "title": "\"David Shute\"",
+        "sentences": [
+          "David Shute is a British journalist, best known for his work at the BBC."
+        ]
+      }
+    ],
+    "gold_sentence_indices": [
+      11,
+      29
+    ]
+  }
+]

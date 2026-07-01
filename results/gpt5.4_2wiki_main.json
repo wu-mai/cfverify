@@ -1,0 +1,147 @@
+{
+  "dataset": "2WikiMultihopQA",
+  "model": "gpt-5.4",
+  "N": 27,
+  "gold_removal_flip_rate": 0.9629629629629629,
+  "gold_removal_flip_count": 26,
+  "random_removal_flip_rate": 0.0,
+  "random_removal_flip_count": 0,
+  "hallucination_rate": 0.037037037037037035,
+  "results": {
+    "1": {
+      "cond1": "Carlo Ponti",
+      "cond2": "insufficient evidence",
+      "cond3": "Carlo Ponti"
+    },
+    "2": {
+      "cond1": "New York City",
+      "cond2": "insufficient evidence",
+      "cond3": "New York City"
+    },
+    "3": {
+      "cond1": "Skopje, Macedonia",
+      "cond2": "insufficient evidence",
+      "cond3": "Skopje, Macedonia"
+    },
+    "7": {
+      "cond1": "Alexander Pushkin",
+      "cond2": "insufficient evidence",
+      "cond3": "Alexander Pushkin"
+    },
+    "8": {
+      "cond1": "Martinique",
+      "cond2": "insufficient evidence",
+      "cond3": "Martinique"
+    },
+    "9": {
+      "cond1": "3,949",
+      "cond2": "insufficient evidence",
+      "cond3": "3,949"
+    },
+    "10": {
+      "cond1": "yes",
+      "cond2": "insufficient evidence",
+      "cond3": "yes"
+    },
+    "11": {
+      "cond1": "Traveler On All Saints' Day",
+      "cond2": "insufficient evidence",
+      "cond3": "Traveler On All Saints' Day"
+    },
+    "12": {
+      "cond1": "New York, New York",
+      "cond2": "insufficient evidence",
+      "cond3": "New York, New York"
+    },
+    "13": {
+      "cond1": "Mizzi Griebl",
+      "cond2": "insufficient evidence",
+      "cond3": "Mizzi Griebl"
+    },
+    "14": {
+      "cond1": "yes",
+      "cond2": "insufficient evidence",
+      "cond3": "yes"
+    },
+    "15": {
+      "cond1": "yes",
+      "cond2": "insufficient evidence",
+      "cond3": "yes"
+    },
+    "16": {
+      "cond1": "Rosenstein Castle",
+      "cond2": "insufficient evidence",
+      "cond3": "Rosenstein Castle"
+    },
+    "17": {
+      "cond1": "Turkic Khaganate",
+      "cond2": "insufficient evidence",
+      "cond3": "Turkic Khaganate"
+    },
+    "18": {
+      "cond1": "Ona Munson",
+      "cond2": "insufficient evidence",
+      "cond3": "Ona Munson"
+    },
+    "19": {
+      "cond1": "Haris Bashir",
+      "cond2": "insufficient evidence",
+      "cond3": "Haris Bashir"
+    },
+    "20": {
+      "cond1": "Cascais",
+      "cond2": "insufficient evidence",
+      "cond3": "Cascais"
+    },
+    "21": {
+      "cond1": "yes",
+      "cond2": "insufficient evidence",
+      "cond3": "yes"
+    },
+    "22": {
+      "cond1": "Jung Il-woo",
+      "cond2": "insufficient evidence",
+      "cond3": "Jung Il-woo"
+    },
+    "23": {
+      "cond1": "American",
+      "cond2": "insufficient evidence",
+      "cond3": "American"
+    },
+    "24": {
+      "cond1": "Kim Ji-Sun",
+      "cond2": "insufficient evidence",
+      "cond3": "Kim Ji-Sun"
+    },
+    "25": {
+      "cond1": "Münster",
+      "cond2": "insufficient evidence",
+      "cond3": "Münster"
+    },
+    "26": {
+      "cond1": "Kevin Of The North",
+      "cond2": "insufficient evidence",
+      "cond3": "Kevin Of The North"
+    },
+    "27": {
+      "cond1": "Burma",
+      "cond2": "Burma",
+      "cond3": "Burma"
+    },
+    "28": {
+      "cond1": "yes",
+      "cond2": "insufficient evidence",
+      "cond3": "yes"
+    },
+    "29": {
+      "cond1": "Strawberry Shortcake: Rockaberry Roll",
+      "cond2": "insufficient evidence",
+      "cond3": "Strawberry Shortcake: Rockaberry Roll"
+    },
+    "30": {
+      "cond1": "United Nations",
+      "cond2": "insufficient evidence",
+      "cond3": "United Nations"
+    }
+  }
+}
