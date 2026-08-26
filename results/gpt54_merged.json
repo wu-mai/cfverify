@@ -1,0 +1,3388 @@
+{
+  "model": "gpt-5.4",
+  "K": 3,
+  "n_questions": 60,
+  "answered_count": 52,
+  "f1_ghat_vs_gold_mean": 0.8346825396825397,
+  "f1_ghat_vs_gold_median": 1.0,
+  "answered_targeted_flip": 48,
+  "answered_random_flip": 57,
+  "answered_random_total": 156,
+  "pred_nonempty": 56,
+  "timestamp": "2026-08-22T09:46:35",
+  "total_seconds": 1297.1792600154877,
+  "records": [
+    {
+      "dataset": "hotpotqa",
+      "qid": 1,
+      "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        3,
+        16
+      ],
+      "raw_merged_output": "Yes.\n{\"essential_indices\":[3,16]}",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        3,
+        16
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        3,
+        16
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 1047,
+          "random_removed": [
+            6,
+            18
+          ],
+          "answer": "yes",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 1078,
+          "random_removed": [
+            7,
+            9
+          ],
+          "answer": "yes, both were american",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 1109,
+          "random_removed": [
+            6,
+            26
+          ],
+          "answer": "yes",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 2,
+      "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+      "gold_answer": "Chief of Protocol",
+      "gold_indices": [
+        4,
+        5,
+        17
+      ],
+      "raw_merged_output": "United States ambassador  \n{\"essential_indices\":[17,5]}",
+      "cond1_merged_answer": "United States ambassador",
+      "cond1_ghat": [
+        5,
+        17
+      ],
+      "f1_vs_gold": 0.8,
+      "target_removed_indices": [
+        5,
+        17
+      ],
+      "cond2_target_removed_answer": "diplomat",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 2056,
+          "random_removed": [
+            19,
+            30,
+            35
+          ],
+          "answer": "u.s. ambassador to ghana and czechoslovakia; chief of protocol",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 2087,
+          "random_removed": [
+            10,
+            11,
+            18
+          ],
+          "answer": "united states ambassador and chief of protocol",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 2118,
+          "random_removed": [
+            0,
+            10,
+            30
+          ],
+          "answer": "united states ambassador to ghana and czechoslovakia",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 3,
+      "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+      "gold_answer": "Animorphs",
+      "gold_indices": [
+        9,
+        10,
+        11,
+        39,
+        40
+      ],
+      "raw_merged_output": "Animorphs\n{\"essential_indices\":[9,11,12,39,40]}",
+      "cond1_merged_answer": "Animorphs",
+      "cond1_ghat": [
+        9,
+        11,
+        12,
+        39,
+        40
+      ],
+      "f1_vs_gold": 0.8000000000000002,
+      "target_removed_indices": [
+        9,
+        11,
+        12,
+        39,
+        40
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 3065,
+          "random_removed": [
+            4,
+            12,
+            13,
+            31,
+            36
+          ],
+          "answer": "animorphs",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 3096,
+          "random_removed": [
+            2,
+            18,
+            30,
+            34,
+            36
+          ],
+          "answer": "animorphs",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 3127,
+          "random_removed": [
+            1,
+            3,
+            15,
+            21,
+            26
+          ],
+          "answer": "animorphs",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 4,
+      "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+      "gold_answer": "no",
+      "gold_indices": [
+        21,
+        22
+      ],
+      "raw_merged_output": "insufficient evidence\n{\"essential_indices\":[21,22]}",
+      "cond1_merged_answer": "insufficient evidence",
+      "cond1_ghat": [
+        21,
+        22
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        21,
+        22
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": false,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 4074,
+          "random_removed": [
+            2,
+            13
+          ],
+          "answer": "no",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 4105,
+          "random_removed": [
+            3,
+            16
+          ],
+          "answer": "no",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 4136,
+          "random_removed": [
+            23,
+            26
+          ],
+          "answer": "no, they are in different neighborhoods",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 5,
+      "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+      "gold_answer": "Greenwich Village, New York City",
+      "gold_indices": [
+        9,
+        49
+      ],
+      "raw_merged_output": "New York City\n{\"essential_indices\":[49,9]}",
+      "cond1_merged_answer": "New York City",
+      "cond1_ghat": [
+        9,
+        49
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        9,
+        49
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 5083,
+          "random_removed": [
+            16,
+            30
+          ],
+          "answer": "new york city",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 5114,
+          "random_removed": [
+            14,
+            34
+          ],
+          "answer": "new york city",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 5145,
+          "random_removed": [
+            21,
+            38
+          ],
+          "answer": "greenwich village, new york city",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 6,
+      "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+      "gold_answer": "YG Entertainment",
+      "gold_indices": [
+        11,
+        18
+      ],
+      "raw_merged_output": "YG Entertainment\n{\"essential_indices\":[11,18]}",
+      "cond1_merged_answer": "YG Entertainment",
+      "cond1_ghat": [
+        11,
+        18
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        11,
+        18
+      ],
+      "cond2_target_removed_answer": "yg entertainment",
+      "targeted_flipped": false,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 6092,
+          "random_removed": [
+            34,
+            42
+          ],
+          "answer": "yg entertainment",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 6123,
+          "random_removed": [
+            3,
+            38
+          ],
+          "answer": "yg entertainment",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 6154,
+          "random_removed": [
+            37,
+            38
+          ],
+          "answer": "yg entertainment",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 7,
+      "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+      "gold_answer": "Eenasul Fateh",
+      "gold_indices": [
+        20,
+        34
+      ],
+      "raw_merged_output": "Eenasul Fateh\n{\"essential_indices\":[20,34]}",
+      "cond1_merged_answer": "Eenasul Fateh",
+      "cond1_ghat": [
+        20,
+        34
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        20,
+        34
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 7101,
+          "random_removed": [
+            1,
+            18
+          ],
+          "answer": "eenasul fateh",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 7132,
+          "random_removed": [
+            11,
+            50
+          ],
+          "answer": "eenasul fateh",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 7163,
+          "random_removed": [
+            11,
+            39
+          ],
+          "answer": "eenasul fateh",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 8,
+      "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+      "gold_answer": "3,677 seated",
+      "gold_indices": [
+        54,
+        64
+      ],
+      "raw_merged_output": "4,000 people (3,677 seated)\n{\"essential_indices\":[54,63,64]}",
+      "cond1_merged_answer": "4,000 people (3,677 seated)",
+      "cond1_ghat": [
+        54,
+        63,
+        64
+      ],
+      "f1_vs_gold": 0.8,
+      "target_removed_indices": [
+        54,
+        63,
+        64
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 8110,
+          "random_removed": [
+            3,
+            13
+          ],
+          "answer": "3,677 people",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 8141,
+          "random_removed": [
+            8,
+            20
+          ],
+          "answer": "3,677 seated",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 8172,
+          "random_removed": [
+            6,
+            51
+          ],
+          "answer": "3,677 seated",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 9,
+      "question": "Who is older, Annie Morton or Terry Richardson?",
+      "gold_answer": "Terry Richardson",
+      "gold_indices": [
+        0,
+        2,
+        10
+      ],
+      "raw_merged_output": "Terry Richardson\n{\"essential_indices\":[0,10]}",
+      "cond1_merged_answer": "Terry Richardson",
+      "cond1_ghat": [
+        0,
+        10
+      ],
+      "f1_vs_gold": 0.8,
+      "target_removed_indices": [
+        0,
+        10
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 9119,
+          "random_removed": [
+            22,
+            32,
+            36
+          ],
+          "answer": "terry richardson",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 9150,
+          "random_removed": [
+            9,
+            13,
+            15
+          ],
+          "answer": "terry richardson is older",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 9181,
+          "random_removed": [
+            14,
+            27,
+            34
+          ],
+          "answer": "terry richardson is older",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 10,
+      "question": "Are Local H and For Against both from the United States?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        20,
+        30
+      ],
+      "raw_merged_output": "Yes.\n{\"essential_indices\":[20,30]}",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        20,
+        30
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        20,
+        30
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 10128,
+          "random_removed": [
+            37,
+            40
+          ],
+          "answer": "yes",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 10159,
+          "random_removed": [
+            2,
+            22
+          ],
+          "answer": "yes",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 10190,
+          "random_removed": [
+            14,
+            18
+          ],
+          "answer": "yes",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 11,
+      "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+      "gold_answer": "Kansas Song",
+      "gold_indices": [
+        27,
+        44,
+        45
+      ],
+      "raw_merged_output": "Kansas Song\n{\"essential_indices\":[27,43,44,45]}",
+      "cond1_merged_answer": "Kansas Song",
+      "cond1_ghat": [
+        27,
+        43,
+        44,
+        45
+      ],
+      "f1_vs_gold": 0.8571428571428571,
+      "target_removed_indices": [
+        27,
+        43,
+        44,
+        45
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 11137,
+          "random_removed": [
+            31,
+            33,
+            34
+          ],
+          "answer": "kansas song (we\u2019re from kansas)",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 11168,
+          "random_removed": [
+            13,
+            21,
+            33
+          ],
+          "answer": "kansas song (we\u2019re from kansas)",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 11199,
+          "random_removed": [
+            1,
+            2,
+            15
+          ],
+          "answer": "kansas song (we\u2019re from kansas)",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 12,
+      "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+      "gold_answer": "David Weissman",
+      "gold_indices": [
+        18,
+        19,
+        37
+      ],
+      "raw_merged_output": "David Weissman\n{\"essential_indices\":[18,19,37]}",
+      "cond1_merged_answer": "David Weissman",
+      "cond1_ghat": [
+        18,
+        19,
+        37
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        18,
+        19,
+        37
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 12146,
+          "random_removed": [
+            12,
+            16,
+            21
+          ],
+          "answer": "david weissman",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 12177,
+          "random_removed": [
+            13,
+            24,
+            38
+          ],
+          "answer": "david weissman",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 12208,
+          "random_removed": [
+            13,
+            24,
+            34
+          ],
+          "answer": "david weissman",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 13,
+      "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+      "gold_answer": "1999",
+      "gold_indices": [
+        38,
+        39,
+        40
+      ],
+      "raw_merged_output": "1999\n{\"essential_indices\":[38,39,40]}",
+      "cond1_merged_answer": "1999",
+      "cond1_ghat": [
+        38,
+        39,
+        40
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        38,
+        39,
+        40
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 13155,
+          "random_removed": [
+            11,
+            42,
+            43
+          ],
+          "answer": "1999",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 13186,
+          "random_removed": [
+            9,
+            25,
+            43
+          ],
+          "answer": "1999",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 13217,
+          "random_removed": [
+            7,
+            18,
+            21
+          ],
+          "answer": "1999",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 14,
+      "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+      "gold_answer": "no",
+      "gold_indices": [
+        13,
+        16
+      ],
+      "raw_merged_output": "Yes.\n\n{\"essential_indices\":[11,16,17}",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        13,
+        16
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 14164,
+          "random_removed": [
+            2,
+            55
+          ],
+          "answer": "insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 14195,
+          "random_removed": [
+            15,
+            47
+          ],
+          "answer": "insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 14226,
+          "random_removed": [
+            25,
+            29
+          ],
+          "answer": "insufficient evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 15,
+      "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+      "gold_answer": "from 1986 to 2013",
+      "gold_indices": [
+        12,
+        13,
+        22
+      ],
+      "raw_merged_output": "1986\u20132013\n{\"essential_indices\":[12,22]}",
+      "cond1_merged_answer": "1986\u20132013",
+      "cond1_ghat": [
+        12,
+        22
+      ],
+      "f1_vs_gold": 0.8,
+      "target_removed_indices": [
+        12,
+        22
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 15173,
+          "random_removed": [
+            1,
+            6,
+            9
+          ],
+          "answer": "1986 to 2013",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 15204,
+          "random_removed": [
+            9,
+            19,
+            20
+          ],
+          "answer": "1986 to 2013",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 15235,
+          "random_removed": [
+            6,
+            7,
+            9
+          ],
+          "answer": "1986\u20132013",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 16,
+      "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+      "gold_answer": "9,984",
+      "gold_indices": [
+        11,
+        63
+      ],
+      "raw_merged_output": "insufficient evidence\n{\"essential_indices\":[11]}",
+      "cond1_merged_answer": "insufficient evidence",
+      "cond1_ghat": [
+        11
+      ],
+      "f1_vs_gold": 0.6666666666666666,
+      "target_removed_indices": [
+        11
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": false,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 16182,
+          "random_removed": [
+            45,
+            56
+          ],
+          "answer": "9,984 inhabitants",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 16213,
+          "random_removed": [
+            58,
+            61
+          ],
+          "answer": "insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 16244,
+          "random_removed": [
+            23,
+            47
+          ],
+          "answer": "9,984 inhabitants",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 17,
+      "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+      "gold_answer": "the North Atlantic Conference",
+      "gold_indices": [
+        14,
+        15,
+        16
+      ],
+      "raw_merged_output": "North Atlantic Conference\n{\"essential_indices\":[16,14]}",
+      "cond1_merged_answer": "North Atlantic Conference",
+      "cond1_ghat": [
+        14,
+        16
+      ],
+      "f1_vs_gold": 0.8,
+      "target_removed_indices": [
+        14,
+        16
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 17191,
+          "random_removed": [
+            24,
+            29,
+            33
+          ],
+          "answer": "north atlantic conference",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 17222,
+          "random_removed": [
+            9,
+            17,
+            33
+          ],
+          "answer": "north atlantic conference",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 17253,
+          "random_removed": [
+            6,
+            21,
+            22
+          ],
+          "answer": "north atlantic conference",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 18,
+      "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        12,
+        16
+      ],
+      "raw_merged_output": "Yes.\n\n{\"essential_indices\":[12,16]}",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        12,
+        16
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        12,
+        16
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 18200,
+          "random_removed": [
+            23,
+            31
+          ],
+          "answer": "yes",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 18231,
+          "random_removed": [
+            18,
+            24
+          ],
+          "answer": "insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 18262,
+          "random_removed": [
+            7,
+            24
+          ],
+          "answer": "yes",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 19,
+      "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+      "gold_answer": "1969 until 1974",
+      "gold_indices": [
+        8,
+        38
+      ],
+      "raw_merged_output": "1969\u20131974\n{\"essential_indices\":[38,8]}",
+      "cond1_merged_answer": "1969\u20131974",
+      "cond1_ghat": [
+        8,
+        38
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        8,
+        38
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 19209,
+          "random_removed": [
+            12,
+            21
+          ],
+          "answer": "1969\u20131974",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 19240,
+          "random_removed": [
+            15,
+            29
+          ],
+          "answer": "1969\u20131974",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 19271,
+          "random_removed": [
+            2,
+            22
+          ],
+          "answer": "1969\u20131974",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 20,
+      "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+      "gold_answer": "Robert Erskine Childers DSC",
+      "gold_indices": [
+        3,
+        17
+      ],
+      "raw_merged_output": "Robert Erskine Childers\n{\"essential_indices\":[1,3]}",
+      "cond1_merged_answer": "Robert Erskine Childers",
+      "cond1_ghat": [
+        1,
+        3
+      ],
+      "f1_vs_gold": 0.5,
+      "target_removed_indices": [
+        1,
+        3
+      ],
+      "cond2_target_removed_answer": "robert erskine childers",
+      "targeted_flipped": false,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 20218,
+          "random_removed": [
+            1,
+            29
+          ],
+          "answer": "robert erskine childers",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 20249,
+          "random_removed": [
+            10,
+            19
+          ],
+          "answer": "robert erskine childers",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 20280,
+          "random_removed": [
+            9,
+            10
+          ],
+          "answer": "robert erskine childers",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 21,
+      "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+      "gold_answer": "Pedro Rodr\u00edguez",
+      "gold_indices": [
+        17,
+        33,
+        34
+      ],
+      "raw_merged_output": "Pedro Rodr\u00edguez\n{\"essential_indices\":[17,33,34]}",
+      "cond1_merged_answer": "Pedro Rodr\u00edguez",
+      "cond1_ghat": [
+        17,
+        33,
+        34
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        17,
+        33,
+        34
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 21227,
+          "random_removed": [
+            11,
+            14,
+            21
+          ],
+          "answer": "pedro rodr\u00edguez",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 21258,
+          "random_removed": [
+            3,
+            9,
+            15
+          ],
+          "answer": "pedro rodr\u00edguez",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 21289,
+          "random_removed": [
+            10,
+            19,
+            21
+          ],
+          "answer": "pedro rodr\u00edguez",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 22,
+      "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+      "gold_answer": "Badly Drawn Boy",
+      "gold_indices": [
+        1,
+        20
+      ],
+      "raw_merged_output": "Badly Drawn Boy  \n{\"essential_indices\":[1,20,22]}",
+      "cond1_merged_answer": "Badly Drawn Boy",
+      "cond1_ghat": [
+        1,
+        20,
+        22
+      ],
+      "f1_vs_gold": 0.8,
+      "target_removed_indices": [
+        1,
+        20,
+        22
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 22236,
+          "random_removed": [
+            13,
+            27
+          ],
+          "answer": "wolf alice",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 22267,
+          "random_removed": [
+            7,
+            18
+          ],
+          "answer": "insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 22298,
+          "random_removed": [
+            4,
+            28
+          ],
+          "answer": "badly drawn boy",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 23,
+      "question": "Are both Dictyosperma, and Huernia described as a genus?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        0,
+        5
+      ],
+      "raw_merged_output": "Yes.\n\n{\"essential_indices\":[0,5]}",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        0,
+        5
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        0,
+        5
+      ],
+      "cond2_target_removed_answer": "yes",
+      "targeted_flipped": false,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 23245,
+          "random_removed": [
+            8,
+            9
+          ],
+          "answer": "yes",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 23276,
+          "random_removed": [
+            3,
+            9
+          ],
+          "answer": "yes",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 23307,
+          "random_removed": [
+            4,
+            7
+          ],
+          "answer": "yes",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 24,
+      "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+      "gold_answer": "Fujioka, Gunma",
+      "gold_indices": [
+        4,
+        15
+      ],
+      "raw_merged_output": "Fujioka, Gunma\n\n{\"essential_indices\":[15]}",
+      "cond1_merged_answer": "Fujioka, Gunma",
+      "cond1_ghat": [
+        15
+      ],
+      "f1_vs_gold": 0.6666666666666666,
+      "target_removed_indices": [
+        15
+      ],
+      "cond2_target_removed_answer": "japan",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 24254,
+          "random_removed": [
+            8,
+            28
+          ],
+          "answer": "fujioka, gunma, japan",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 24285,
+          "random_removed": [
+            0,
+            20
+          ],
+          "answer": "fujioka, gunma, japan",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 24316,
+          "random_removed": [
+            17,
+            22
+          ],
+          "answer": "fujioka, gunma, japan",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 25,
+      "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+      "gold_answer": "no",
+      "gold_indices": [
+        39,
+        42
+      ],
+      "raw_merged_output": "No.\n{\"essential_indices\":[39,42]}",
+      "cond1_merged_answer": "No",
+      "cond1_ghat": [
+        39,
+        42
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        39,
+        42
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 25263,
+          "random_removed": [
+            3,
+            38
+          ],
+          "answer": "no. freakonomics is american; in the realm of the hackers is australian",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 25294,
+          "random_removed": [
+            1,
+            13
+          ],
+          "answer": "no. freakonomics is american, but in the realm of the hackers is australian",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 25325,
+          "random_removed": [
+            5,
+            34
+          ],
+          "answer": "no. freakonomics is american; in the realm of the hackers is australian",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 26,
+      "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+      "gold_answer": "Letters to Cleo",
+      "gold_indices": [
+        0,
+        1,
+        30,
+        31
+      ],
+      "raw_merged_output": "Letters to Cleo\n\n{\"essential_indices\":[1,30,31]}",
+      "cond1_merged_answer": "Letters to Cleo",
+      "cond1_ghat": [
+        1,
+        30,
+        31
+      ],
+      "f1_vs_gold": 0.8571428571428571,
+      "target_removed_indices": [
+        1,
+        30,
+        31
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 26272,
+          "random_removed": [
+            11,
+            14,
+            32,
+            38
+          ],
+          "answer": "letters to cleo",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 26303,
+          "random_removed": [
+            10,
+            21,
+            23,
+            33
+          ],
+          "answer": "letters to cleo",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 26334,
+          "random_removed": [
+            11,
+            28,
+            33,
+            35
+          ],
+          "answer": "letters to cleo had more members",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 27,
+      "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+      "gold_answer": "no",
+      "gold_indices": [
+        9,
+        10
+      ],
+      "raw_merged_output": "No.\n\n{\"essential_indices\":[9,10]}",
+      "cond1_merged_answer": "No",
+      "cond1_ghat": [
+        9,
+        10
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        9,
+        10
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 27281,
+          "random_removed": [
+            15,
+            20
+          ],
+          "answer": "no",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 27312,
+          "random_removed": [
+            0,
+            28
+          ],
+          "answer": "no",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 27343,
+          "random_removed": [
+            24,
+            30
+          ],
+          "answer": "no",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 28,
+      "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+      "gold_answer": "Scotch Collie",
+      "gold_indices": [
+        9,
+        38,
+        41
+      ],
+      "raw_merged_output": "The Scotch Collie\n{\"essential_indices\":[40,41]}",
+      "cond1_merged_answer": "The Scotch Collie",
+      "cond1_ghat": [
+        40,
+        41
+      ],
+      "f1_vs_gold": 0.4,
+      "target_removed_indices": [
+        40,
+        41
+      ],
+      "cond2_target_removed_answer": "scotch collie",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 28290,
+          "random_removed": [
+            2,
+            25,
+            31
+          ],
+          "answer": "scotch collie",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 28321,
+          "random_removed": [
+            13,
+            15,
+            37
+          ],
+          "answer": "scotch collie",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 28352,
+          "random_removed": [
+            14,
+            45,
+            47
+          ],
+          "answer": "scotch collie",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 29,
+      "question": "Are Ferocactus and Silene both types of plant?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        11,
+        43
+      ],
+      "raw_merged_output": "Yes.\n{\"essential_indices\":[11,43]}",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        11,
+        43
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        11,
+        43
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 29299,
+          "random_removed": [
+            10,
+            29
+          ],
+          "answer": "yes",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 29330,
+          "random_removed": [
+            20,
+            39
+          ],
+          "answer": "yes",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 29361,
+          "random_removed": [
+            38,
+            51
+          ],
+          "answer": "yes",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 30,
+      "question": "Are both Cypress and Ajuga genera?",
+      "gold_answer": "no",
+      "gold_indices": [
+        8,
+        29
+      ],
+      "raw_merged_output": "insufficient evidence\n{\"essential_indices\":[8,10,29]}",
+      "cond1_merged_answer": "insufficient evidence",
+      "cond1_ghat": [
+        8,
+        10,
+        29
+      ],
+      "f1_vs_gold": 0.8,
+      "target_removed_indices": [
+        8,
+        10,
+        29
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": false,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 30308,
+          "random_removed": [
+            13,
+            30
+          ],
+          "answer": "yes",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 30339,
+          "random_removed": [
+            7,
+            11
+          ],
+          "answer": "yes",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 30370,
+          "random_removed": [
+            5,
+            21
+          ],
+          "answer": "yes",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 1,
+      "question": "Who is the father of the director of film Between Strangers?",
+      "gold_answer": "Carlo Ponti",
+      "gold_indices": [
+        4,
+        10
+      ],
+      "raw_merged_output": "Carlo Ponti Sr.\n{\"essential_indices\":[4,10]}",
+      "cond1_merged_answer": "Carlo Ponti Sr",
+      "cond1_ghat": [
+        4,
+        10
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        4,
+        10
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 1047,
+          "random_removed": [
+            1,
+            5
+          ],
+          "answer": "carlo ponti sr",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 1078,
+          "random_removed": [
+            1,
+            2
+          ],
+          "answer": "carlo ponti sr",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 1109,
+          "random_removed": [
+            1,
+            7
+          ],
+          "answer": "carlo ponti sr",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 2,
+      "question": "Where was the director of film The Smiling Ghost born?",
+      "gold_answer": "New York",
+      "gold_indices": [
+        2,
+        3
+      ],
+      "raw_merged_output": "New York, New York\n{\"essential_indices\":[2,3]}",
+      "cond1_merged_answer": "New York, New York",
+      "cond1_ghat": [
+        2,
+        3
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        2,
+        3
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 2056,
+          "random_removed": [
+            18,
+            20
+          ],
+          "answer": "new york, new york",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 2087,
+          "random_removed": [
+            6,
+            9
+          ],
+          "answer": "new york, new york",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 2118,
+          "random_removed": [
+            15,
+            22
+          ],
+          "answer": "new york, new york",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 3,
+      "question": "What is the place of birth of the director of film Random Encounter (Film)?",
+      "gold_answer": "Montreal, Quebec",
+      "gold_indices": [
+        0,
+        2
+      ],
+      "raw_merged_output": "Montreal, Quebec\n{\"essential_indices\":[0,2]}",
+      "cond1_merged_answer": "Montreal, Quebec",
+      "cond1_ghat": [
+        0,
+        2
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        0,
+        2
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 3065,
+          "random_removed": [
+            4,
+            21
+          ],
+          "answer": "montreal, quebec",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 3096,
+          "random_removed": [
+            3,
+            15
+          ],
+          "answer": "montreal, quebec",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 3127,
+          "random_removed": [
+            1,
+            23
+          ],
+          "answer": "montreal, quebec",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 4,
+      "question": "Where was the place of death of Morris Engel's wife?",
+      "gold_answer": "New York",
+      "gold_indices": [
+        0,
+        7
+      ],
+      "raw_merged_output": "insufficient evidence\n{\"essential_indices\":[]}",
+      "cond1_merged_answer": "insufficient evidence",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        0,
+        7
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": false,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 4074,
+          "random_removed": [
+            6,
+            28
+          ],
+          "answer": "insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 4105,
+          "random_removed": [
+            9,
+            35
+          ],
+          "answer": "new york city",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 4136,
+          "random_removed": [
+            1,
+            44
+          ],
+          "answer": "insufficient evidence",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 5,
+      "question": "Where did the director of film No Sin On The Alpine Pastures (1950 Film) die?",
+      "gold_answer": "Vienna",
+      "gold_indices": [
+        10,
+        13
+      ],
+      "raw_merged_output": "insufficient evidence\n{\"essential_indices\":[]}",
+      "cond1_merged_answer": "insufficient evidence",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        10,
+        13
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": false,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 5083,
+          "random_removed": [
+            17,
+            31
+          ],
+          "answer": "insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 5114,
+          "random_removed": [
+            15,
+            35
+          ],
+          "answer": "insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 5145,
+          "random_removed": [
+            22,
+            39
+          ],
+          "answer": "insufficient evidence",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 6,
+      "question": "Which song came out earlier, Can'T Remember To Forget You or Distant Lover?",
+      "gold_answer": "Distant Lover",
+      "gold_indices": [
+        8,
+        24
+      ],
+      "raw_merged_output": "Distant Lover\n{\"essential_indices\":[8,24]}",
+      "cond1_merged_answer": "Distant Lover",
+      "cond1_ghat": [
+        8,
+        24
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        8,
+        24
+      ],
+      "cond2_target_removed_answer": "distant lover",
+      "targeted_flipped": false,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 6092,
+          "random_removed": [
+            7,
+            14
+          ],
+          "answer": "distant lover",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 6123,
+          "random_removed": [
+            3,
+            28
+          ],
+          "answer": "distant lover",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 6154,
+          "random_removed": [
+            0,
+            28
+          ],
+          "answer": "distant lover",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 7,
+      "question": "Are both businesses, Quarry (Company) and Fields (Department Store), located in the same country?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        5,
+        6
+      ],
+      "raw_merged_output": "Yes.\n{\"essential_indices\":[5,6]}",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        5,
+        6
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        5,
+        6
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 7101,
+          "random_removed": [
+            0,
+            4
+          ],
+          "answer": "yes",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 7132,
+          "random_removed": [
+            2,
+            11
+          ],
+          "answer": "yes",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 7163,
+          "random_removed": [
+            2,
+            11
+          ],
+          "answer": "yes",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 8,
+      "question": "Who was born earlier, Martin Stapleton or Gina Fulton?",
+      "gold_answer": "Gina Fulton",
+      "gold_indices": [
+        3,
+        13
+      ],
+      "raw_merged_output": "Gina Fulton\n\n{\"essential_indices\":[3,13]}",
+      "cond1_merged_answer": "Gina Fulton",
+      "cond1_ghat": [
+        3,
+        13
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        3,
+        13
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 8110,
+          "random_removed": [
+            1,
+            14
+          ],
+          "answer": "martin stapleton",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 8141,
+          "random_removed": [
+            1,
+            2
+          ],
+          "answer": "gina fulton was born earlier",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 8172,
+          "random_removed": [
+            0,
+            10
+          ],
+          "answer": "gina fulton",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 9,
+      "question": "Where was the place of burial of Parysatis Ii's husband?",
+      "gold_answer": "Alexandria",
+      "gold_indices": [
+        22,
+        58
+      ],
+      "raw_merged_output": "Babylon\n{\"essential_indices\":[19,58]}",
+      "cond1_merged_answer": "Babylon",
+      "cond1_ghat": [
+        19,
+        58
+      ],
+      "f1_vs_gold": 0.5,
+      "target_removed_indices": [
+        19,
+        58
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 9119,
+          "random_removed": [
+            30,
+            48
+          ],
+          "answer": "insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 9150,
+          "random_removed": [
+            7,
+            53
+          ],
+          "answer": "insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 9181,
+          "random_removed": [
+            32,
+            44
+          ],
+          "answer": "insufficient evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 10,
+      "question": "Were Julien Guerrier and Marc Pajot of the same nationality?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        23,
+        34
+      ],
+      "raw_merged_output": "Yes\n\n{\"essential_indices\":[23,34]}",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        23,
+        34
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        23,
+        34
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 10128,
+          "random_removed": [
+            11,
+            37
+          ],
+          "answer": "yes",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 10159,
+          "random_removed": [
+            2,
+            21
+          ],
+          "answer": "yes, both were french",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 10190,
+          "random_removed": [
+            14,
+            18
+          ],
+          "answer": "yes, both were french",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 11,
+      "question": "Which film was released first, The Prince Of Temple Street or Traveler On All Saints' Day?",
+      "gold_answer": "Traveler On All Saints' Day",
+      "gold_indices": [
+        15,
+        18
+      ],
+      "raw_merged_output": "Traveler On All Saints' Day  \n{\"essential_indices\":[15,18]}",
+      "cond1_merged_answer": "Traveler On All Saints' Day",
+      "cond1_ghat": [
+        15,
+        18
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        15,
+        18
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 11137,
+          "random_removed": [
+            32,
+            34
+          ],
+          "answer": "traveler on all saints' day",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 11168,
+          "random_removed": [
+            23,
+            34
+          ],
+          "answer": "traveler on all saints' day",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 11199,
+          "random_removed": [
+            1,
+            16
+          ],
+          "answer": "traveler on all saints' day",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 12,
+      "question": "What is the place of birth of the director of film Behind The Mask (1932 Film)?",
+      "gold_answer": "New York",
+      "gold_indices": [
+        21,
+        29
+      ],
+      "raw_merged_output": "New York, New York\n{\"essential_indices\":[21,29]}",
+      "cond1_merged_answer": "New York, New York",
+      "cond1_ghat": [
+        21,
+        29
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        21,
+        29
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 12146,
+          "random_removed": [
+            6,
+            9
+          ],
+          "answer": "new york, new york",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 12177,
+          "random_removed": [
+            24,
+            25
+          ],
+          "answer": "new york, new york",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 12208,
+          "random_removed": [
+            11,
+            16
+          ],
+          "answer": "new york, new york",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 13,
+      "question": "Who died first, Mizzi Griebl or Constance Stuart Larrabee?",
+      "gold_answer": "Mizzi Griebl",
+      "gold_indices": [
+        1,
+        11
+      ],
+      "raw_merged_output": "Mizzi Griebl  \n{\"essential_indices\":[1,11]}",
+      "cond1_merged_answer": "Mizzi Griebl",
+      "cond1_ghat": [
+        1,
+        11
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        1,
+        11
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 13155,
+          "random_removed": [
+            10,
+            12
+          ],
+          "answer": "mizzi griebl died first",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 13186,
+          "random_removed": [
+            14,
+            16
+          ],
+          "answer": "mizzi griebl",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 13217,
+          "random_removed": [
+            2,
+            6
+          ],
+          "answer": "mizzi griebl died first",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 14,
+      "question": "Are Can She Bake A Cherry Pie? and Santiago Files both from the same country?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        9,
+        19
+      ],
+      "raw_merged_output": "insufficient evidence\n{\"essential_indices\":[9,17]}",
+      "cond1_merged_answer": "insufficient evidence",
+      "cond1_ghat": [
+        9,
+        17
+      ],
+      "f1_vs_gold": 0.5,
+      "target_removed_indices": [
+        9,
+        17
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": false,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 14164,
+          "random_removed": [
+            2,
+            15
+          ],
+          "answer": "insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 14195,
+          "random_removed": [
+            15,
+            25
+          ],
+          "answer": "insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 14226,
+          "random_removed": [
+            25,
+            29
+          ],
+          "answer": "insufficient evidence",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 15,
+      "question": "Are both mountains, Munti Wayi and Co\u00f1ocranra, located in the same country?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        9,
+        17
+      ],
+      "raw_merged_output": "Yes.\n{\"essential_indices\":[9,17]}",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        9,
+        17
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        9,
+        17
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 15173,
+          "random_removed": [
+            3,
+            21
+          ],
+          "answer": "yes",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 15204,
+          "random_removed": [
+            21,
+            30
+          ],
+          "answer": "yes, peru",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 15235,
+          "random_removed": [
+            14,
+            15
+          ],
+          "answer": "yes",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 16,
+      "question": "Where did Princess Augusta Of W\u00fcrttemberg's father die?",
+      "gold_answer": "Rosenstein Castle",
+      "gold_indices": [
+        9,
+        15
+      ],
+      "raw_merged_output": "Rosenstein Castle in Bad Cannstatt\n{\"essential_indices\":[15,9]}",
+      "cond1_merged_answer": "Rosenstein Castle in Bad Cannstatt",
+      "cond1_ghat": [
+        9,
+        15
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        9,
+        15
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 16182,
+          "random_removed": [
+            12,
+            26
+          ],
+          "answer": "rosenstein castle in bad cannstatt",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 16213,
+          "random_removed": [
+            17,
+            24
+          ],
+          "answer": "rosenstein castle in bad cannstatt",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 16244,
+          "random_removed": [
+            5,
+            12
+          ],
+          "answer": "rosenstein castle in bad cannstatt",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 17,
+      "question": "Where was the place of death of Muqan Qaghan's father?",
+      "gold_answer": "Turkic Khaganate",
+      "gold_indices": [
+        16,
+        52
+      ],
+      "raw_merged_output": "insufficient evidence\n{\"essential_indices\":[]}",
+      "cond1_merged_answer": "insufficient evidence",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        16,
+        52
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": false,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 17191,
+          "random_removed": [
+            27,
+            31
+          ],
+          "answer": "insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 17222,
+          "random_removed": [
+            9,
+            14
+          ],
+          "answer": "insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 17253,
+          "random_removed": [
+            6,
+            19
+          ],
+          "answer": "insufficient evidence",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 18,
+      "question": "Who is the spouse of the director of film Cross Country Cruise?",
+      "gold_answer": "Ona Munson",
+      "gold_indices": [
+        0,
+        12
+      ],
+      "raw_merged_output": "insufficient evidence\n{\"essential_indices\":[0,12,14,15]}",
+      "cond1_merged_answer": "insufficient evidence",
+      "cond1_ghat": [
+        0,
+        12,
+        14,
+        15
+      ],
+      "f1_vs_gold": 0.6666666666666666,
+      "target_removed_indices": [
+        0,
+        12,
+        14,
+        15
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": false,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 18200,
+          "random_removed": [
+            11,
+            16
+          ],
+          "answer": "insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 18231,
+          "random_removed": [
+            9,
+            13
+          ],
+          "answer": "ona munson, sara clark, and lorraine miller",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 18262,
+          "random_removed": [
+            24,
+            25
+          ],
+          "answer": "ona munson, sara clark, and lorraine miller",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 19,
+      "question": "Who was born later, Haris Bashir or Mokete Mokhosi?",
+      "gold_answer": "Haris Bashir",
+      "gold_indices": [
+        3,
+        11
+      ],
+      "raw_merged_output": "Haris Bashir\n{\"essential_indices\":[3,11]}",
+      "cond1_merged_answer": "Haris Bashir",
+      "cond1_ghat": [
+        3,
+        11
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        3,
+        11
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 19209,
+          "random_removed": [
+            6,
+            12
+          ],
+          "answer": "haris bashir",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 19240,
+          "random_removed": [
+            8,
+            16
+          ],
+          "answer": "haris bashir",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 19271,
+          "random_removed": [
+            1,
+            12
+          ],
+          "answer": "haris bashir",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 20,
+      "question": "Where was the place of death of the composer of film Alice (2005 Film)?",
+      "gold_answer": "Cascais",
+      "gold_indices": [
+        8,
+        30
+      ],
+      "raw_merged_output": "Guincho Cascais, Portugal\n{\"essential_indices\":[8,17,30]}",
+      "cond1_merged_answer": "Guincho Cascais, Portugal",
+      "cond1_ghat": [
+        8,
+        17,
+        30
+      ],
+      "f1_vs_gold": 0.8,
+      "target_removed_indices": [
+        8,
+        17,
+        30
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 20218,
+          "random_removed": [
+            1,
+            28
+          ],
+          "answer": "guincho, cascais, portugal",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 20249,
+          "random_removed": [
+            10,
+            18
+          ],
+          "answer": "guincho cascais, portugal",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 20280,
+          "random_removed": [
+            9,
+            10
+          ],
+          "answer": "guincho cascais, portugal",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 21,
+      "question": "Are L\u00f8navatnet and Nodlandsvatnet both located in the same country?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        3,
+        12
+      ],
+      "raw_merged_output": "Yes.\n{\"essential_indices\":[3,12]}",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        3,
+        12
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        3,
+        12
+      ],
+      "cond2_target_removed_answer": "yes, both are in norway",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 21227,
+          "random_removed": [
+            6,
+            11
+          ],
+          "answer": "yes, both are in norway",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 21258,
+          "random_removed": [
+            1,
+            5
+          ],
+          "answer": "yes, both are located in norway",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 21289,
+          "random_removed": [
+            10,
+            11
+          ],
+          "answer": "yes, both are in norway",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 22,
+      "question": "Who is younger, Andrea Grendene or Jung Il-Woo?",
+      "gold_answer": "Jung Il-Woo",
+      "gold_indices": [
+        11,
+        14
+      ],
+      "raw_merged_output": "Jung Il-Woo  \n{\"essential_indices\":[11,14]}",
+      "cond1_merged_answer": "Jung Il-Woo",
+      "cond1_ghat": [
+        11,
+        14
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        11,
+        14
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 22236,
+          "random_removed": [
+            2,
+            13
+          ],
+          "answer": "jung il-woo",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 22267,
+          "random_removed": [
+            6,
+            8
+          ],
+          "answer": "insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 22298,
+          "random_removed": [
+            3,
+            8
+          ],
+          "answer": "insufficient evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 23,
+      "question": "What nationality is the composer of song Inescapable (Song)?",
+      "gold_answer": "American",
+      "gold_indices": [
+        6,
+        23
+      ],
+      "raw_merged_output": "American\n{\"essential_indices\":[6,23]}",
+      "cond1_merged_answer": "American",
+      "cond1_ghat": [
+        6,
+        23
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        6,
+        23
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 23245,
+          "random_removed": [
+            28,
+            33
+          ],
+          "answer": "american",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 23276,
+          "random_removed": [
+            12,
+            31
+          ],
+          "answer": "american",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 23307,
+          "random_removed": [
+            16,
+            22
+          ],
+          "answer": "american",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 24,
+      "question": "Who is younger, Mike Ratledge or Kim Ji-Sun?",
+      "gold_answer": "Kim Ji-Sun",
+      "gold_indices": [
+        6,
+        18
+      ],
+      "raw_merged_output": "Kim Ji-Sun\n{\"essential_indices\":[6,18]}",
+      "cond1_merged_answer": "Kim Ji-Sun",
+      "cond1_ghat": [
+        6,
+        18
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        6,
+        18
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 24254,
+          "random_removed": [
+            3,
+            14
+          ],
+          "answer": "kim ji-sun",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 24285,
+          "random_removed": [
+            10,
+            20
+          ],
+          "answer": "kim ji-sun",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 24316,
+          "random_removed": [
+            8,
+            11
+          ],
+          "answer": "kim ji-sun",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 25,
+      "question": "What is the place of birth of the director of film Red (2016 Film)?",
+      "gold_answer": "M\u00fcnster",
+      "gold_indices": [
+        12,
+        18
+      ],
+      "raw_merged_output": "M\u00fcnster, Germany\n{\"essential_indices\":[18,11,12]}",
+      "cond1_merged_answer": "M\u00fcnster, Germany",
+      "cond1_ghat": [
+        11,
+        12,
+        18
+      ],
+      "f1_vs_gold": 0.8,
+      "target_removed_indices": [
+        11,
+        12,
+        18
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 25263,
+          "random_removed": [
+            1,
+            21
+          ],
+          "answer": "m\u00fcnster, germany",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 25294,
+          "random_removed": [
+            0,
+            6
+          ],
+          "answer": "m\u00fcnster, germany",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 25325,
+          "random_removed": [
+            2,
+            19
+          ],
+          "answer": "m\u00fcnster, germany",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 26,
+      "question": "Which film came out earlier, Kevin Of The North or No Hay Pan?",
+      "gold_answer": "Kevin Of The North",
+      "gold_indices": [
+        15,
+        17
+      ],
+      "raw_merged_output": "Kevin of the North came out earlier.\n{\"essential_indices\":[15,17]}",
+      "cond1_merged_answer": "Kevin of the North came out earlier",
+      "cond1_ghat": [
+        15,
+        17
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        15,
+        17
+      ],
+      "cond2_target_removed_answer": "kevin of the north",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 26272,
+          "random_removed": [
+            4,
+            6
+          ],
+          "answer": "no hay pan",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 26303,
+          "random_removed": [
+            4,
+            10
+          ],
+          "answer": "kevin of the north",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 26334,
+          "random_removed": [
+            13,
+            16
+          ],
+          "answer": "insufficient evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 27,
+      "question": "Which country Mi Saw U's father is from?",
+      "gold_answer": "Burma",
+      "gold_indices": [
+        3,
+        22
+      ],
+      "raw_merged_output": "Burma (Myanmar)\n{\"essential_indices\":[3,22]}",
+      "cond1_merged_answer": "Burma (Myanmar)",
+      "cond1_ghat": [
+        3,
+        22
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        3,
+        22
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 27281,
+          "random_removed": [
+            7,
+            19
+          ],
+          "answer": "pagan (burma/myanmar)",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 27312,
+          "random_removed": [
+            0,
+            14
+          ],
+          "answer": "pagan empire (burma)",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 27343,
+          "random_removed": [
+            12,
+            15
+          ],
+          "answer": "burma (myanmar)",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 28,
+      "question": "Are The Pursuit Of Happiness (1934 Film) and East Lynne (1931 Film) from the same country?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        13,
+        16
+      ],
+      "raw_merged_output": "Yes.\n{\"essential_indices\":[13,16]}",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        13,
+        16
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        13,
+        16
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 28290,
+          "random_removed": [
+            2,
+            26
+          ],
+          "answer": "yes, both are american",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 28321,
+          "random_removed": [
+            12,
+            15
+          ],
+          "answer": "yes, both are american films",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 28352,
+          "random_removed": [
+            14,
+            33
+          ],
+          "answer": "yes",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 29,
+      "question": "Which film was released more recently, Girl Slaves Of Morgana Le Fay or Strawberry Shortcake: Rockaberry Roll?",
+      "gold_answer": "Strawberry Shortcake: Rockaberry Roll",
+      "gold_indices": [
+        1,
+        16
+      ],
+      "raw_merged_output": "Strawberry Shortcake: Rockaberry Roll  \n{\"essential_indices\":[0,1,16]}",
+      "cond1_merged_answer": "Strawberry Shortcake: Rockaberry Roll",
+      "cond1_ghat": [
+        0,
+        1,
+        16
+      ],
+      "f1_vs_gold": 0.8,
+      "target_removed_indices": [
+        0,
+        1,
+        16
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 29299,
+          "random_removed": [
+            6,
+            15
+          ],
+          "answer": "strawberry shortcake: rockaberry roll",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 29330,
+          "random_removed": [
+            10,
+            19
+          ],
+          "answer": "strawberry shortcake: rockaberry roll",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 29361,
+          "random_removed": [
+            4,
+            20
+          ],
+          "answer": "strawberry shortcake: rockaberry roll",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 30,
+      "question": "Where does Alexander Aris's mother work at?",
+      "gold_answer": "United Nations",
+      "gold_indices": [
+        11,
+        29
+      ],
+      "raw_merged_output": "the United Nations\n{\"essential_indices\":[29]}",
+      "cond1_merged_answer": "the United Nations",
+      "cond1_ghat": [
+        29
+      ],
+      "f1_vs_gold": 0.6666666666666666,
+      "target_removed_indices": [
+        29
+      ],
+      "cond2_target_removed_answer": "insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 30308,
+          "random_removed": [
+            26,
+            35
+          ],
+          "answer": "united nations",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 30339,
+          "random_removed": [
+            16,
+            22
+          ],
+          "answer": "insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 30370,
+          "random_removed": [
+            10,
+            43
+          ],
+          "answer": "insufficient evidence",
+          "flipped": true
+        }
+      ]
+    }
+  ]
+}

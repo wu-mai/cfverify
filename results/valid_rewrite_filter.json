@@ -1,0 +1,8 @@
+{
+  "n_valid": 204,
+  "n_total": 300,
+  "valid_auroc": 0.6957138607971446,
+  "valid_auroc_sd": 0.04500988052082231,
+  "invalid_auroc": 0.5971191135734071,
+  "invalid_auroc_sd": 0.08939027054395525
+}

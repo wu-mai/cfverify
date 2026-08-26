@@ -1,86 +1,81 @@
 # CF-Verify
 
-A two-pass counterfactual grounding test for retrieval-augmented multi-hop question answering.
+A counterfactual evidence-deletion diagnostic for retrieval-augmented multi-hop QA.
 
-**Paper:** *CF-Verify: A Two-Pass Grounding Test for Retrieved Multi-Hop Question Answering* (submitted to WISE 2026, 8 pages, LNCS format).
+**Paper:** *CF-Verify: Counterfactual Evidence Deletion as a Behavioural Evidence-Dependence Diagnostic for Retrieval-Augmented Multi-Hop QA* (ARR submission, 8 pages + appendix, ACL format).
 
 ## What CF-Verify does
 
-A RAG agent that answers a multi-hop question from retrieved documents cannot reliably tell whether its answer came from those documents or from parametric memory. CF-Verify provides a training-free decision rule:
+A RAG agent that answers a multi-hop question from retrieved documents cannot reliably tell whether its answer came from those documents or from parametric memory. CF-Verify separates **evidence compatibility** (what LLM-judge faithfulness checks measure) from **behavioural evidence dependence** (whether the model would change its answer if the evidence were removed):
 
-1. **Self-rationale:** a single LLM call predicts which evidence sentences are necessary to answer the question, producing a candidate support set $\hat{G}$.
-2. **Targeted pass:** the LLM is queried with $\hat{G}$ removed; the answer is compared with the original.
-3. **Random-baseline pass:** the same comparison is done with a matched number of randomly chosen non-gold sentences removed.
-4. **Decision rule:** the differential score
-   $$\mathrm{CFScore} = \Delta(\text{targeted}) - \mathbb{E}[\Delta(\text{random})]$$
-   drives a three-way routing: **accept** (CFScore high), **revise** (low), or **re-retrieve** (targeted pass abstained).
+1. **Self-rationale:** a single LLM call predicts which evidence sentences are necessary, producing a candidate support set G-hat.
+2. **Targeted pass:** the LLM re-answers with G-hat removed; the answer is compared with the original.
+3. **Matched random control:** the same comparison with an equal-size random non-support subset removed, matched on size, source, and disjointness from G-hat.
+4. **Decision rule:** CFScore = F_T − F_R drives a three-way routing: **accept** / **revise** / **re-retrieve**.
 
-## Headline result (gpt-5.4, N=57 across HotpotQA + 2WikiMultihopQA)
+## Headline results
 
-| Configuration | Targeted flip | Random flip | **CFScore** |
+Pooled GPT-5.4 over three benchmarks (HotpotQA, 2WikiMultihopQA, MuSiQue), 321 answered questions:
+
+| Setting | Answered | F_T / F_R | CFScore |
 |---|---|---|---|
-| True gold $G$ (upper bound) | 94.7\% | 1.8\% | **0.93** |
-| Automatic $\hat{G}$ (no dataset labels) | 83.1\% | 1.7\% | **0.81** |
-| Mistral-7B (answered subset) | 64.3\% | 0.0\% | **0.64** |
+| GPT-5.4 pooled (95% boot CI) | 321/617 | 80.8% / 14.5% | **+0.657** [+0.601, +0.713] |
+| GPT-5.4-mini | 52/60 | 84.6% / 19.2% | +0.654 |
+| GPT-5.5 | 53/60 | 79.2% / 17.0% | +0.623 |
+| Llama-3.1-8B-Instruct | 36/60 | 94.4% / 13.9% | +0.806 |
+| Mistral-7B (separate calls) | 14/60 | 64.3% / 0.0% | +0.643 |
 
-The automatic variant reaches 87\% of the label-informed upper bound and the random-baseline CIs do not overlap on either dataset, so the flip is specific to the predicted support.
+Detection on a 300-question grounded/ungrounded paired benchmark: CF-Verify AUROC **0.784** (curated 60-question subset) vs LLM-judge **0.533** and BGE-similarity **0.664**; BGE+CF logistic ensemble **0.804**. At full scale, discrimination concentrates on evidence-sensitive questions (62% clean quadrant, AUROC 0.762); a no-evidence parametric-answerability gate and a format-consistent random baseline recover most of the gap.
 
 ## Repository layout
 
 ```
-cfverify/
-├── README.md                          (this file)
-├── LICENSE                            (MIT)
-├── analysis.py                         (reproduces all headline numbers from results/)
-├── paper/                             (LaTeX source for the paper)
-│   ├── main.tex
-│   ├── main.pdf
-│   ├── references.bib
-│   ├── llncs.cls, splncs04.bst
-│   ├── figures/                       (3 vector PDF figures)
-│   └── .gitignore
-├── data/                              (the 60 selected questions used in the study)
-│   ├── hotpotqa_30_questions.json
-│   └── 2wiki_30_questions.json
-├── results/                           (raw model outputs, the 4 files that drive analysis.py)
-│   ├── gpt5.4_hotpotqa_main.json      (Pass 1, Pass 2-gold for HotpotQA)
-│   ├── gpt5.4_hotpotqa_control.json   (Pass 2-random for HotpotQA)
-│   ├── gpt5.4_2wiki_main.json         (Pass 1, Pass 2-gold, Pass 2-random for 2Wiki)
-│   └── mistral7b_both.json           (3 conditions × HotpotQA + 2Wiki)
-├── scripts/                           (preparation, no re-execution needed for verification)
-│   ├── prepare_hotpotqa.py
-│   ├── prepare_2wiki.py
-│   ├── run_gpt5.4_questions.py
-│   ├── run_mistral_baseline.py
-│   └── run_self_rationale.py
-├── PAPER_PLAN.md                      (planning + reviewer feedback)
-├── fig-spec-for-illustrator.md        (figure specs for the artist)
-└── .gitignore
+paper/           ARR submission (main.tex, main.pdf, references.bib, figures/)
+analysis.py      Reproduces headline tables from results/*.json
+data/            Question pools (HotpotQA/2Wiki/MuSiQue JSON)
+scripts/         All experiment scripts (see below)
+results/         39 result JSONs (raw outputs of every run in the paper)
 ```
 
-## Reproducing the headline result
+Raw source datasets are not included (size); download from HuggingFace:
+hotpotqa/hotpot_qa (distractor, validation), xanhho/2WikiMultihopQA (dev),
+dgslibisey/MuSiQue (dev).
 
-The single command:
+## Reproducing the experiments
+
 ```bash
-python analysis.py
+# Headline + multimodel + larger samples (gpt-5.4 via API)
+export OPENAI_API_KEY=... OPENAI_BASE_URL=...
+python scripts/run_gpt5.4_questions.py          # N=57 headline
+python scripts/run_multimodel.py gpt-5.4-mini gpt-5.5
+python scripts/run_larger_sample.py --n-hot 210 --n-wiki 210
+python scripts/run_musique.py                    # third dataset
+
+# Grounded/ungrounded paired detection (N=60 -> 300)
+python scripts/run_grounded_ungrounded.py
+python scripts/extend_paired_set.py
+
+# Baselines and controls
+python scripts/run_baselines.py                 # LLM-judge + BGE similarity
+python scripts/run_content_matched.py           # content-matched random control
+python scripts/run_no_evidence_gate.py          # parametric-answerability gate
+
+# Local models (GPU)
+python scripts/run_mistral_experiments.py       # K-ablation
+python scripts/run_mistral_merged_v2.py         # merged-prompt variants
+python scripts/run_llama_cfverify.py            # fifth model family
+
+# Analysis
+python analysis.py                              # headline tables
+python scripts/aggregate_300.py                 # N=300 detection AUROC
+python scripts/conditional_300.py               # evidence-sensitivity stratification
 ```
-will print the full CFScore table (HotpotQA, 2WikiMultihopQA, pooled, and Mistral-7B).
 
-## How the data flows
+## Results provenance
 
-- `data/hotpotqa_30_questions.json` and `data/2wiki_30_questions.json` contain the 30 + 27 selected questions with their full evidence and gold annotations.
-- `results/gpt5.4_hotpotqa_main.json` and `results/gpt5.4_2wiki_main.json` store the gpt-5.4 outputs for Pass 1 (full evidence) and Pass 2 (gold removed).
-- `results/gpt5.4_hotpotqa_control.json` stores the random-removal control for HotpotQA.
-- `results/mistral7b_both.json` stores the Mistral-7B outputs for all three conditions on both datasets.
-- `analysis.py` reads these four files and assembles the CFScore table.
-
-## Notes on the data
-
-- The 30 HotpotQA distractor and 27 2WikiMultihopQA questions are sampled with fixed random seeds for reproducibility. The 30-question samples are stored in `data/`.
-- The 95% Wilson CIs reported in the paper are computed by `analysis.py` directly from the raw outputs.
-- The paper additionally reports a fully automatic variant (CFScore = 0.81) where the support set is predicted by an LLM self-rationale call instead of taken from dataset labels. The raw self-rationale outputs are not included in this minimal distribution because the intermediate response files were cleaned up during paper preparation; the 0.81 number can be reproduced by re-running `scripts/run_self_rationale.py` (which calls gpt-5.4 once per question to obtain $\hat{G}$) followed by a second pass on the existing `results/` files. The headline numbers above are unchanged either way.
-- The Mistral-7B row in the table uses **string-match** flip rate (12/14 = 85.7% by this script). The paper uses **human semantic-equivalence judgement** (9/14 = 64.3%). The two diverge because a few Mistral answers differ only by minor rephrasing; the qualitative conclusion (CF-Verify specificity holds on Mistral whenever the model engages with the evidence) is unchanged.
+Every number in the paper maps to a JSON in `results/`:
+gpt5.4_hotpotqa_main.json, gpt5.4_2wiki_main.json, larger_sample_gpt54_n{60,80,420}.json, musique_gpt54.json, multimodel_gpt-5.4-mini.json, multimodel_gpt-5.5.json, llama31_cfverify.json, mistral7b_Kablation.json, mistral7b_merged{,_v2,_v3,_v4,_v5}.json, grounded_ungrounded.json, paired_set_ext.json, baselines_vs_cfverify.json, content_matched.json, no_evidence_gate.json, cfscore_ci.json, conditional_300.json, ...
 
 ## License
 
-MIT. See `LICENSE`.
+MIT (see LICENSE).

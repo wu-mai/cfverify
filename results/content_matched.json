@@ -1,0 +1,1472 @@
+{
+  "records": [
+    {
+      "dataset": "hotpotqa",
+      "qid": 1,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        0,
+        25
+      ],
+      "f_r_uniform_existing": 1.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 1,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        0,
+        25
+      ],
+      "f_r_uniform_existing": 0.2
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 2,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        12,
+        13,
+        14
+      ],
+      "f_r_uniform_existing": 1.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 2,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        12,
+        13,
+        14
+      ],
+      "f_r_uniform_existing": 1.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 3,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        0,
+        5,
+        6,
+        12,
+        28
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 3,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        0,
+        5,
+        6,
+        12,
+        28
+      ],
+      "f_r_uniform_existing": 0.8
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 4,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        15,
+        26
+      ],
+      "f_r_uniform_existing": 1.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 4,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        15,
+        26
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 5,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        10,
+        50
+      ],
+      "f_r_uniform_existing": 1.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 5,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        10,
+        50
+      ],
+      "f_r_uniform_existing": 0.4
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 6,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        14,
+        36
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 6,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        14,
+        36
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 7,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        15,
+        30
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 7,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        15,
+        30
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 8,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        63,
+        67
+      ],
+      "f_r_uniform_existing": 1.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 8,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        63,
+        67
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 9,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        5,
+        12,
+        21
+      ],
+      "f_r_uniform_existing": 0.2
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 9,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        5,
+        12,
+        21
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 10,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        33,
+        40
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 10,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        33,
+        40
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 11,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        4,
+        5,
+        43
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 11,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        4,
+        5,
+        43
+      ],
+      "f_r_uniform_existing": 0.4
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 12,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        9,
+        25,
+        33
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 12,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        9,
+        25,
+        33
+      ],
+      "f_r_uniform_existing": 0.4
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 13,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        5,
+        29,
+        37
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 13,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        5,
+        29,
+        37
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 14,
+      "cond": "grounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        7,
+        10
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 14,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        7,
+        10
+      ],
+      "f_r_uniform_existing": 0.8
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 15,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        15,
+        19,
+        21
+      ],
+      "f_r_uniform_existing": 0.6
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 15,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        15,
+        19,
+        21
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 16,
+      "cond": "grounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        26,
+        62
+      ],
+      "f_r_uniform_existing": 0.4
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 16,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        26,
+        62
+      ],
+      "f_r_uniform_existing": 0.6
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 17,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        13,
+        17,
+        27
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 17,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        13,
+        17,
+        27
+      ],
+      "f_r_uniform_existing": 0.6
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 18,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        13,
+        33
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 18,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        13,
+        33
+      ],
+      "f_r_uniform_existing": 0.4
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 19,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        7,
+        36
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 19,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        7,
+        36
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 20,
+      "cond": "grounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        6,
+        25
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 20,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        6,
+        25
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 21,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        25,
+        32,
+        38
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 21,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        25,
+        32,
+        38
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 22,
+      "cond": "grounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        5,
+        22
+      ],
+      "f_r_uniform_existing": 0.8
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 22,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        5,
+        22
+      ],
+      "f_r_uniform_existing": 0.6
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 23,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        1,
+        4
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 23,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        1,
+        4
+      ],
+      "f_r_uniform_existing": 0.6
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 24,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        1,
+        35
+      ],
+      "f_r_uniform_existing": 1.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 24,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        1,
+        35
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 25,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        7,
+        19
+      ],
+      "f_r_uniform_existing": 0.8
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 25,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        7,
+        19
+      ],
+      "f_r_uniform_existing": 0.2
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 26,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        9,
+        22,
+        27,
+        34
+      ],
+      "f_r_uniform_existing": 0.2
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 26,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        9,
+        22,
+        27,
+        34
+      ],
+      "f_r_uniform_existing": 0.2
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 27,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        17,
+        23
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 27,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        17,
+        23
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 28,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        28,
+        35,
+        42
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 28,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        28,
+        35,
+        42
+      ],
+      "f_r_uniform_existing": 0.4
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 29,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        0,
+        15
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 29,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        0,
+        15
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 30,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        10,
+        28
+      ],
+      "f_r_uniform_existing": 0.2
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 30,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        10,
+        28
+      ],
+      "f_r_uniform_existing": 0.6
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 1,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        3,
+        8
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 1,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        3,
+        8
+      ],
+      "f_r_uniform_existing": 0.4
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 2,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        0,
+        21
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 2,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        0,
+        21
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 3,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        5,
+        7
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 3,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        5,
+        7
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 4,
+      "cond": "grounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        4,
+        13
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 4,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        4,
+        13
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 5,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        7,
+        12
+      ],
+      "f_r_uniform_existing": 0.8
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 5,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        7,
+        12
+      ],
+      "f_r_uniform_existing": 0.2
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 6,
+      "cond": "grounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        1,
+        9
+      ],
+      "f_r_uniform_existing": 0.2
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 6,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        1,
+        9
+      ],
+      "f_r_uniform_existing": 0.6
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 7,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        7,
+        10
+      ],
+      "f_r_uniform_existing": 0.4
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 7,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        7,
+        10
+      ],
+      "f_r_uniform_existing": 0.8
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 8,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        10,
+        14
+      ],
+      "f_r_uniform_existing": 0.4
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 8,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        10,
+        14
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 9,
+      "cond": "grounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        7,
+        59
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 9,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        7,
+        59
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 10,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        24,
+        36
+      ],
+      "f_r_uniform_existing": 0.6
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 10,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        24,
+        36
+      ],
+      "f_r_uniform_existing": 0.4
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 11,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        26,
+        28
+      ],
+      "f_r_uniform_existing": 0.8
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 11,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        26,
+        28
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 12,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        12,
+        26
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 12,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        12,
+        26
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 13,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        2,
+        12
+      ],
+      "f_r_uniform_existing": 0.4
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 13,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        2,
+        12
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 14,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        15,
+        32
+      ],
+      "f_r_uniform_existing": 0.8
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 14,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        15,
+        32
+      ],
+      "f_r_uniform_existing": 0.6
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 15,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        13,
+        18
+      ],
+      "f_r_uniform_existing": 1.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 15,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        13,
+        18
+      ],
+      "f_r_uniform_existing": 0.6
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 16,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        10,
+        24
+      ],
+      "f_r_uniform_existing": 0.4
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 16,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        10,
+        24
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 17,
+      "cond": "grounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        6,
+        7
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 17,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        6,
+        7
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 18,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        2,
+        7
+      ],
+      "f_r_uniform_existing": 0.2
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 18,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        2,
+        7
+      ],
+      "f_r_uniform_existing": 0.2
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 19,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        4,
+        19
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 19,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        4,
+        19
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 20,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        17,
+        18
+      ],
+      "f_r_uniform_existing": 0.2
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 20,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        17,
+        18
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 21,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        4,
+        14
+      ],
+      "f_r_uniform_existing": 0.2
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 21,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        4,
+        14
+      ],
+      "f_r_uniform_existing": 0.6
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 22,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        4,
+        7
+      ],
+      "f_r_uniform_existing": 0.6
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 22,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        4,
+        7
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 23,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        10,
+        12
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 23,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        10,
+        12
+      ],
+      "f_r_uniform_existing": 0.8
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 24,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        0,
+        1
+      ],
+      "f_r_uniform_existing": 0.2
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 24,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        0,
+        1
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 25,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        11,
+        13
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 25,
+      "cond": "ungrounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        11,
+        13
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 26,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        3,
+        16
+      ],
+      "f_r_uniform_existing": 1.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 26,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        3,
+        16
+      ],
+      "f_r_uniform_existing": 0.6
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 27,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        15,
+        20
+      ],
+      "f_r_uniform_existing": 0.8
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 27,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        15,
+        20
+      ],
+      "f_r_uniform_existing": 0.6
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 28,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 1,
+      "top_match_indices": [
+        9,
+        24
+      ],
+      "f_r_uniform_existing": 0.2
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 28,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        9,
+        24
+      ],
+      "f_r_uniform_existing": 0.4
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 29,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        6,
+        13
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 29,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        6,
+        13
+      ],
+      "f_r_uniform_existing": 0.0
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 30,
+      "cond": "grounded",
+      "ft": 1,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        20,
+        30
+      ],
+      "f_r_uniform_existing": 0.2
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 30,
+      "cond": "ungrounded",
+      "ft": 0,
+      "f_r_contentmatched": 0,
+      "top_match_indices": [
+        20,
+        30
+      ],
+      "f_r_uniform_existing": 0.6
+    }
+  ]
+}

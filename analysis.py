@@ -95,6 +95,93 @@ def mistral():
     return cf_row("Mistral-7B, answered subset", n_flip_tgt, n_flip_ctrl, n_total, uses_label=True)
 
 
+def kablation():
+    """Mistral-7B K-ablation if results/mistral7b_Kablation.json is present.
+
+    Prints targeted flip / random flip / CFScore at each K (1, 3, 5).
+    """
+    p = RESULTS / "mistral7b_Kablation.json"
+    if not p.exists():
+        return None
+    data = json.loads(p.read_text())
+    Ks = data.get("Ks", [1, 3, 5])
+    recs = data["records"]
+    print()
+    print("=" * 100)
+    print("Mistral-7B K-ablation (only over questions answered with full evidence)")
+    print("=" * 100)
+    rows = []
+    for K in Ks:
+        n_total = 0  # answered count
+        n_flip_t = 0
+        n_flip_r_total = 0
+        for r in recs:
+            c1 = r["cond1_full"].lower()
+            if c1.startswith("insufficient") or not r["cond1_full"].strip():
+                continue
+            n_total += 1
+            if r["targeted_flipped"]:
+                n_flip_t += 1
+            for s in r["per_K"][str(K)]:
+                if s["flipped"]:
+                    n_flip_r_total += 1
+        n_flip_r_mean = n_flip_r_total / K  # average flip across K samples
+        t_rate = n_flip_t / n_total if n_total else 0.0
+        r_rate = n_flip_r_mean / n_total if n_total else 0.0
+        cf = t_rate - r_rate
+        rows.append((K, n_total, n_flip_t, t_rate, n_flip_r_mean, r_rate, cf))
+        print(
+            f"  K={K:>2}: targeted {n_flip_t:>2}/{n_total}={t_rate:>6.1%}  "
+            f"random (mean across K) {n_flip_r_mean:>4.2f}/{n_total}={r_rate:>6.1%}  "
+            f"CFScore={cf:+.3f}"
+        )
+    return rows
+
+
+def merged_summary():
+    """Print the merged-prompt variant summary if results/mistral7b_merged.json exists."""
+    p = RESULTS / "mistral7b_merged.json"
+    if not p.exists():
+        return None
+    s = json.loads(p.read_text())
+    print()
+    print("=" * 100)
+    print("Mistral-7B merged-prompt variant (single call -> answer + Ĝ)")
+    print("=" * 100)
+    print(f"  Answered (full): {s['answered_count']}/{s['n_questions']}")
+    print(f"  Ĝ F1 vs gold:    mean = {s['f1_ghat_vs_gold_mean']:.3f}")
+    print(f"  Targeted flip:   {s['answered_targeted_flip']}/{s['answered_count']}")
+    rnd = s["answered_random_flip"]
+    rnd_n = s["answered_random_total"]
+    print(f"  Random flip:     {rnd}/{rnd_n} = {rnd / rnd_n:.1%}")
+    if s["answered_count"]:
+        cf = s["answered_targeted_flip"] / s["answered_count"] - rnd / rnd_n
+        print(f"  CFScore (answered): {cf:+.3f}")
+    print(f"  Total wallclock: {s['total_seconds']:.0f}s")
+    return s
+
+
+def bootstrap_summary():
+    """Print the bootstrap summary if results/bootstrap_summary.json is present."""
+    p = RESULTS / "bootstrap_summary.json"
+    if not p.exists():
+        return None
+    s = json.loads(p.read_text())
+    print()
+    print("=" * 100)
+    print("Bootstrap stability analysis (gpt-5.4, true G, N=57)")
+    print("=" * 100)
+    print(f"  Pooled CFScore: {s['pooled']['cfscore']:.3f}")
+    print(f"  Targeted flip Wilson 95% CI: {s['pooled']['wilson_95_targeted']}")
+    print(f"  Random   flip Wilson 95% CI: {s['pooled']['wilson_95_random']}")
+    print(f"  Bootstrap 95% percentile CI: {s['bootstrap']['percentile_95']}")
+    print(f"  CIs non-overlapping (Wilson): {s['pooled']['cis_non_overlapping']}")
+    print("  CFScore convergence with N (mean ± SD):")
+    for N_str, v in s["convergence"].items():
+        print(f"    N={N_str:>3}: mean={v['mean']:.3f}  SD={v['sd']:.4f}")
+    return s
+
+
 def main():
     print("=" * 100)
     print("CF-Verify — reproducing headline numbers (Tables 1 & 3)")
@@ -124,6 +211,12 @@ def main():
         )
         n_f_c_pooled = n_f_c + n_f_c_2wiki
         cf_row("gpt-5.4, true G, POOLED", n_f_t, n_f_c_pooled, n_t, uses_label=True)
+
+    # Optional extensions (no-ops if results files absent)
+    bootstrap_summary()
+    kablation()
+    merged_summary()
+
     print()
     print("Note: The paper additionally reports a fully automatic variant where")
     print("the support set is predicted by LLM self-rationale instead of taken from")

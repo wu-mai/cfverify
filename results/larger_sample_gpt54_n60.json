@@ -1,0 +1,1471 @@
+{
+  "model": "gpt-5.4",
+  "K": 1,
+  "n_questions": 60,
+  "n_answered_so_far": 51,
+  "n_targeted_flip": 41,
+  "n_random_flip": 7,
+  "elapsed": 1254.3751497268677,
+  "records": [
+    {
+      "dataset": "hotpotqa",
+      "qid": 31,
+      "question": "What competition held in Kathmandu, Nepal did Julian Bolling compete in 1984?",
+      "gold_answer": "1984 South Asian Games",
+      "full_answer": "1984 South Asian Games",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 31317,
+            "removed": [
+              1,
+              5,
+              32
+            ],
+            "answer": "1984 South Asian Games",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 32,
+      "question": "Kieran Crichlow is a footballer from what island in the Lesser Antilles?",
+      "gold_answer": "Barbados",
+      "full_answer": "Barbados",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 32326,
+            "removed": [
+              24,
+              42
+            ],
+            "answer": "Barbados",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 33,
+      "question": "St Dionis Backchurch was rebuilt after a major conflagration that consumed how many parish churches?",
+      "gold_answer": "87",
+      "full_answer": "87 parish churches",
+      "target_answer": "Eighty-eight",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 33335,
+            "removed": [
+              1,
+              36,
+              38,
+              41
+            ],
+            "answer": "87 parish churches",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 34,
+      "question": "Future Rhythm is the fourth album from a rap group that is from what city?",
+      "gold_answer": "Oakland",
+      "full_answer": "Oakland, California",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 34344,
+            "removed": [
+              16,
+              40
+            ],
+            "answer": "Oakland, California",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 35,
+      "question": "To which place was this Irish convict portrayed by Oscar Redding in \"Van Diemen's Land\" transported for theft?",
+      "gold_answer": "Van Diemen's Land",
+      "full_answer": "Van Diemen's Land",
+      "target_answer": "New South Wales",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 35353,
+            "removed": [
+              22,
+              25
+            ],
+            "answer": "Van Diemen's Land",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 36,
+      "question": "Consider the band formed in 2015 by JYP Entertainment through the reality show \"Sixteen\". How many tracks are on the reissue of their third album?",
+      "gold_answer": "13",
+      "full_answer": "13 tracks",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 36362,
+            "removed": [
+              11,
+              25
+            ],
+            "answer": "13",
+            "flipped": true
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 37,
+      "question": "Black Book starred the actress and writer of what heritage?",
+      "gold_answer": "Dutch",
+      "full_answer": "insufficient evidence",
+      "target_answer": "insufficient evidence",
+      "abstained": true,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 37371,
+            "removed": [
+              9,
+              32
+            ],
+            "answer": "Dutch",
+            "flipped": true
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 38,
+      "question": "Is Rutgers University or Brown University public?",
+      "gold_answer": "Rutgers University",
+      "full_answer": "Rutgers University.",
+      "target_answer": "Rutgers University",
+      "abstained": false,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 38380,
+            "removed": [
+              10,
+              30
+            ],
+            "answer": "Rutgers University.",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 39,
+      "question": "What is the home stadium where Dai Xianrong predominantly played?",
+      "gold_answer": "Tianhe Stadium",
+      "full_answer": "Tianhe Stadium",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 39389,
+            "removed": [
+              25,
+              40
+            ],
+            "answer": "Tianhe Stadium",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 40,
+      "question": "Who was the president of the Sinn Fein political party during the Hume-Adams Dialogue?",
+      "gold_answer": "Gerard \"Gerry\" Adams",
+      "full_answer": "Gerry Adams",
+      "target_answer": "Gerry Adams",
+      "abstained": false,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 40398,
+            "removed": [
+              8,
+              19
+            ],
+            "answer": "Gerry Adams",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 41,
+      "question": "An Austrian-British psychoanalyst born in 1882 and innovative in object relations theory was also rigorous about what other type of therapy?",
+      "gold_answer": "Morita therapy",
+      "full_answer": "child therapy",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 41407,
+            "removed": [
+              12,
+              19,
+              20
+            ],
+            "answer": "child therapy",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 42,
+      "question": " \"Coming Over\" is the second Japanese single album by a boy group that debuted in what year?",
+      "gold_answer": "2012",
+      "full_answer": "2012",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 42416,
+            "removed": [
+              5,
+              25
+            ],
+            "answer": "2012",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 43,
+      "question": "Nuestra Belleza M\u00e9xico 2010 was crowned by the winner of what other 2010 pageant, the winner of which was crowned on 23 August 2010?",
+      "gold_answer": "Miss Universe 2010",
+      "full_answer": "Miss Universe 2010",
+      "target_answer": "Miss Universe 2010",
+      "abstained": false,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 43425,
+            "removed": [
+              7,
+              45
+            ],
+            "answer": "Miss Universe 2010",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 44,
+      "question": "The 19 high-rise commercial buildings covering 22 acres between 48th and 51st Streets in New York City feature which style of architecture?",
+      "gold_answer": "The Art Deco style",
+      "full_answer": "Art Deco",
+      "target_answer": "Art Deco",
+      "abstained": false,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 44434,
+            "removed": [
+              24,
+              35,
+              43
+            ],
+            "answer": "Art Deco",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 45,
+      "question": "What was the population during the 2000 census of the town in Sagadahoc County, Maine that had a population of 3,411 during the 2010 census?",
+      "gold_answer": "1,864",
+      "full_answer": "insufficient evidence",
+      "target_answer": "insufficient evidence",
+      "abstained": true,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 45443,
+            "removed": [
+              12,
+              19,
+              31
+            ],
+            "answer": "1,770",
+            "flipped": true
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 46,
+      "question": "Ladislav Matejka's Michigan Slavic Publications has published volumes by which historian considered to be the founder of morphophonology?",
+      "gold_answer": "Nikolai Trubetzkoy",
+      "full_answer": "Nikolai Trubetzkoy",
+      "target_answer": "Prince Nikolai Sergeyevich Trubetzkoy",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 46452,
+            "removed": [
+              12,
+              25
+            ],
+            "answer": "Nikolai Trubetzkoy",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 47,
+      "question": "What shallow water table aquifer is located near the county seat of Keith County, Nebraska?",
+      "gold_answer": "Ogallala Aquifer",
+      "full_answer": "Ogallala Aquifer",
+      "target_answer": "Ogallala Aquifer",
+      "abstained": false,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 47461,
+            "removed": [
+              6,
+              14,
+              17,
+              18
+            ],
+            "answer": "Ogallala Aquifer",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 48,
+      "question": "Geoffrey Rush, one of the stars in Intolerable Cruelty, is a known actor and film producer in what country?",
+      "gold_answer": "Australian actor and film producer",
+      "full_answer": "Australian",
+      "target_answer": "Australia",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 48470,
+            "removed": [
+              2,
+              6,
+              13,
+              21
+            ],
+            "answer": "Australia",
+            "flipped": true
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 49,
+      "question": " The Human Condition is a film trilogy that follows a Japanese pacifist and socialist as he tries to survive in a political system that strives to regulate what?",
+      "gold_answer": "every aspect of public and private life",
+      "full_answer": "every aspect of public and private life",
+      "target_answer": "the whole society",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 49479,
+            "removed": [
+              25,
+              48,
+              49
+            ],
+            "answer": "every aspect of public and private life",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 50,
+      "question": "Sum 41 and Passion Pit have what in common?",
+      "gold_answer": "Passion Pit is an American indietronica band",
+      "full_answer": "They are both bands.",
+      "target_answer": "Both are bands.",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 50488,
+            "removed": [
+              6,
+              37
+            ],
+            "answer": "Both are bands.",
+            "flipped": true
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 51,
+      "question": "Garth Richardson is the son of the producer who worked for which group that evolved from The Iveys?",
+      "gold_answer": "Badfinger",
+      "full_answer": "Badfinger",
+      "target_answer": "Badfinger",
+      "abstained": false,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 51497,
+            "removed": [
+              6,
+              16
+            ],
+            "answer": "Badfinger",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 52,
+      "question": "What song included on the 59th edition of Now That's What I Call Music was written and recorded by an Australian recording artist?",
+      "gold_answer": "\"Cheap Thrills\" by Sia",
+      "full_answer": "Cheap Thrills",
+      "target_answer": "Incredible",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 52506,
+            "removed": [
+              11,
+              31,
+              43,
+              48
+            ],
+            "answer": "Cheap Thrills",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 53,
+      "question": "The Government Digital Service is overseen by the Chief Secretary to the Treasury, who is from which party?",
+      "gold_answer": "Conservative",
+      "full_answer": "Conservative Party",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 53515,
+            "removed": [
+              31,
+              32
+            ],
+            "answer": "Conservative Party",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 54,
+      "question": "WFMT FM radio transmits from the second tallest building in the United States, which is located where?",
+      "gold_answer": "Chicago, Illinois, United States",
+      "full_answer": "Chicago, Illinois",
+      "target_answer": "Chicago, Illinois",
+      "abstained": false,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 54524,
+            "removed": [
+              13,
+              22,
+              39
+            ],
+            "answer": "Chicago, Illinois",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 55,
+      "question": "Who was the Goal keeper for Iraq in the 1996 AFC Asian Cup played in the United Arab Emirates?",
+      "gold_answer": "Emad Hashim",
+      "full_answer": "Emad Hashim",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 55533,
+            "removed": [
+              4,
+              16
+            ],
+            "answer": "Emad Hashim",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 56,
+      "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+      "gold_answer": "Mumbai",
+      "full_answer": "Mumbai, Maharashtra",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 56542,
+            "removed": [
+              2,
+              43
+            ],
+            "answer": "Mumbai, Maharashtra",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 57,
+      "question": "Was California State University, Dominguez Hills founded before or after Pacific Lutheran University?",
+      "gold_answer": "Pacific Lutheran University (PLU), founded by Norwegian Lutheran pioneers in 1890",
+      "full_answer": "after",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 57551,
+            "removed": [
+              11,
+              24
+            ],
+            "answer": "after",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 58,
+      "question": "Are Ari Up and Boz Burrell both guitarists?",
+      "gold_answer": "no",
+      "full_answer": "No.",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 58560,
+            "removed": [
+              2,
+              20
+            ],
+            "answer": "No",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 59,
+      "question": "Which North Central town in Florida is home to the punk rock band Against Me!?",
+      "gold_answer": "Gainesville, Florida",
+      "full_answer": "Gainesville",
+      "target_answer": "Gainesville",
+      "abstained": false,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 59569,
+            "removed": [
+              12,
+              42
+            ],
+            "answer": "Gainesville",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 60,
+      "question": "Who acted in the film and television series, \"Harry and the Hendersons,\" and also worked with Danny Glover?",
+      "gold_answer": "Kevin Peter Hall",
+      "full_answer": "Kevin Peter Hall",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 60578,
+            "removed": [
+              2,
+              20
+            ],
+            "answer": "Kevin Peter Hall",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 31,
+      "question": "Who is Eustace Iv, Count Of Boulogne's mother?",
+      "gold_answer": "Matilda of Boulogne",
+      "full_answer": "Countess Matilda I of Boulogne",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 31317,
+            "removed": [
+              2,
+              61
+            ],
+            "answer": "Countess Matilda I of Boulogne",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 32,
+      "question": "Who is the paternal grandfather of Joan I, Countess Of Burgundy?",
+      "gold_answer": "Frederick I",
+      "full_answer": "Frederick I, Holy Roman Emperor",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 32326,
+            "removed": [
+              24,
+              36
+            ],
+            "answer": "Frederick I, Holy Roman Emperor",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 33,
+      "question": "Which country the director of film The Fast And The Furious (1955 Film) is from?",
+      "gold_answer": "Canadian",
+      "full_answer": "Canada",
+      "target_answer": "Canada",
+      "abstained": false,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 33335,
+            "removed": [
+              1,
+              33
+            ],
+            "answer": "insufficient evidence",
+            "flipped": true
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 34,
+      "question": "Who is the paternal grandmother of Catherine Of Guelders?",
+      "gold_answer": "Maria van Arkel",
+      "full_answer": "Maria van Arkel",
+      "target_answer": "Johanna",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 34344,
+            "removed": [
+              16,
+              40
+            ],
+            "answer": "Maria van Arkel",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 35,
+      "question": "Who is the spouse of the director of film Hannele'S Journey To Heaven?",
+      "gold_answer": "Asta Nielsen",
+      "full_answer": "Asta Nielsen",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 35353,
+            "removed": [
+              11,
+              13
+            ],
+            "answer": "Asta Nielsen",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 36,
+      "question": "What is the date of death of Philibert I, Duke Of Savoy's mother?",
+      "gold_answer": "23 August 1478",
+      "full_answer": "23 August 1478",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 36362,
+            "removed": [
+              5,
+              12
+            ],
+            "answer": "23 August 1478",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 37,
+      "question": "Which film came out earlier, Gran Torino or Rivaaj?",
+      "gold_answer": "Rivaaj",
+      "full_answer": "Rivaaj",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 37371,
+            "removed": [
+              9,
+              31
+            ],
+            "answer": "Rivaaj",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 38,
+      "question": "What is the place of birth of the director of film Garshom?",
+      "gold_answer": "Chavakkad",
+      "full_answer": "insufficient evidence",
+      "target_answer": "insufficient evidence",
+      "abstained": true,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 38380,
+            "removed": [
+              4,
+              15
+            ],
+            "answer": "Pancharamukku near Chavakkad, Thrissur district, Kerala",
+            "flipped": true
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 39,
+      "question": "Who is the father-in-law of Aspasia Annia Regilla?",
+      "gold_answer": "Tiberius Claudius Atticus Herodes",
+      "full_answer": "insufficient evidence",
+      "target_answer": "insufficient evidence",
+      "abstained": true,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 39389,
+            "removed": [
+              23,
+              39
+            ],
+            "answer": "insufficient evidence",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 40,
+      "question": "Which film has the director who died later, The Polish Marathon or Gambler'S Choice?",
+      "gold_answer": "Gambler'S Choice",
+      "full_answer": "Gambler's Choice",
+      "target_answer": "The Polish Marathon",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 40398,
+            "removed": [
+              5,
+              10,
+              15,
+              18
+            ],
+            "answer": "Gambler's Choice",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 41,
+      "question": "Where does Beatrix Of The Netherlands's father work at?",
+      "gold_answer": "IG Farben",
+      "full_answer": "IG Farben's Paris office",
+      "target_answer": "Dutch Armed Forces",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 41407,
+            "removed": [
+              33,
+              35
+            ],
+            "answer": "IG Farben's Paris office",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 42,
+      "question": "Where was the director of film King, Queen, Knave (Film) born?",
+      "gold_answer": "\u0141\u00f3d\u017a",
+      "full_answer": "insufficient evidence",
+      "target_answer": "insufficient evidence",
+      "abstained": true,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 42416,
+            "removed": [
+              2,
+              13
+            ],
+            "answer": "insufficient evidence",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 43,
+      "question": "Are both Three Girls Lost and Cavite (Film) from the same country?",
+      "gold_answer": "yes",
+      "full_answer": "insufficient evidence",
+      "target_answer": "insufficient evidence",
+      "abstained": true,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 43425,
+            "removed": [
+              1,
+              11
+            ],
+            "answer": "insufficient evidence",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 44,
+      "question": "Are Chyoryumche and Rodnikovka, Republic Of Bashkortostan both located in the same country?",
+      "gold_answer": "yes",
+      "full_answer": "Yes.",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 44434,
+            "removed": [
+              12,
+              18
+            ],
+            "answer": "Yes, both are in Russia.",
+            "flipped": true
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 45,
+      "question": "Which film has the director born later, Revenge Of Black Eagle or Simon, The Magician?",
+      "gold_answer": "Simon, The Magician",
+      "full_answer": "Simon, The Magician",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 45443,
+            "removed": [
+              6,
+              10,
+              12,
+              18
+            ],
+            "answer": "Simon, The Magician",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 46,
+      "question": "Who died later, Marcel Dassault or Leopoldo Alfredo Bravo?",
+      "gold_answer": "Leopoldo Alfredo Bravo",
+      "full_answer": "Leopoldo Alfredo Bravo",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 46452,
+            "removed": [
+              7,
+              14
+            ],
+            "answer": "Leopoldo Alfredo Bravo",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 47,
+      "question": "Which film came out earlier, Moscow Chill or Khote Sikkey?",
+      "gold_answer": "Khote Sikkey",
+      "full_answer": "Khote Sikkey",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 47461,
+            "removed": [
+              7,
+              19
+            ],
+            "answer": "Khote Sikkey",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 48,
+      "question": "Where was the mother of Infanta Catherine, Duchess Of Villena born?",
+      "gold_answer": "Hertford",
+      "full_answer": "Hertford Castle",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 48470,
+            "removed": [
+              1,
+              28
+            ],
+            "answer": "Hertford Castle",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 49,
+      "question": "Do both films, The Greater Woman and Tender Comrade, have the directors who are from the same country?",
+      "gold_answer": "no",
+      "full_answer": "Yes, both are Canadian-born.",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 49479,
+            "removed": [
+              6,
+              13,
+              26,
+              27
+            ],
+            "answer": "Yes. Both directors are Canadian-born.",
+            "flipped": true
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 50,
+      "question": "Who is Hye Of Baekje's paternal grandfather?",
+      "gold_answer": "Muryeong",
+      "full_answer": "Muryeong of Baekje",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 50488,
+            "removed": [
+              3,
+              18
+            ],
+            "answer": "Muryeong of Baekje",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 51,
+      "question": "Who is Fran\u00e7ois Iii D'Orl\u00e9ans, Duke Of Longueville's paternal grandmother?",
+      "gold_answer": "Jeanne of Hochberg",
+      "full_answer": "Jeanne of Hochberg",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 51497,
+            "removed": [
+              3,
+              27
+            ],
+            "answer": "Jeanne of Hochberg",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 52,
+      "question": "Who is the maternal grandfather of Adelaide Of Aquitaine?",
+      "gold_answer": "Rollo",
+      "full_answer": "insufficient evidence",
+      "target_answer": "insufficient evidence",
+      "abstained": true,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 52506,
+            "removed": [
+              6,
+              16
+            ],
+            "answer": "insufficient evidence",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 53,
+      "question": "Which film came out first, The Keys To The House or R\u00e9mi Sans Famille?",
+      "gold_answer": "The Keys To The House",
+      "full_answer": "The Keys to the House",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 53515,
+            "removed": [
+              17,
+              20
+            ],
+            "answer": "The Keys to the House",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 54,
+      "question": "Where did Chit Mi Of Prome's husband die?",
+      "gold_answer": "Pyay",
+      "full_answer": "at the outskirts of Prome (Pyay)",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 54524,
+            "removed": [
+              11,
+              20
+            ],
+            "answer": "insufficient evidence",
+            "flipped": true
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 55,
+      "question": "Which film came out first, The Colour Of Your Lips or H. M. Pulham, Esq.?",
+      "gold_answer": "H. M. Pulham, Esq.",
+      "full_answer": "H. M. Pulham, Esq.",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 55533,
+            "removed": [
+              2,
+              7
+            ],
+            "answer": "H. M. Pulham, Esq.",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 56,
+      "question": "Which film was released first, Raadha Aur Seeta or The Fate Of The Furious?",
+      "gold_answer": "Raadha Aur Seeta",
+      "full_answer": "Raadha Aur Seeta",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 56542,
+            "removed": [
+              2,
+              31
+            ],
+            "answer": "Raadha Aur Seeta",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 57,
+      "question": "What nationality is Azam Jah's father?",
+      "gold_answer": "Hyderabad State",
+      "full_answer": "insufficient evidence",
+      "target_answer": "Indian",
+      "abstained": true,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 57551,
+            "removed": [
+              23,
+              46
+            ],
+            "answer": "insufficient evidence",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 58,
+      "question": "Where does the director of film Secret Defense (1998 Film) work at?",
+      "gold_answer": "Cahiers du cin\u00e9ma",
+      "full_answer": "Cahiers du Cin\u00e9ma\n<CPA_DONE>",
+      "target_answer": "Cahiers du Cin\u00e9ma\n<CPA_DONE>",
+      "abstained": false,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 58560,
+            "removed": [
+              3,
+              5
+            ],
+            "answer": "Cahiers du Cin\u00e9ma\n<CPA_DONE>",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 59,
+      "question": "Did Colin Curtis and Louis Susman have the same nationality?",
+      "gold_answer": "yes",
+      "full_answer": "Yes, both were American.",
+      "target_answer": "insufficient evidence",
+      "abstained": false,
+      "targeted_flipped": true,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 59569,
+            "removed": [
+              7,
+              16
+            ],
+            "answer": "Yes, both were American.",
+            "flipped": false
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 60,
+      "question": "What nationality is Jehoahaz Of Israel's father?",
+      "gold_answer": "Northern Kingdom of Israel",
+      "full_answer": "insufficient evidence",
+      "target_answer": "insufficient evidence",
+      "abstained": true,
+      "targeted_flipped": false,
+      "per_K": {
+        "1": [
+          {
+            "k": 1,
+            "seed": 60578,
+            "removed": [
+              2,
+              10
+            ],
+            "answer": "insufficient evidence",
+            "flipped": false
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "n_questions": 300,
+  "n_records": 600,
+  "n_origin": 60,
+  "n_ext": 240,
+  "y_mean": 0.5,
+  "random_split_auroc_mean": 0.6559166666666667,
+  "random_split_auroc_sd": 0.033044068965960655,
+  "groupwise_auroc_mean": 0.6543611111111111,
+  "groupwise_auroc_sd": 0.060426825454990646,
+  "pooled_auroc_bootstrap95": [
+    0.6115390600684717,
+    0.7003245742741542
+  ],
+  "per_dataset_auroc": {
+    "hotpotqa": 0.6789669421487602,
+    "2wiki": 0.6693801652892561,
+    "musique": 0.611640625
+  },
+  "routing_f1_cf": 0.6576266634599968,
+  "routing_f1_cf_sd": 0.0167832537785964,
+  "routing_f1_always": 0.6666666666666666
+}

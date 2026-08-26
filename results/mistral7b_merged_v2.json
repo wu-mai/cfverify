@@ -1,0 +1,3399 @@
+{
+  "model": "/root/autodl-tmp/gcy_cf",
+  "K": 3,
+  "n_questions": 60,
+  "answered_count": 46,
+  "f1_ghat_vs_gold_mean": 0.3825883838383838,
+  "f1_ghat_vs_gold_median": 0.4,
+  "answered_targeted_flip": 45,
+  "answered_random_flip": 120,
+  "answered_random_total": 138,
+  "pred_nonempty": 43,
+  "timestamp": "2026-08-21T11:25:04",
+  "total_seconds": 168.05997276306152,
+  "records": [
+    {
+      "dataset": "hotpotqa",
+      "qid": 1,
+      "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        3,
+        16
+      ],
+      "raw_merged_output": "Yes\n\nEssential_indices: [0, 16]",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        0,
+        16
+      ],
+      "f1_vs_gold": 0.5,
+      "target_removed_indices": [
+        0,
+        16
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 1047,
+          "random_removed": [
+            6,
+            18
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 1078,
+          "random_removed": [
+            7,
+            9
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 1109,
+          "random_removed": [
+            6,
+            26
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 2,
+      "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+      "gold_answer": "Chief of Protocol",
+      "gold_indices": [
+        4,
+        5,
+        17
+      ],
+      "raw_merged_output": "Insufficient evidence\n\nEssential_indices: []",
+      "cond1_merged_answer": "Insufficient evidence",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        4,
+        5,
+        17
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not mention any government position held by the woman who portrayed Corliss Archer in the film \"Kiss and Tell\"",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 2056,
+          "random_removed": [
+            19,
+            30,
+            35
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 2087,
+          "random_removed": [
+            10,
+            11,
+            18
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not mention any government position held by the actress who portrayed Corliss Archer in the film \"Kiss and Tell\"",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 2118,
+          "random_removed": [
+            0,
+            10,
+            30
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not indicate that Shirley Temple, who portrayed Corliss Archer in Kiss and Tell, held a government position",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 3,
+      "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+      "gold_answer": "Animorphs",
+      "gold_indices": [
+        9,
+        10,
+        11,
+        39,
+        40
+      ],
+      "raw_merged_output": "The Animorphs series\n\nEssential_indices: [38, 39, 40]",
+      "cond1_merged_answer": "The Animorphs series",
+      "cond1_ghat": [
+        38,
+        39,
+        40
+      ],
+      "f1_vs_gold": 0.5,
+      "target_removed_indices": [
+        38,
+        39,
+        40
+      ],
+      "cond2_target_removed_answer": "The Hork-Bajir Chronicles",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 3065,
+          "random_removed": [
+            4,
+            12,
+            13,
+            31,
+            36
+          ],
+          "answer": "Insufficient evidence to determine a specific series. However, the evidence mentions \"The Hork-Bajir Chronicles\" as a companion book to the \"Animorphs\" series, which",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 3096,
+          "random_removed": [
+            2,
+            18,
+            30,
+            34,
+            36
+          ],
+          "answer": "Insufficient evidence to determine a specific series. However, the evidence suggests that the series could be \"The Hork-Bajir Chronicles\" or \"Animorphs\", as both are science",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 3127,
+          "random_removed": [
+            1,
+            3,
+            15,
+            21,
+            26
+          ],
+          "answer": "Insufficient evidence to determine a specific series. However, the evidence suggests that the series \"Animorphs\" has companion books narrating stories of alien species",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 4,
+      "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+      "gold_answer": "no",
+      "gold_indices": [
+        21,
+        22
+      ],
+      "raw_merged_output": "The Laleli Mosque and Esma Sultan Mansion are located in different neighborhoods, as the evidence does not specify that they are in the same neighborhood.\n\nEssential_indices: [21, 22]",
+      "cond1_merged_answer": "The Laleli Mosque and Esma Sultan Mansion are located in different neighborhoods, as the evidence does not specify that they are in the same neighborhood",
+      "cond1_ghat": [
+        21,
+        22
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        21,
+        22
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 4074,
+          "random_removed": [
+            2,
+            13
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 4105,
+          "random_removed": [
+            3,
+            16
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 4136,
+          "random_removed": [
+            23,
+            26
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 5,
+      "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+      "gold_answer": "Greenwich Village, New York City",
+      "gold_indices": [
+        9,
+        49
+      ],
+      "raw_merged_output": "Greenwich Village\n\nEssential_indices: [9]",
+      "cond1_merged_answer": "Greenwich Village",
+      "cond1_ghat": [
+        9
+      ],
+      "f1_vs_gold": 0.6666666666666666,
+      "target_removed_indices": [
+        9
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 5083,
+          "random_removed": [
+            16,
+            30
+          ],
+          "answer": "Greenwich Village",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 5114,
+          "random_removed": [
+            14,
+            34
+          ],
+          "answer": "Greenwich Village",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 5145,
+          "random_removed": [
+            21,
+            38
+          ],
+          "answer": "Greenwich Village",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 6,
+      "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+      "gold_answer": "YG Entertainment",
+      "gold_indices": [
+        11,
+        18
+      ],
+      "raw_merged_output": "YG Entertainment\n\nEssential_indices: [11]",
+      "cond1_merged_answer": "YG Entertainment",
+      "cond1_ghat": [
+        11
+      ],
+      "f1_vs_gold": 0.6666666666666666,
+      "target_removed_indices": [
+        11
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not specify which South Korean boy group debuted an album in 2014 S/S",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 6092,
+          "random_removed": [
+            34,
+            42
+          ],
+          "answer": "YG Entertainment",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 6123,
+          "random_removed": [
+            3,
+            38
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the record label that released the 2014 S/S album",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 6154,
+          "random_removed": [
+            37,
+            38
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the record label that released the 2014 S/S album",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 7,
+      "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+      "gold_answer": "Eenasul Fateh",
+      "gold_indices": [
+        20,
+        34
+      ],
+      "raw_merged_output": "Aladin was a Bangladeshi-British cultural practitioner and magician, not a management consultant.\n\nEssential_indices: [20]",
+      "cond1_merged_answer": "Aladin was a Bangladeshi-British cultural practitioner and magician, not a management consultant",
+      "cond1_ghat": [
+        20
+      ],
+      "f1_vs_gold": 0.6666666666666666,
+      "target_removed_indices": [
+        20
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. No individual named Aladin was mentioned in the provided evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 7101,
+          "random_removed": [
+            1,
+            18
+          ],
+          "answer": "Insufficient evidence. Both Eenasul Fateh (Aladin) and Eenasul is a Bangladeshi-British cultural practitioner and magician, not a management consultant",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 7132,
+          "random_removed": [
+            11,
+            50
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not mention anyone known by the stage name Aladin who worked as a management consultant",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 7163,
+          "random_removed": [
+            11,
+            39
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not mention anyone known by the stage name Aladin who worked as a management consultant",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 8,
+      "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+      "gold_answer": "3,677 seated",
+      "gold_indices": [
+        54,
+        64
+      ],
+      "raw_merged_output": "The arena where the Lewiston Maineiacs played their home games can seat 4,000 people.\n\nEssential_indices: [44, 45, 46]",
+      "cond1_merged_answer": "The arena where the Lewiston Maineiacs played their home games can seat 4,000 people",
+      "cond1_ghat": [
+        44,
+        45,
+        46
+      ],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        44,
+        45,
+        46
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 8110,
+          "random_removed": [
+            3,
+            13
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 8141,
+          "random_removed": [
+            8,
+            20
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 8172,
+          "random_removed": [
+            6,
+            51
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 9,
+      "question": "Who is older, Annie Morton or Terry Richardson?",
+      "gold_answer": "Terry Richardson",
+      "gold_indices": [
+        0,
+        2,
+        10
+      ],
+      "raw_merged_output": "Annie Morton is older than Terry Richardson.\n\nEssential_indices: [0, 10]",
+      "cond1_merged_answer": "Annie Morton is older than Terry Richardson",
+      "cond1_ghat": [
+        0,
+        10
+      ],
+      "f1_vs_gold": 0.8,
+      "target_removed_indices": [
+        0,
+        10
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 9119,
+          "random_removed": [
+            22,
+            32,
+            36
+          ],
+          "answer": "Insufficient evidence. Both Annie Morton and Terry Richardson's birth dates are given, but not compared",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 9150,
+          "random_removed": [
+            9,
+            13,
+            15
+          ],
+          "answer": "Insufficient evidence. Both Annie Morton and Terry Richardson's birth dates are given, but not compared",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 9181,
+          "random_removed": [
+            14,
+            27,
+            34
+          ],
+          "answer": "Insufficient evidence. Both Annie Morton and Terry Richardson's birth dates are given, but not compared",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 10,
+      "question": "Are Local H and For Against both from the United States?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        20,
+        30
+      ],
+      "raw_merged_output": "Yes\n\nEssential_indices: [20, 30]",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        20,
+        30
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        20,
+        30
+      ],
+      "cond2_target_removed_answer": "Yes, both Local H and For Against are from the United States",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 10128,
+          "random_removed": [
+            37,
+            40
+          ],
+          "answer": "Yes",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 10159,
+          "random_removed": [
+            2,
+            22
+          ],
+          "answer": "Yes",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 10190,
+          "random_removed": [
+            14,
+            18
+          ],
+          "answer": "Yes",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 11,
+      "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+      "gold_answer": "Kansas Song",
+      "gold_indices": [
+        27,
+        44,
+        45
+      ],
+      "raw_merged_output": "The name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area is not specified in the provided evidence.\n\nEssential_indices: []",
+      "cond1_merged_answer": "The name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area is not specified in the provided evidence",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        27,
+        44,
+        45
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not mention any university in Lawrence, Kansas or its fight song",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 11137,
+          "random_removed": [
+            31,
+            33,
+            34
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not mention the name of the fight song for the University of Kansas",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 11168,
+          "random_removed": [
+            13,
+            21,
+            33
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not mention the name of the fight song for the University of Kansas",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 11199,
+          "random_removed": [
+            1,
+            2,
+            15
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not mention the name of the fight song for the University of Kansas",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 12,
+      "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+      "gold_answer": "David Weissman",
+      "gold_indices": [
+        18,
+        19,
+        37
+      ],
+      "raw_merged_output": "David Weissman\n\nEssential_indices: [19]",
+      "cond1_merged_answer": "David Weissman",
+      "cond1_ghat": [
+        19
+      ],
+      "f1_vs_gold": 0.5,
+      "target_removed_indices": [
+        19
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not mention any screenwriter named David Weissman working on a film starring Nicolas Cage and T\u00e9a Leoni",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 12146,
+          "random_removed": [
+            12,
+            16,
+            21
+          ],
+          "answer": "David Weissman",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 12177,
+          "random_removed": [
+            13,
+            24,
+            38
+          ],
+          "answer": "David Weissman",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 12208,
+          "random_removed": [
+            13,
+            24,
+            34
+          ],
+          "answer": "David Weissman",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 13,
+      "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+      "gold_answer": "1999",
+      "gold_indices": [
+        38,
+        39,
+        40
+      ],
+      "raw_merged_output": "The year Guns N Roses performed a promo for a movie starring Arnold Schwarzenegger is not explicitly stated in the evidence provided.\n\nEssential_indices: [40]",
+      "cond1_merged_answer": "The year Guns N Roses performed a promo for a movie starring Arnold Schwarzenegger is not explicitly stated in the evidence provided",
+      "cond1_ghat": [
+        40
+      ],
+      "f1_vs_gold": 0.5,
+      "target_removed_indices": [
+        40
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence does not provide any information about Guns N Roses performing a promo for a movie starring Arnold Schwarzenegger",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 13155,
+          "random_removed": [
+            11,
+            42,
+            43
+          ],
+          "answer": "Insufficient evidence. The evidence does not specify the year when Guns N Roses performed a promo for a movie starring Arnold Schwarzenegger",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 13186,
+          "random_removed": [
+            9,
+            25,
+            43
+          ],
+          "answer": "Insufficient evidence. The evidence does not provide any information about a Guns N' Roses performance for a movie starring Arnold Schwarzenegger",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 13217,
+          "random_removed": [
+            7,
+            18,
+            21
+          ],
+          "answer": "Insufficient evidence. The evidence does not specify the year when Guns N Roses performed a promo for a movie starring Arnold Schwarzenegger",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 14,
+      "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+      "gold_answer": "no",
+      "gold_indices": [
+        13,
+        16
+      ],
+      "raw_merged_output": "Yes\n\nEssential_indices: [11, 16]",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        11,
+        16
+      ],
+      "f1_vs_gold": 0.5,
+      "target_removed_indices": [
+        11,
+        16
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 14164,
+          "random_removed": [
+            2,
+            55
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 14195,
+          "random_removed": [
+            15,
+            47
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 14226,
+          "random_removed": [
+            25,
+            29
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 15,
+      "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+      "gold_answer": "from 1986 to 2013",
+      "gold_indices": [
+        12,
+        13,
+        22
+      ],
+      "raw_merged_output": "The football manager who recruited David Beckham managed Manchester United between 1992 and 2013.\n\nEssential_indices: [13, 14]",
+      "cond1_merged_answer": "The football manager who recruited David Beckham managed Manchester United between 1992 and 2013",
+      "cond1_ghat": [
+        13,
+        14
+      ],
+      "f1_vs_gold": 0.4,
+      "target_removed_indices": [
+        13,
+        14
+      ],
+      "cond2_target_removed_answer": "Sir Alexander Ferguson, between 1986 and 2013",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 15173,
+          "random_removed": [
+            1,
+            6,
+            9
+          ],
+          "answer": "Sir Alex Ferguson managed Manchester United from 1986 to 2013, which includes the time when David Beckham was recruited",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 15204,
+          "random_removed": [
+            9,
+            19,
+            20
+          ],
+          "answer": "James Mangnall managed Manchester United between 1903\u20131912 and 1912\u20131924. However, David Beckham played for Manchester United",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 15235,
+          "random_removed": [
+            6,
+            7,
+            9
+          ],
+          "answer": "Sir Alex Ferguson managed Manchester United from 1986 to 2013",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 16,
+      "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+      "gold_answer": "9,984",
+      "gold_indices": [
+        11,
+        63
+      ],
+      "raw_merged_output": "The evidence does not provide information about the population of the country where Brown State Fishing Lake is located.\n\nJSON object:\n{\n  \"essential_indices\": []\n}",
+      "cond1_merged_answer": "The evidence does not provide information about the population of the country where Brown State Fishing Lake is located",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        11,
+        63
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not mention any \"Brown State Fishing Lake",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 16182,
+          "random_removed": [
+            45,
+            56
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 16213,
+          "random_removed": [
+            58,
+            61
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 16244,
+          "random_removed": [
+            23,
+            47
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 17,
+      "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+      "gold_answer": "the North Atlantic Conference",
+      "gold_indices": [
+        14,
+        15,
+        16
+      ],
+      "raw_merged_output": "North Atlantic Conference\n\nEssential_indices: [14]",
+      "cond1_merged_answer": "North Atlantic Conference",
+      "cond1_ghat": [
+        14
+      ],
+      "f1_vs_gold": 0.5,
+      "target_removed_indices": [
+        14
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 17191,
+          "random_removed": [
+            24,
+            29,
+            33
+          ],
+          "answer": "North Atlantic Conference",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 17222,
+          "random_removed": [
+            9,
+            17,
+            33
+          ],
+          "answer": "North Atlantic Conference (from 1988 to 1996)",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 17253,
+          "random_removed": [
+            6,
+            21,
+            22
+          ],
+          "answer": "North Atlantic Conference",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 18,
+      "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        12,
+        16
+      ],
+      "raw_merged_output": "Yes\n\nEssential_indices: [12, 16]",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        12,
+        16
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        12,
+        16
+      ],
+      "cond2_target_removed_answer": "Yes, both Giuseppe Verdi and Ambroise Thomas are opera composers",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 18200,
+          "random_removed": [
+            23,
+            31
+          ],
+          "answer": "Yes, both Giuseppe Verdi and Ambroise Thomas are opera composers",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 18231,
+          "random_removed": [
+            18,
+            24
+          ],
+          "answer": "Yes, both Giuseppe Verdi and Ambroise Thomas are opera composers",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 18262,
+          "random_removed": [
+            7,
+            24
+          ],
+          "answer": "Yes, both Giuseppe Verdi and Ambroise Thomas are opera composers",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 19,
+      "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+      "gold_answer": "1969 until 1974",
+      "gold_indices": [
+        8,
+        38
+      ],
+      "raw_merged_output": "The evidence does not provide the specific years that Roger O. Egeberg served as Assistant Secretary for Health and Scientific Affairs.\n\nEssential_indices: []",
+      "cond1_merged_answer": "The evidence does not provide the specific years that Roger O. Egeberg served as Assistant Secretary for Health and Scientific Affairs",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        8,
+        38
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not specify which president Roger O. Egeberg served under as Assistant Secretary for Health and Scientific Affairs",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 19209,
+          "random_removed": [
+            12,
+            21
+          ],
+          "answer": "Nixon administration (1969-1974)",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 19240,
+          "random_removed": [
+            15,
+            29
+          ],
+          "answer": "Nixon administration (1969-1974)",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 19271,
+          "random_removed": [
+            2,
+            22
+          ],
+          "answer": "Nixon administration (1969-1974)",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 20,
+      "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+      "gold_answer": "Robert Erskine Childers DSC",
+      "gold_indices": [
+        3,
+        17
+      ],
+      "raw_merged_output": "Robert Erskine Childers was from England.\n\nEssential_indices: [1, 17, 19]",
+      "cond1_merged_answer": "Robert Erskine Childers was from England",
+      "cond1_ghat": [
+        1,
+        17,
+        19
+      ],
+      "f1_vs_gold": 0.4,
+      "target_removed_indices": [
+        1,
+        17,
+        19
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. Both Henry Roth and Robert Erskine Childers are mentioned, but there is no information provided about their nationality",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 20218,
+          "random_removed": [
+            1,
+            29
+          ],
+          "answer": "Insufficient evidence. Both Henry Roth and Robert Erskine Childers are mentioned, but there is no information provided about their nationality",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 20249,
+          "random_removed": [
+            10,
+            19
+          ],
+          "answer": "Insufficient evidence. Both Henry Roth and Robert Erskine Childers are mentioned, but there is no evidence provided about their place of birth",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 20280,
+          "random_removed": [
+            9,
+            10
+          ],
+          "answer": "Insufficient evidence. Both Henry Roth and Robert Erskine Childers are mentioned, but there is no evidence provided about their place of birth",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 21,
+      "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+      "gold_answer": "Pedro Rodr\u00edguez",
+      "gold_indices": [
+        17,
+        33,
+        34
+      ],
+      "raw_merged_output": "The other Mexican Formula One race car driver who has held the podium is Pedro Rodr\u00edguez.\n\nEssential_indices: [32, 33, 34]",
+      "cond1_merged_answer": "The other Mexican Formula One race car driver who has held the podium is Pedro Rodr\u00edguez",
+      "cond1_ghat": [
+        32,
+        33,
+        34
+      ],
+      "f1_vs_gold": 0.6666666666666666,
+      "target_removed_indices": [
+        32,
+        33,
+        34
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not mention any other Mexican Formula One race car driver who has held the podium besides Sergio P\u00e9rez",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 21227,
+          "random_removed": [
+            11,
+            14,
+            21
+          ],
+          "answer": "Insufficient evidence. Only Sergio P\u00e9rez's participation in Formula One is mentioned, but no other Mexican driver's podium finish is detailed in the evidence provided",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 21258,
+          "random_removed": [
+            3,
+            9,
+            15
+          ],
+          "answer": "Insufficient evidence. Only one Mexican Formula One race car driver, Sergio P\u00e9rez, is mentioned in the evidence to have held the podium",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 21289,
+          "random_removed": [
+            10,
+            19,
+            21
+          ],
+          "answer": "Insufficient evidence. Only Sergio P\u00e9rez from the evidence provided is a Mexican Formula One race car driver who has held the podium",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 22,
+      "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+      "gold_answer": "Badly Drawn Boy",
+      "gold_indices": [
+        1,
+        20
+      ],
+      "raw_merged_output": "Badly Drawn Boy, as the evidence shows that he performs and plays several instruments on his albums.\n\nEssential_indices: [5, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]",
+      "cond1_merged_answer": "Badly Drawn Boy, as the evidence shows that he performs and plays several instruments on his albums",
+      "cond1_ghat": [
+        5,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "f1_vs_gold": 0.125,
+      "target_removed_indices": [
+        5,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence to determine the instrument to person ratio for both Badly Drawn Boy and Wolf Alice",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 22236,
+          "random_removed": [
+            13,
+            27
+          ],
+          "answer": "Insufficient evidence to compare the instrument to person ratio between Badly Drawn Boy and Wolf Alice, as the number of instruments played by each member of Wolf Alice is not specified in the evidence provided",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 22267,
+          "random_removed": [
+            7,
+            18
+          ],
+          "answer": "Insufficient evidence to compare the instrument to person ratio between Badly Drawn Boy and Wolf Alice, as the number of instruments played by each is not specified for either artist in the provided evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 22298,
+          "random_removed": [
+            4,
+            28
+          ],
+          "answer": "Insufficient evidence to compare the instrument to person ratio between Badly Drawn Boy and Wolf Alice, as the number of instruments played by each member of Wolf Alice is not specified in the evidence provided",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 23,
+      "question": "Are both Dictyosperma, and Huernia described as a genus?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        0,
+        5
+      ],
+      "raw_merged_output": "Yes\n\nJSON object:\n{\n  \"essential_indices\": [0, 5]\n}",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        0,
+        5
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        0,
+        5
+      ],
+      "cond2_target_removed_answer": "Yes, both Dictyosperma and Huernia are described as a genus. The evidence mentions Dictyosperma as a genus, and Huernia is mentioned as",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 23245,
+          "random_removed": [
+            8,
+            9
+          ],
+          "answer": "Yes, both Dictyosperma and Huernia are described as a genus",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 23276,
+          "random_removed": [
+            3,
+            9
+          ],
+          "answer": "Yes, both Dictyosperma and Huernia are described as a genus",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 23307,
+          "random_removed": [
+            4,
+            7
+          ],
+          "answer": "Yes, both Dictyosperma and Huernia are described as a genus",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 24,
+      "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+      "gold_answer": "Fujioka, Gunma",
+      "gold_indices": [
+        4,
+        15
+      ],
+      "raw_merged_output": "Buck-Tick hails from Fujioka, Gunma ([15]).\n\nEssential_indices: [15]",
+      "cond1_merged_answer": "Buck-Tick hails from Fujioka, Gunma ([15])",
+      "cond1_ghat": [
+        15
+      ],
+      "f1_vs_gold": 0.6666666666666666,
+      "target_removed_indices": [
+        15
+      ],
+      "cond2_target_removed_answer": "Japan (insufficient evidence for specific city)",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 24254,
+          "random_removed": [
+            8,
+            28
+          ],
+          "answer": "Buck-Tick hails from Fujioka, Gunma (Japan)",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 24285,
+          "random_removed": [
+            0,
+            20
+          ],
+          "answer": "Japan (based on Buck-Tick being a Japanese rock band)",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 24316,
+          "random_removed": [
+            17,
+            22
+          ],
+          "answer": "Fujioka, Gunma (Japan)",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 25,
+      "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+      "gold_answer": "no",
+      "gold_indices": [
+        39,
+        42
+      ],
+      "raw_merged_output": "Yes, both Freakonomics and In the Realm of the Hackers are American documentaries.\n\nEssential_indices: [6, 40, 42]",
+      "cond1_merged_answer": "Yes, both Freakonomics and In the Realm of the Hackers are American documentaries",
+      "cond1_ghat": [
+        6,
+        40,
+        42
+      ],
+      "f1_vs_gold": 0.4,
+      "target_removed_indices": [
+        6,
+        40,
+        42
+      ],
+      "cond2_target_removed_answer": "Yes, both Freakonomics and In the Realm of the Hackers are American documentaries",
+      "targeted_flipped": false,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 25263,
+          "random_removed": [
+            3,
+            38
+          ],
+          "answer": "Yes, both Freakonomics and In the Realm of the Hackers are American documentaries",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 25294,
+          "random_removed": [
+            1,
+            13
+          ],
+          "answer": "Yes, both Freakonomics and In the Realm of the Hackers are American documentaries",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 25325,
+          "random_removed": [
+            5,
+            34
+          ],
+          "answer": "Yes, both Freakonomics and In the Realm of the Hackers are American documentaries",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 26,
+      "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+      "gold_answer": "Letters to Cleo",
+      "gold_indices": [
+        0,
+        1,
+        30,
+        31
+      ],
+      "raw_merged_output": "Letters to Cleo had 6 members, while Screaming Trees had 5 members (insufficient evidence for exact number of Letters to Cleo members after the initial 6).\n\nEssential_indices: [1, 13, 14, 15, 16, 17, 18, 19, 20, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]",
+      "cond1_merged_answer": "Letters to Cleo had 6 members, while Screaming Trees had 5 members (insufficient evidence for exact number of Letters to Cleo members after the initial 6)",
+      "cond1_ghat": [
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "f1_vs_gold": 0.19999999999999998,
+      "target_removed_indices": [
+        1,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence to determine the number of members in Letters to Cleo and Screaming Trees",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 26272,
+          "random_removed": [
+            11,
+            14,
+            32,
+            38
+          ],
+          "answer": "Insufficient evidence to compare the number of members in Letters to Cleo and Screaming Trees",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 26303,
+          "random_removed": [
+            10,
+            21,
+            23,
+            33
+          ],
+          "answer": "Insufficient evidence to compare the number of members in Letters to Cleo and Screaming Trees",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 26334,
+          "random_removed": [
+            11,
+            28,
+            33,
+            35
+          ],
+          "answer": "Insufficient evidence to compare the number of members in Letters to Cleo and Screaming Trees",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 27,
+      "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+      "gold_answer": "no",
+      "gold_indices": [
+        9,
+        10
+      ],
+      "raw_merged_output": "Yes\n\nJSON object:\n{\n  \"essential_indices\": [9, 24, 27]\n}",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        9,
+        24,
+        27
+      ],
+      "f1_vs_gold": 0.4,
+      "target_removed_indices": [
+        9,
+        24,
+        27
+      ],
+      "cond2_target_removed_answer": "Yes, Gerald R. Ford International Airport is located in Michigan. Elko Regional Airport is not mentioned in the evidence provided, so insufficient evidence to determine its location",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 27281,
+          "random_removed": [
+            15,
+            20
+          ],
+          "answer": "Yes, Elko Regional Airport is located in Nevada, not Michigan. Gerald R. Ford International Airport is located in Michigan",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 27312,
+          "random_removed": [
+            0,
+            28
+          ],
+          "answer": "Yes, Gerald R. Ford International Airport is located in Michigan. Elko Regional Airport is located in Nevada",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 27343,
+          "random_removed": [
+            24,
+            30
+          ],
+          "answer": "Yes, Gerald R. Ford International Airport is located in Michigan. Elko Regional Airport is not located in Michigan",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 28,
+      "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+      "gold_answer": "Scotch Collie",
+      "gold_indices": [
+        9,
+        38,
+        41
+      ],
+      "raw_merged_output": "The Scotch Collie\n\nEssential_indices: [40, 41]",
+      "cond1_merged_answer": "The Scotch Collie",
+      "cond1_ghat": [
+        40,
+        41
+      ],
+      "f1_vs_gold": 0.4,
+      "target_removed_indices": [
+        40,
+        41
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. Neither the Manchester Terrier nor the Scotch Collie's ancestry includes Gordon or Irish Setters according to the provided evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 28290,
+          "random_removed": [
+            2,
+            25,
+            31
+          ],
+          "answer": "Scotch Collie",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 28321,
+          "random_removed": [
+            13,
+            15,
+            37
+          ],
+          "answer": "Scotch Collie",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 28352,
+          "random_removed": [
+            14,
+            45,
+            47
+          ],
+          "answer": "Scotch Collie",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 29,
+      "question": "Are Ferocactus and Silene both types of plant?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        11,
+        43
+      ],
+      "raw_merged_output": "Yes\n\nJSON object:\n{\n  \"essential_indices\": [11, 12, 50]\n}",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        11,
+        12,
+        50
+      ],
+      "f1_vs_gold": 0.4,
+      "target_removed_indices": [
+        11,
+        12,
+        50
+      ],
+      "cond2_target_removed_answer": "Yes, both Ferocactus and Silene are types of plants",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 29299,
+          "random_removed": [
+            10,
+            29
+          ],
+          "answer": "Yes, both Ferocactus and Silene are types of plants",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 29330,
+          "random_removed": [
+            20,
+            39
+          ],
+          "answer": "Yes, both Ferocactus and Silene are types of plants",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 29361,
+          "random_removed": [
+            38,
+            51
+          ],
+          "answer": "Yes, both Ferocactus and Silene are types of plants",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 30,
+      "question": "Are both Cypress and Ajuga genera?",
+      "gold_answer": "no",
+      "gold_indices": [
+        8,
+        29
+      ],
+      "raw_merged_output": "Yes\n\nJSON object:\n{\n  \"essential_indices\": [8, 10, 11, 12, 13, 18, 27, 28, 29]\n}",
+      "cond1_merged_answer": "Yes",
+      "cond1_ghat": [
+        8,
+        10,
+        11,
+        12,
+        13,
+        18,
+        27,
+        28,
+        29
+      ],
+      "f1_vs_gold": 0.3636363636363636,
+      "target_removed_indices": [
+        8,
+        10,
+        11,
+        12,
+        13,
+        18,
+        27,
+        28,
+        29
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided only discusses the genera \"Fokienia\", \"Chamaecyparis\", \"Calocedrus\", \"Cupressus\", \"J",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 30308,
+          "random_removed": [
+            13,
+            30
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not clearly indicate that Ajuga is a genus of conifer tree, while Cypress is a genus of conifer tree",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 30339,
+          "random_removed": [
+            7,
+            11
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not clearly indicate that Ajuga is a genus of cypress trees",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 30370,
+          "random_removed": [
+            5,
+            21
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not clearly indicate that Ajuga is a genus of conifer tree, like Cypress",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 1,
+      "question": "Who is the father of the director of film Between Strangers?",
+      "gold_answer": "Carlo Ponti",
+      "gold_indices": [
+        4,
+        10
+      ],
+      "raw_merged_output": "Edoardo Ponti\n\nEssential_indices: [4, 10]",
+      "cond1_merged_answer": "Edoardo Ponti",
+      "cond1_ghat": [
+        4,
+        10
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        4,
+        10
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not mention the father of the director of the film \"Between Strangers\"",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 1047,
+          "random_removed": [
+            1,
+            5
+          ],
+          "answer": "Edoardo Ponti (insufficient evidence does not specify his father's name)",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 1078,
+          "random_removed": [
+            1,
+            2
+          ],
+          "answer": "Edoardo Ponti (son of Carlo Ponti Sr.)",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 1109,
+          "random_removed": [
+            1,
+            7
+          ],
+          "answer": "Edoardo Ponti (insufficient evidence does not specify the mother)",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 2,
+      "question": "Where was the director of film The Smiling Ghost born?",
+      "gold_answer": "New York",
+      "gold_indices": [
+        2,
+        3
+      ],
+      "raw_merged_output": "New York, New York\n\nEssential_indices: [2]",
+      "cond1_merged_answer": "New York, New York",
+      "cond1_ghat": [
+        2
+      ],
+      "f1_vs_gold": 0.6666666666666666,
+      "target_removed_indices": [
+        2
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not specify the birthplace of Lewis Seiler, the director of The Smiling Ghost",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 2056,
+          "random_removed": [
+            18,
+            20
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the birthplace of the director of The Smiling Ghost",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 2087,
+          "random_removed": [
+            6,
+            9
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the birthplace of the director of The Smiling Ghost",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 2118,
+          "random_removed": [
+            15,
+            22
+          ],
+          "answer": "Insufficient evidence to determine the birthplace of the director of The Smiling Ghost",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 3,
+      "question": "What is the place of birth of the director of film Random Encounter (Film)?",
+      "gold_answer": "Montreal, Quebec",
+      "gold_indices": [
+        0,
+        2
+      ],
+      "raw_merged_output": "The director of the film Random Encounter, Douglas Jackson, was born in Montreal, Quebec.\n\nEssential_indices: [2]",
+      "cond1_merged_answer": "The director of the film Random Encounter, Douglas Jackson, was born in Montreal, Quebec",
+      "cond1_ghat": [
+        2
+      ],
+      "f1_vs_gold": 0.6666666666666666,
+      "target_removed_indices": [
+        2
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not mention the place of birth of the director of the film \"Random Encounter",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 3065,
+          "random_removed": [
+            4,
+            21
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the place of birth of the director of the film \"Random Encounter",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 3096,
+          "random_removed": [
+            3,
+            15
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the place of birth of the director of the film \"Random Encounter\"",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 3127,
+          "random_removed": [
+            1,
+            23
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the place of birth of the director of the film \"Random Encounter",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 4,
+      "question": "Where was the place of death of Morris Engel's wife?",
+      "gold_answer": "New York",
+      "gold_indices": [
+        0,
+        7
+      ],
+      "raw_merged_output": "Insufficient evidence\n\nEssential_indices: []",
+      "cond1_merged_answer": "Insufficient evidence",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        0,
+        7
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence",
+      "targeted_flipped": false,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 4074,
+          "random_removed": [
+            6,
+            28
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 4105,
+          "random_removed": [
+            9,
+            35
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 4136,
+          "random_removed": [
+            1,
+            44
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 5,
+      "question": "Where did the director of film No Sin On The Alpine Pastures (1950 Film) die?",
+      "gold_answer": "Vienna",
+      "gold_indices": [
+        10,
+        13
+      ],
+      "raw_merged_output": "Insufficient evidence to determine the death of the director of the 1950 film \"No Sin On The Alpine Pastures\".\n\nEssential_indices: []",
+      "cond1_merged_answer": "Insufficient evidence to determine the death of the director of the 1950 film \"No Sin On The Alpine Pastures\"",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        10,
+        13
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not specify the year of the film \"No Sin On The Alpine Pastures\" or the director of that specific film. The information given is about a",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 5083,
+          "random_removed": [
+            17,
+            31
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not mention the death of any director for the 1950 film \"No Sin on the Alpine Pastures",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 5114,
+          "random_removed": [
+            15,
+            35
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not mention the death of any director for the 1950 film \"No Sin on the Alpine Pastures",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 5145,
+          "random_removed": [
+            22,
+            39
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not mention the death of any director associated with the 1950 film \"No Sin on the Alpine Pastures",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 6,
+      "question": "Which song came out earlier, Can'T Remember To Forget You or Distant Lover?",
+      "gold_answer": "Distant Lover",
+      "gold_indices": [
+        8,
+        24
+      ],
+      "raw_merged_output": "Insufficient evidence to determine the release date of \"Distant Lover\" compared to \"Can't Remember To Forget You\".\n\nEssential_indices: []",
+      "cond1_merged_answer": "Insufficient evidence to determine the release date of \"Distant Lover\" compared to \"Can't Remember To Forget You\"",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        8,
+        24
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 6092,
+          "random_removed": [
+            7,
+            14
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not mention \"Distant Lover\" in relation to a specific release year",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 6123,
+          "random_removed": [
+            3,
+            28
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not mention the release date of \"Distant Lover\"",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 6154,
+          "random_removed": [
+            0,
+            28
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 7,
+      "question": "Are both businesses, Quarry (Company) and Fields (Department Store), located in the same country?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        5,
+        6
+      ],
+      "raw_merged_output": "Insufficient evidence to determine the country of location for both Quarry (Company) and Fields (Department Store).\n\nJSON object:\n{\n  \"essential_indices\": []\n}",
+      "cond1_merged_answer": "Insufficient evidence to determine the country of location for both Quarry (Company) and Fields (Department Store)",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        5,
+        6
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. Neither the evidence provided mentions a department store named \"Fields,\" nor does it provide any information about the location of the company \"Quarry",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 7101,
+          "random_removed": [
+            0,
+            4
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 7132,
+          "random_removed": [
+            2,
+            11
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 7163,
+          "random_removed": [
+            2,
+            11
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 8,
+      "question": "Who was born earlier, Martin Stapleton or Gina Fulton?",
+      "gold_answer": "Gina Fulton",
+      "gold_indices": [
+        3,
+        13
+      ],
+      "raw_merged_output": "Gina Fulton was born earlier.\n\nEssential_indices: [3, 4]",
+      "cond1_merged_answer": "Gina Fulton was born earlier",
+      "cond1_ghat": [
+        3,
+        4
+      ],
+      "f1_vs_gold": 0.5,
+      "target_removed_indices": [
+        3,
+        4
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. Neither Martin Stapleton nor Gina Fulton's birth dates are provided in the evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 8110,
+          "random_removed": [
+            1,
+            14
+          ],
+          "answer": "Insufficient evidence. Both dates of birth are needed to compare who was born earlier",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 8141,
+          "random_removed": [
+            1,
+            2
+          ],
+          "answer": "Insufficient evidence. Both dates of birth are provided, but they are for different individuals",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 8172,
+          "random_removed": [
+            0,
+            10
+          ],
+          "answer": "Insufficient evidence. Both dates of birth are not provided for comparison",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 9,
+      "question": "Where was the place of burial of Parysatis Ii's husband?",
+      "gold_answer": "Alexandria",
+      "gold_indices": [
+        22,
+        58
+      ],
+      "raw_merged_output": "Insufficient evidence.\n\nEssential_indices: []",
+      "cond1_merged_answer": "Insufficient evidence",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        22,
+        58
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The provided information does not mention Parysatis II or her husband",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 9119,
+          "random_removed": [
+            30,
+            48
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 9150,
+          "random_removed": [
+            7,
+            53
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 9181,
+          "random_removed": [
+            32,
+            44
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 10,
+      "question": "Were Julien Guerrier and Marc Pajot of the same nationality?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        23,
+        34
+      ],
+      "raw_merged_output": "Julien Guerrier and Marc Pajot are of different nationalities.\n\nEssential_indices: [23, 34]",
+      "cond1_merged_answer": "Julien Guerrier and Marc Pajot are of different nationalities",
+      "cond1_ghat": [
+        23,
+        34
+      ],
+      "f1_vs_gold": 1.0,
+      "target_removed_indices": [
+        23,
+        34
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 10128,
+          "random_removed": [
+            11,
+            37
+          ],
+          "answer": "Yes, Julien Guerrier and Marc Pajot are of the same nationality (French)",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 10159,
+          "random_removed": [
+            2,
+            21
+          ],
+          "answer": "Yes, Julien Guerrier and Marc Pajot are of the same nationality (French)",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 10190,
+          "random_removed": [
+            14,
+            18
+          ],
+          "answer": "Yes, Julien Guerrier and Marc Pajot are of the same nationality (French)",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 11,
+      "question": "Which film was released first, The Prince Of Temple Street or Traveler On All Saints' Day?",
+      "gold_answer": "Traveler On All Saints' Day",
+      "gold_indices": [
+        15,
+        18
+      ],
+      "raw_merged_output": "Insufficient evidence to determine the release order of the films.\n\nEssential_indices: []",
+      "cond1_merged_answer": "Insufficient evidence to determine the release order of the films",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        15,
+        18
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence does not provide information about the release dates of \"The Prince Of Temple Street\" or \"Traveler On All Saints' Day\"",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 11137,
+          "random_removed": [
+            32,
+            34
+          ],
+          "answer": "Insufficient evidence. The evidence does not provide release dates for the films",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 11168,
+          "random_removed": [
+            23,
+            34
+          ],
+          "answer": "Insufficient evidence. The evidence does not provide release dates for either film",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 11199,
+          "random_removed": [
+            1,
+            16
+          ],
+          "answer": "Insufficient evidence. The evidence does not provide release dates for either film",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 12,
+      "question": "What is the place of birth of the director of film Behind The Mask (1932 Film)?",
+      "gold_answer": "New York",
+      "gold_indices": [
+        21,
+        29
+      ],
+      "raw_merged_output": "New York, New York\n\nEssential_indices: [26]",
+      "cond1_merged_answer": "New York, New York",
+      "cond1_ghat": [
+        26
+      ],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        26
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not mention the place of birth of the director of the 1932 film \"Behind the Mask\"",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 12146,
+          "random_removed": [
+            6,
+            9
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not mention the place of birth of the director of the 1932 film \"Behind the Mask\"",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 12177,
+          "random_removed": [
+            24,
+            25
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 12208,
+          "random_removed": [
+            11,
+            16
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 13,
+      "question": "Who died first, Mizzi Griebl or Constance Stuart Larrabee?",
+      "gold_answer": "Mizzi Griebl",
+      "gold_indices": [
+        1,
+        11
+      ],
+      "raw_merged_output": "Mizzi Griebl died first.\n\nEssential_indices: [1, 4]",
+      "cond1_merged_answer": "Mizzi Griebl died first",
+      "cond1_ghat": [
+        1,
+        4
+      ],
+      "f1_vs_gold": 0.5,
+      "target_removed_indices": [
+        1,
+        4
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. Neither Mizzi Griebl nor Constance Stuart Larrabee are mentioned in the provided evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 13155,
+          "random_removed": [
+            10,
+            12
+          ],
+          "answer": "Insufficient evidence. The provided evidence does not include the death date of Constance Stuart Larrabee",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 13186,
+          "random_removed": [
+            14,
+            16
+          ],
+          "answer": "Insufficient evidence. The provided evidence does not specify the order of death for Mizzi Griebl and Constance Stuart Larrabee",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 13217,
+          "random_removed": [
+            2,
+            6
+          ],
+          "answer": "Insufficient evidence. The dates of death for Mizzi Griebl and Constance Stuart Larrabee are not provided in the evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 14,
+      "question": "Are Can She Bake A Cherry Pie? and Santiago Files both from the same country?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        9,
+        19
+      ],
+      "raw_merged_output": "Insufficient evidence\n\nEssential_indices: []",
+      "cond1_merged_answer": "Insufficient evidence",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        9,
+        19
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence",
+      "targeted_flipped": false,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 14164,
+          "random_removed": [
+            2,
+            15
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 14195,
+          "random_removed": [
+            15,
+            25
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 14226,
+          "random_removed": [
+            25,
+            29
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 15,
+      "question": "Are both mountains, Munti Wayi and Co\u00f1ocranra, located in the same country?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        9,
+        17
+      ],
+      "raw_merged_output": "Insufficient evidence\n\nEssential_indices: []",
+      "cond1_merged_answer": "Insufficient evidence",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        9,
+        17
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not mention Munti Wayi or Co\u00f1ocranra",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 15173,
+          "random_removed": [
+            3,
+            21
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 15204,
+          "random_removed": [
+            21,
+            30
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 15235,
+          "random_removed": [
+            14,
+            15
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 16,
+      "question": "Where did Princess Augusta Of W\u00fcrttemberg's father die?",
+      "gold_answer": "Rosenstein Castle",
+      "gold_indices": [
+        9,
+        15
+      ],
+      "raw_merged_output": "Stuttgart (insufficient evidence does not specify the exact location within Stuttgart)\n\nEssential_indices: [10]",
+      "cond1_merged_answer": "Stuttgart (insufficient evidence does not specify the exact location within Stuttgart)",
+      "cond1_ghat": [
+        10
+      ],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        10
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not mention where King William I of W\u00fcrttemberg, the father of Princess Augusta of W\u00fcrttemberg, died",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 16182,
+          "random_removed": [
+            12,
+            26
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify where King William I of W\u00fcrttemberg, the father of Princess Augusta of W\u00fcrttemberg, died",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 16213,
+          "random_removed": [
+            17,
+            24
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify where King William I of W\u00fcrttemberg, the father of Princess Augusta of W\u00fcrttemberg, died",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 16244,
+          "random_removed": [
+            5,
+            12
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify where King William I of W\u00fcrttemberg, the father of Princess Augusta of W\u00fcrttemberg, died",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 17,
+      "question": "Where was the place of death of Muqan Qaghan's father?",
+      "gold_answer": "Turkic Khaganate",
+      "gold_indices": [
+        16,
+        52
+      ],
+      "raw_merged_output": "Insufficient evidence to determine the place of death of Bumin Qaghan's father.\n\nEssential_indices: []",
+      "cond1_merged_answer": "Insufficient evidence to determine the place of death of Bumin Qaghan's father",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        16,
+        52
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 17191,
+          "random_removed": [
+            27,
+            31
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 17222,
+          "random_removed": [
+            9,
+            14
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 17253,
+          "random_removed": [
+            6,
+            19
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 18,
+      "question": "Who is the spouse of the director of film Cross Country Cruise?",
+      "gold_answer": "Ona Munson",
+      "gold_indices": [
+        0,
+        12
+      ],
+      "raw_merged_output": "Insufficient evidence to determine the spouse of the director of the film Cross Country Cruise.\n\nEssential_indices: []",
+      "cond1_merged_answer": "Insufficient evidence to determine the spouse of the director of the film Cross Country Cruise",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        0,
+        12
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not mention the spouse of Edward Buzzell, the director of Cross Country Cruise",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 18200,
+          "random_removed": [
+            11,
+            16
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 18231,
+          "random_removed": [
+            9,
+            13
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 18262,
+          "random_removed": [
+            24,
+            25
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not mention the spouse of the director of the film Cross Country Cruise",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 19,
+      "question": "Who was born later, Haris Bashir or Mokete Mokhosi?",
+      "gold_answer": "Haris Bashir",
+      "gold_indices": [
+        3,
+        11
+      ],
+      "raw_merged_output": "Haris Bashir was born later, on May 28, 1993, according to evidence [3].\n\nEssential_indices: [3]",
+      "cond1_merged_answer": "Haris Bashir was born later, on May 28, 1993, according to evidence [3]",
+      "cond1_ghat": [
+        3
+      ],
+      "f1_vs_gold": 0.6666666666666666,
+      "target_removed_indices": [
+        3
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. Both individuals' birth dates are not provided in the evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 19209,
+          "random_removed": [
+            6,
+            12
+          ],
+          "answer": "Insufficient evidence. Both dates of birth are not provided for Haris Bashir and Mokete Mokhosi in the given evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 19240,
+          "random_removed": [
+            8,
+            16
+          ],
+          "answer": "Insufficient evidence. Both dates of birth are not provided for Haris Bashir and Mokete Mokhosi in the given evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 19271,
+          "random_removed": [
+            1,
+            12
+          ],
+          "answer": "Insufficient evidence. Both dates of birth are not provided for Haris Bashir and Mokete Mokhosi in the given evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 20,
+      "question": "Where was the place of death of the composer of film Alice (2005 Film)?",
+      "gold_answer": "Cascais",
+      "gold_indices": [
+        8,
+        30
+      ],
+      "raw_merged_output": "Insufficient evidence\n\nEssential_indices: []",
+      "cond1_merged_answer": "Insufficient evidence",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        8,
+        30
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not mention the composer of the film \"Alice\" (2005) or their place of death",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 20218,
+          "random_removed": [
+            1,
+            28
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the composer of the film \"Alice\" (2005) who died. The information given is about Bernardo Sassetti, a",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 20249,
+          "random_removed": [
+            10,
+            18
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not mention the composer of the film \"Alice\" (2005) or their place of death",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 20280,
+          "random_removed": [
+            9,
+            10
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the composer of the film \"Alice\" (2005) or their place of death",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 21,
+      "question": "Are L\u00f8navatnet and Nodlandsvatnet both located in the same country?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        3,
+        12
+      ],
+      "raw_merged_output": "Insufficient evidence to determine if L\u00f8navatnet and Nodlandsvatnet are located in the same country.\n\nEssential_indices: []",
+      "cond1_merged_answer": "Insufficient evidence to determine if L\u00f8navatnet and Nodlandsvatnet are located in the same country",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        3,
+        12
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 21227,
+          "random_removed": [
+            6,
+            11
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the country where Nodlandsvatnet is located, while L\u00f8navatnet is in Norway",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 21258,
+          "random_removed": [
+            1,
+            5
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the country where L\u00f8navatnet is located",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 21289,
+          "random_removed": [
+            10,
+            11
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 22,
+      "question": "Who is younger, Andrea Grendene or Jung Il-Woo?",
+      "gold_answer": "Jung Il-Woo",
+      "gold_indices": [
+        11,
+        14
+      ],
+      "raw_merged_output": "Insufficient evidence to determine the age of Andrea Grendene and Jung Il-Woo.\n\nEssential_indices: []",
+      "cond1_merged_answer": "Insufficient evidence to determine the age of Andrea Grendene and Jung Il-Woo",
+      "cond1_ghat": [],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        11,
+        14
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not include any information about Andrea Grendene",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 22236,
+          "random_removed": [
+            2,
+            13
+          ],
+          "answer": "Insufficient evidence. The ages of Andrea Grendene and Jung Il-Woo are not provided in the evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 22267,
+          "random_removed": [
+            6,
+            8
+          ],
+          "answer": "Insufficient evidence. The ages of Andrea Grendene and Jung Il-Woo are not provided in the evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 22298,
+          "random_removed": [
+            3,
+            8
+          ],
+          "answer": "Insufficient evidence. The ages of Andrea Grendene and Jung Il-Woo are not provided in the evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 23,
+      "question": "What nationality is the composer of song Inescapable (Song)?",
+      "gold_answer": "American",
+      "gold_indices": [
+        6,
+        23
+      ],
+      "raw_merged_output": "Australian (Essential indices: [22, 23, 25, 26])",
+      "cond1_merged_answer": "Australian (Essential indices: [22, 23, 25, 26])",
+      "cond1_ghat": [
+        22,
+        23,
+        25,
+        26
+      ],
+      "f1_vs_gold": 0.3333333333333333,
+      "target_removed_indices": [
+        22,
+        23,
+        25,
+        26
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not mention the nationality of the composer of the song \"Inescapable",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 23245,
+          "random_removed": [
+            28,
+            33
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the nationality of the composer of the song \"Inescapable",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 23276,
+          "random_removed": [
+            12,
+            31
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the nationality of the composer of the song \"Inescapable",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 23307,
+          "random_removed": [
+            16,
+            22
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the nationality of the composer of \"Inescapable",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 24,
+      "question": "Who is younger, Mike Ratledge or Kim Ji-Sun?",
+      "gold_answer": "Kim Ji-Sun",
+      "gold_indices": [
+        6,
+        18
+      ],
+      "raw_merged_output": "Mike Ratledge is older than Kim Ji-Sun.\n\nEssential_indices: [6]",
+      "cond1_merged_answer": "Mike Ratledge is older than Kim Ji-Sun",
+      "cond1_ghat": [
+        6
+      ],
+      "f1_vs_gold": 0.6666666666666666,
+      "target_removed_indices": [
+        6
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not mention Mike Ratledge",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 24254,
+          "random_removed": [
+            3,
+            14
+          ],
+          "answer": "Insufficient evidence. The ages of Mike Ratledge and Kim Ji-Sun are not provided in the evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 24285,
+          "random_removed": [
+            10,
+            20
+          ],
+          "answer": "Insufficient evidence. The ages of Mike Ratledge and Kim Ji-Sun are not provided in the evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 24316,
+          "random_removed": [
+            8,
+            11
+          ],
+          "answer": "Insufficient evidence. The ages of Mike Ratledge and Kim Ji-Sun are not provided in the evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 25,
+      "question": "What is the place of birth of the director of film Red (2016 Film)?",
+      "gold_answer": "M\u00fcnster",
+      "gold_indices": [
+        12,
+        18
+      ],
+      "raw_merged_output": "Branko Tomovi\u0107 was born in M\u00fcnster, Germany.\n\nEssential_indices: [12]",
+      "cond1_merged_answer": "Branko Tomovi\u0107 was born in M\u00fcnster, Germany",
+      "cond1_ghat": [
+        12
+      ],
+      "f1_vs_gold": 0.6666666666666666,
+      "target_removed_indices": [
+        12
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not specify the birthplace of the director of the film \"Red\" (2016). The names mentioned are either people unrelated to the film,",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 25263,
+          "random_removed": [
+            1,
+            21
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the birthplace of the director of the film \"Red\" (2016). The only director mentioned in the evidence is Branko Tom",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 25294,
+          "random_removed": [
+            0,
+            6
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the birthplace of the director of the film \"Red\" (2016). The only director mentioned in the evidence is Branko Tom",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 25325,
+          "random_removed": [
+            2,
+            19
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the birthplace of the director of the film \"Red\" (2016)",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 26,
+      "question": "Which film came out earlier, Kevin Of The North or No Hay Pan?",
+      "gold_answer": "Kevin Of The North",
+      "gold_indices": [
+        15,
+        17
+      ],
+      "raw_merged_output": "Kevin Of The North came out earlier than No Hay Pan.\n\nEssential_indices: [17, 19]",
+      "cond1_merged_answer": "Kevin Of The North came out earlier than No Hay Pan",
+      "cond1_ghat": [
+        17,
+        19
+      ],
+      "f1_vs_gold": 0.5,
+      "target_removed_indices": [
+        17,
+        19
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not mention \"Kevin Of The North\" or its release date",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 26272,
+          "random_removed": [
+            4,
+            6
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the release date for \"No Hay Pan\" and only provides the release date for \"Kevin of the North\" as February 4, 2",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 26303,
+          "random_removed": [
+            4,
+            10
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify the release date for \"No Hay Pan,\" so it cannot be determined whether it came out earlier than \"Kevin of the North",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 26334,
+          "random_removed": [
+            13,
+            16
+          ],
+          "answer": "Insufficient evidence. The provided evidence does not mention a film titled \"No Hay Pan.\" Only films named \"Como yo no hay dos,\" \"La l\u00e9gion saute sur Kolwezi,",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 27,
+      "question": "Which country Mi Saw U's father is from?",
+      "gold_answer": "Burma",
+      "gold_indices": [
+        3,
+        22
+      ],
+      "raw_merged_output": "Burma (Myanmar)\n\nEssential_indices: [2, 21, 22]",
+      "cond1_merged_answer": "Burma (Myanmar)",
+      "cond1_ghat": [
+        2,
+        21,
+        22
+      ],
+      "f1_vs_gold": 0.4,
+      "target_removed_indices": [
+        2,
+        21,
+        22
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence does not provide information about Mi Saw U's father",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 27281,
+          "random_removed": [
+            7,
+            19
+          ],
+          "answer": "Burma (Myanmar)",
+          "flipped": false
+        },
+        {
+          "k_idx": 2,
+          "seed": 27312,
+          "random_removed": [
+            0,
+            14
+          ],
+          "answer": "Burma (Myanmar)",
+          "flipped": false
+        },
+        {
+          "k_idx": 3,
+          "seed": 27343,
+          "random_removed": [
+            12,
+            15
+          ],
+          "answer": "Burma (Myanmar)",
+          "flipped": false
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 28,
+      "question": "Are The Pursuit Of Happiness (1934 Film) and East Lynne (1931 Film) from the same country?",
+      "gold_answer": "yes",
+      "gold_indices": [
+        13,
+        16
+      ],
+      "raw_merged_output": "The Pursuit Of Happiness (1934 Film) and East Lynne (1931 Film) are from different countries.\n\nEssential_indices: [16, 22]",
+      "cond1_merged_answer": "The Pursuit Of Happiness (1934 Film) and East Lynne (1931 Film) are from different countries",
+      "cond1_ghat": [
+        16,
+        22
+      ],
+      "f1_vs_gold": 0.5,
+      "target_removed_indices": [
+        16,
+        22
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 28290,
+          "random_removed": [
+            2,
+            26
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 28321,
+          "random_removed": [
+            12,
+            15
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 28352,
+          "random_removed": [
+            14,
+            33
+          ],
+          "answer": "Insufficient evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 29,
+      "question": "Which film was released more recently, Girl Slaves Of Morgana Le Fay or Strawberry Shortcake: Rockaberry Roll?",
+      "gold_answer": "Strawberry Shortcake: Rockaberry Roll",
+      "gold_indices": [
+        1,
+        16
+      ],
+      "raw_merged_output": "Strawberry Shortcake: Rockaberry Roll was released more recently.\n\nEssential_indices: [16]",
+      "cond1_merged_answer": "Strawberry Shortcake: Rockaberry Roll was released more recently",
+      "cond1_ghat": [
+        16
+      ],
+      "f1_vs_gold": 0.6666666666666666,
+      "target_removed_indices": [
+        16
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. Neither release date for \"Girl Slaves Of Morgana Le Fay\" nor \"Strawberry Shortcake: Rockaberry Roll\" is provided in the evidence",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 29299,
+          "random_removed": [
+            6,
+            15
+          ],
+          "answer": "Strawberry Shortcake: Rockaberry Roll (2008) was released more recently",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 29330,
+          "random_removed": [
+            10,
+            19
+          ],
+          "answer": "Strawberry Shortcake: Rockaberry Roll (2008) was released more recently",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 29361,
+          "random_removed": [
+            4,
+            20
+          ],
+          "answer": "Insufficient evidence. Both films' release dates are not provided in the evidence",
+          "flipped": true
+        }
+      ]
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 30,
+      "question": "Where does Alexander Aris's mother work at?",
+      "gold_answer": "United Nations",
+      "gold_indices": [
+        11,
+        29
+      ],
+      "raw_merged_output": "Sheena Shahabadi, Alexander Aris's mother, is an actress.\n\nEssential_indices: [5, 8]",
+      "cond1_merged_answer": "Sheena Shahabadi, Alexander Aris's mother, is an actress",
+      "cond1_ghat": [
+        5,
+        8
+      ],
+      "f1_vs_gold": 0.0,
+      "target_removed_indices": [
+        5,
+        8
+      ],
+      "cond2_target_removed_answer": "Insufficient evidence. The evidence provided does not mention where Alexander Aris's mother works",
+      "targeted_flipped": true,
+      "per_K_random": [
+        {
+          "k_idx": 1,
+          "seed": 30308,
+          "random_removed": [
+            26,
+            35
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify where Alexander Aris's mother works",
+          "flipped": true
+        },
+        {
+          "k_idx": 2,
+          "seed": 30339,
+          "random_removed": [
+            16,
+            22
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify where Alexander Aris's mother works",
+          "flipped": true
+        },
+        {
+          "k_idx": 3,
+          "seed": 30370,
+          "random_removed": [
+            10,
+            43
+          ],
+          "answer": "Insufficient evidence. The evidence provided does not specify where Alexander Aris's mother works",
+          "flipped": true
+        }
+      ]
+    }
+  ]
+}

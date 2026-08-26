@@ -1,0 +1,1084 @@
+{
+ "records": [
+  {
+   "dataset": "hotpotqa",
+   "qid": 1,
+   "cond": "grounded",
+   "answer": "Yes, both were American.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.49364548921585083,
+   "sim_answer_full": 0.5050890445709229
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 1,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4115283489227295,
+   "sim_answer_full": 0.39034712314605713
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 2,
+   "cond": "grounded",
+   "answer": "United States ambassador to Ghana and Czechoslovakia.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.5363354682922363,
+   "sim_answer_full": 0.43895530700683594
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 2,
+   "cond": "ungrounded",
+   "answer": "United States ambassador",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.5178862810134888,
+   "sim_answer_full": 0.41231802105903625
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 3,
+   "cond": "grounded",
+   "answer": "Animorphs",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6104047894477844,
+   "sim_answer_full": 0.45766308903694153
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 3,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.39358365535736084,
+   "sim_answer_full": 0.39696061611175537
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 4,
+   "cond": "grounded",
+   "answer": "No. Laleli and Ortak\u00f6y are different neighborhoods.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6388518214225769,
+   "sim_answer_full": 0.45506608486175537
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 4,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3350719213485718,
+   "sim_answer_full": 0.33957555890083313
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 5,
+   "cond": "grounded",
+   "answer": "Greenwich Village",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4645484387874603,
+   "sim_answer_full": 0.5014574527740479
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 5,
+   "cond": "ungrounded",
+   "answer": "New York City",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4575822949409485,
+   "sim_answer_full": 0.4628832936286926
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 6,
+   "cond": "grounded",
+   "answer": "YG Entertainment",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6515467762947083,
+   "sim_answer_full": 0.5383173227310181
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 6,
+   "cond": "ungrounded",
+   "answer": "YG Entertainment",
+   "judge_groundedscore": 0,
+   "sim_answer_gold": 0.6515467762947083,
+   "sim_answer_full": 0.5307892560958862
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 7,
+   "cond": "grounded",
+   "answer": "Eenasul Fateh",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.7155544757843018,
+   "sim_answer_full": 0.39234358072280884
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 7,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3991181254386902,
+   "sim_answer_full": 0.4279480576515198
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 8,
+   "cond": "grounded",
+   "answer": "3,677 seated (4,000 capacity)",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6147321462631226,
+   "sim_answer_full": 0.45294126868247986
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 8,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3988943099975586,
+   "sim_answer_full": 0.38721272349357605
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 9,
+   "cond": "grounded",
+   "answer": "Terry Richardson",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.5757818222045898,
+   "sim_answer_full": 0.45160606503486633
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 9,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.39760464429855347,
+   "sim_answer_full": 0.4178878664970398
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 10,
+   "cond": "grounded",
+   "answer": "Yes.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4391908049583435,
+   "sim_answer_full": 0.3902515172958374
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 10,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.40105217695236206,
+   "sim_answer_full": 0.44889160990715027
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 11,
+   "cond": "grounded",
+   "answer": "Kansas Song (We\u2019re From Kansas)",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.7529650926589966,
+   "sim_answer_full": 0.5609515905380249
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 11,
+   "cond": "ungrounded",
+   "answer": "Kansas Song (We\u2019re From Kansas)",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.7529650926589966,
+   "sim_answer_full": 0.5609515905380249
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 12,
+   "cond": "grounded",
+   "answer": "David Weissman",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.7026712894439697,
+   "sim_answer_full": 0.47034573554992676
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 12,
+   "cond": "ungrounded",
+   "answer": "David Weissman",
+   "judge_groundedscore": 0,
+   "sim_answer_gold": 0.7026712894439697,
+   "sim_answer_full": 0.4692230224609375
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 13,
+   "cond": "grounded",
+   "answer": "1999",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4710303544998169,
+   "sim_answer_full": 0.42897701263427734
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 13,
+   "cond": "ungrounded",
+   "answer": "1999",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4710303544998169,
+   "sim_answer_full": 0.42897701263427734
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 14,
+   "cond": "grounded",
+   "answer": "Yes.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3835791051387787,
+   "sim_answer_full": 0.3545893728733063
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 14,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4252488613128662,
+   "sim_answer_full": 0.42728087306022644
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 15,
+   "cond": "grounded",
+   "answer": "1986\u20132013",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.5866640210151672,
+   "sim_answer_full": 0.4976148307323456
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 15,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.43197619915008545,
+   "sim_answer_full": 0.39070871472358704
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 16,
+   "cond": "grounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.42175960540771484,
+   "sim_answer_full": 0.3872928023338318
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 16,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.42175960540771484,
+   "sim_answer_full": 0.3840475082397461
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 17,
+   "cond": "grounded",
+   "answer": "North Atlantic Conference",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.7091637849807739,
+   "sim_answer_full": 0.5623936653137207
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 17,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.39242982864379883,
+   "sim_answer_full": 0.37433597445487976
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 18,
+   "cond": "grounded",
+   "answer": "Yes.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.34318673610687256,
+   "sim_answer_full": 0.3897113800048828
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 18,
+   "cond": "ungrounded",
+   "answer": "Yes.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.34318673610687256,
+   "sim_answer_full": 0.3892570436000824
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 19,
+   "cond": "grounded",
+   "answer": "1969\u20131974",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6436614990234375,
+   "sim_answer_full": 0.5039752721786499
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 19,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4591119587421417,
+   "sim_answer_full": 0.4251367747783661
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 20,
+   "cond": "grounded",
+   "answer": "Robert Erskine Childers",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6333967447280884,
+   "sim_answer_full": 0.5322504043579102
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 20,
+   "cond": "ungrounded",
+   "answer": "Robert Erskine Childers",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6333967447280884,
+   "sim_answer_full": 0.5421933531761169
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 21,
+   "cond": "grounded",
+   "answer": "Pedro Rodr\u00edguez",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6248027682304382,
+   "sim_answer_full": 0.4138340950012207
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 21,
+   "cond": "ungrounded",
+   "answer": "Pedro Rodr\u00edguez",
+   "judge_groundedscore": 0,
+   "sim_answer_gold": 0.6248027682304382,
+   "sim_answer_full": 0.413871705532074
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 22,
+   "cond": "grounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3828970193862915,
+   "sim_answer_full": 0.39268290996551514
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 22,
+   "cond": "ungrounded",
+   "answer": "Badly Drawn Boy",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.651753842830658,
+   "sim_answer_full": 0.5686973929405212
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 23,
+   "cond": "grounded",
+   "answer": "Yes.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.40970635414123535,
+   "sim_answer_full": 0.3947460651397705
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 23,
+   "cond": "ungrounded",
+   "answer": "Yes.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4097064733505249,
+   "sim_answer_full": 0.3860580325126648
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 24,
+   "cond": "grounded",
+   "answer": "Japan.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.5387275218963623,
+   "sim_answer_full": 0.5831677913665771
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 24,
+   "cond": "ungrounded",
+   "answer": "Japan",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4919479489326477,
+   "sim_answer_full": 0.510641872882843
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 25,
+   "cond": "grounded",
+   "answer": "No.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3420707583427429,
+   "sim_answer_full": 0.39821648597717285
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 25,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4296584129333496,
+   "sim_answer_full": 0.3967269957065582
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 26,
+   "cond": "grounded",
+   "answer": "Letters to Cleo",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6360536813735962,
+   "sim_answer_full": 0.6451818346977234
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 26,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.37480416893959045,
+   "sim_answer_full": 0.39954742789268494
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 27,
+   "cond": "grounded",
+   "answer": "No.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3725760579109192,
+   "sim_answer_full": 0.4248884916305542
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 27,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3555694818496704,
+   "sim_answer_full": 0.4333927035331726
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 28,
+   "cond": "grounded",
+   "answer": "Scotch Collie",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.7696703672409058,
+   "sim_answer_full": 0.5697717666625977
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 28,
+   "cond": "ungrounded",
+   "answer": "Scotch Collie",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.7696703672409058,
+   "sim_answer_full": 0.5724722743034363
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 29,
+   "cond": "grounded",
+   "answer": "Yes.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.38968396186828613,
+   "sim_answer_full": 0.3846050202846527
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 29,
+   "cond": "ungrounded",
+   "answer": "Yes.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.38968396186828613,
+   "sim_answer_full": 0.38725244998931885
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 30,
+   "cond": "grounded",
+   "answer": "Yes.",
+   "judge_groundedscore": 0,
+   "sim_answer_gold": 0.4392933249473572,
+   "sim_answer_full": 0.3722129464149475
+  },
+  {
+   "dataset": "hotpotqa",
+   "qid": 30,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4178790748119354,
+   "sim_answer_full": 0.42335784435272217
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 1,
+   "cond": "grounded",
+   "answer": "Carlo Ponti Sr.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6286476850509644,
+   "sim_answer_full": 0.5409324169158936
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 1,
+   "cond": "ungrounded",
+   "answer": "Carlo Ponti",
+   "judge_groundedscore": 0,
+   "sim_answer_gold": 0.5971757173538208,
+   "sim_answer_full": 0.5474626421928406
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 2,
+   "cond": "grounded",
+   "answer": "New York, New York",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3933730125427246,
+   "sim_answer_full": 0.3903176784515381
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 2,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3069499731063843,
+   "sim_answer_full": 0.40398359298706055
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 3,
+   "cond": "grounded",
+   "answer": "Montreal, Quebec",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4256889820098877,
+   "sim_answer_full": 0.3334944248199463
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 3,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.40767958760261536,
+   "sim_answer_full": 0.34862983226776123
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 4,
+   "cond": "grounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 0,
+   "sim_answer_gold": 0.347348690032959,
+   "sim_answer_full": 0.4580543637275696
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 4,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.347348690032959,
+   "sim_answer_full": 0.4814249575138092
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 5,
+   "cond": "grounded",
+   "answer": "Vienna",
+   "judge_groundedscore": 0,
+   "sim_answer_gold": 0.5317480564117432,
+   "sim_answer_full": 0.49301955103874207
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 5,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.33779361844062805,
+   "sim_answer_full": 0.43063652515411377
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 6,
+   "cond": "grounded",
+   "answer": "Distant Lover",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.5110198855400085,
+   "sim_answer_full": 0.42832985520362854
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 6,
+   "cond": "ungrounded",
+   "answer": "Distant Lover",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.5110198855400085,
+   "sim_answer_full": 0.43275341391563416
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 7,
+   "cond": "grounded",
+   "answer": "Yes.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3831844925880432,
+   "sim_answer_full": 0.343258261680603
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 7,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 0,
+   "sim_answer_gold": 0.38139623403549194,
+   "sim_answer_full": 0.3406057059764862
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 8,
+   "cond": "grounded",
+   "answer": "Gina Fulton was born earlier.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.5824452638626099,
+   "sim_answer_full": 0.4992242455482483
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 8,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4409925043582916,
+   "sim_answer_full": 0.4057621657848358
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 9,
+   "cond": "grounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.41367319226264954,
+   "sim_answer_full": 0.4482608735561371
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 9,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.41367319226264954,
+   "sim_answer_full": 0.4482608735561371
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 10,
+   "cond": "grounded",
+   "answer": "Yes.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.38671132922172546,
+   "sim_answer_full": 0.35730844736099243
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 10,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3715057671070099,
+   "sim_answer_full": 0.407751202583313
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 11,
+   "cond": "grounded",
+   "answer": "Traveler On All Saints' Day (1943)",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6703885793685913,
+   "sim_answer_full": 0.6877020597457886
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 11,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3352324366569519,
+   "sim_answer_full": 0.4086201786994934
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 12,
+   "cond": "grounded",
+   "answer": "New York, New York",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4368472397327423,
+   "sim_answer_full": 0.38562506437301636
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 12,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.38403186202049255,
+   "sim_answer_full": 0.36308592557907104
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 13,
+   "cond": "grounded",
+   "answer": "Mizzi Griebl died first.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.7041487693786621,
+   "sim_answer_full": 0.5585893392562866
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 13,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.39584431052207947,
+   "sim_answer_full": 0.40923309326171875
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 14,
+   "cond": "grounded",
+   "answer": "No.",
+   "judge_groundedscore": 0,
+   "sim_answer_gold": 0.37907129526138306,
+   "sim_answer_full": 0.3349583148956299
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 14,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 0,
+   "sim_answer_gold": 0.40704381465911865,
+   "sim_answer_full": 0.3698328137397766
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 15,
+   "cond": "grounded",
+   "answer": "Yes.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.34444522857666016,
+   "sim_answer_full": 0.3498373329639435
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 15,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.41520798206329346,
+   "sim_answer_full": 0.3941790461540222
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 16,
+   "cond": "grounded",
+   "answer": "Rosenstein Castle in Bad Cannstatt",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6553759574890137,
+   "sim_answer_full": 0.5303459167480469
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 16,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.40414169430732727,
+   "sim_answer_full": 0.42168277502059937
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 17,
+   "cond": "grounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.41193777322769165,
+   "sim_answer_full": 0.4253872036933899
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 17,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.41193777322769165,
+   "sim_answer_full": 0.42312854528427124
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 18,
+   "cond": "grounded",
+   "answer": "Lorraine Miller",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3460555076599121,
+   "sim_answer_full": 0.3542306423187256
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 18,
+   "cond": "ungrounded",
+   "answer": "Lorraine Miller",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3460555076599121,
+   "sim_answer_full": 0.35438433289527893
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 19,
+   "cond": "grounded",
+   "answer": "Haris Bashir",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.7423776388168335,
+   "sim_answer_full": 0.5564164519309998
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 19,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.43989527225494385,
+   "sim_answer_full": 0.4620799124240875
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 20,
+   "cond": "grounded",
+   "answer": "Guincho, Cascais, Portugal",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6024246215820312,
+   "sim_answer_full": 0.47904717922210693
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 20,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.43555742502212524,
+   "sim_answer_full": 0.40752366185188293
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 21,
+   "cond": "grounded",
+   "answer": "Yes.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3601433038711548,
+   "sim_answer_full": 0.3379647433757782
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 21,
+   "cond": "ungrounded",
+   "answer": "Yes, both are in Norway.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.5264332294464111,
+   "sim_answer_full": 0.45540952682495117
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 22,
+   "cond": "grounded",
+   "answer": "Jung Il-Woo",
+   "judge_groundedscore": 0,
+   "sim_answer_gold": 0.6060987710952759,
+   "sim_answer_full": 0.686284601688385
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 22,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3691423535346985,
+   "sim_answer_full": 0.33165889978408813
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 23,
+   "cond": "grounded",
+   "answer": "American",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4596952199935913,
+   "sim_answer_full": 0.50003981590271
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 23,
+   "cond": "ungrounded",
+   "answer": "American",
+   "judge_groundedscore": 0,
+   "sim_answer_gold": 0.4596952199935913,
+   "sim_answer_full": 0.47749507427215576
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 24,
+   "cond": "grounded",
+   "answer": "Kim Ji-Sun",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6789242029190063,
+   "sim_answer_full": 0.6247287392616272
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 24,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4025718569755554,
+   "sim_answer_full": 0.35520225763320923
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 25,
+   "cond": "grounded",
+   "answer": "M\u00fcnster, Germany",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.5126165151596069,
+   "sim_answer_full": 0.407607764005661
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 25,
+   "cond": "ungrounded",
+   "answer": "Belgrade, Serbia",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.4438365399837494,
+   "sim_answer_full": 0.37742531299591064
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 26,
+   "cond": "grounded",
+   "answer": "Kevin Of The North came out earlier.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.7390092015266418,
+   "sim_answer_full": 0.530073344707489
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 26,
+   "cond": "ungrounded",
+   "answer": "Kevin Of The North",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6938995718955994,
+   "sim_answer_full": 0.48565661907196045
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 27,
+   "cond": "grounded",
+   "answer": "Burma (Myanmar)",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6243418455123901,
+   "sim_answer_full": 0.553476095199585
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 27,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 0,
+   "sim_answer_gold": 0.39977043867111206,
+   "sim_answer_full": 0.41831251978874207
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 28,
+   "cond": "grounded",
+   "answer": "Yes.",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.3366917371749878,
+   "sim_answer_full": 0.36819860339164734
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 28,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 0,
+   "sim_answer_gold": 0.35141661763191223,
+   "sim_answer_full": 0.3737333416938782
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 29,
+   "cond": "grounded",
+   "answer": "Strawberry Shortcake: Rockaberry Roll",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.6623079776763916,
+   "sim_answer_full": 0.579836368560791
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 29,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 1,
+   "sim_answer_gold": 0.31338751316070557,
+   "sim_answer_full": 0.34309154748916626
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 30,
+   "cond": "grounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 0,
+   "sim_answer_gold": 0.4318689703941345,
+   "sim_answer_full": 0.38745057582855225
+  },
+  {
+   "dataset": "2wiki",
+   "qid": 30,
+   "cond": "ungrounded",
+   "answer": "insufficient evidence",
+   "judge_groundedscore": 0,
+   "sim_answer_gold": 0.4318689703941345,
+   "sim_answer_full": 0.41379812359809875
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+  "pooled": {
+    "n": 57,
+    "targeted_flip": 54,
+    "random_flip": 1,
+    "cfscore": 0.9298245614035088,
+    "wilson_95_targeted": [
+      0.8563022233952869,
+      0.9819400319037189
+    ],
+    "wilson_95_random": [
+      0.003103584706680096,
+      0.09290966938262721
+    ],
+    "cis_non_overlapping": true
+  },
+  "bootstrap": {
+    "n_resamples": 10000,
+    "mean": 0.9296929824561403,
+    "percentile_90": [
+      0.8771929824561403,
+      0.9824561403508771
+    ],
+    "percentile_95": [
+      0.8596491228070176,
+      0.9824561403508771
+    ],
+    "percentile_99": [
+      0.8245614035087719,
+      1.0
+    ]
+  },
+  "loo_top5_influential": [
+    {
+      "dataset": "hotpotqa",
+      "qid": 9,
+      "cfscore_drop_if_removed": -0.01660401002506262
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 18,
+      "cfscore_drop_if_removed": -0.01660401002506262
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 20,
+      "cfscore_drop_if_removed": -0.01660401002506262
+    },
+    {
+      "dataset": "2wiki",
+      "qid": 27,
+      "cfscore_drop_if_removed": -0.01660401002506262
+    },
+    {
+      "dataset": "hotpotqa",
+      "qid": 1,
+      "cfscore_drop_if_removed": 0.0012531328320802837
+    }
+  ],
+  "convergence": {
+    "10": {
+      "mean": 0.9294,
+      "sd": 0.07824168813210615,
+      "n_subsamples": 1000
+    },
+    "20": {
+      "mean": 0.9308,
+      "sd": 0.05499440320963929,
+      "n_subsamples": 1000
+    },
+    "30": {
+      "mean": 0.9275,
+      "sd": 0.04526734436433323,
+      "n_subsamples": 1000
+    },
+    "40": {
+      "mean": 0.9301,
+      "sd": 0.040735726327136956,
+      "n_subsamples": 1000
+    },
+    "50": {
+      "mean": 0.9292199999999999,
+      "sd": 0.035108748542553095,
+      "n_subsamples": 1000
+    },
+    "57": {
+      "mean": 0.9314736842105262,
+      "sd": 0.033859598622309806,
+      "n_subsamples": 1000
+    }
+  }
+}

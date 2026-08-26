@@ -1,0 +1,6 @@
+{
+  "LLM-judge (grounded=1)": 0.5333333333333333,
+  "BGE sim(answer, gold-evid)": 0.6643055555555555,
+  "BGE sim(answer, full-evid)": 0.6165277777777779,
+  "CF-Verify CFScore (K=5, 5-fold CV)": 0.784
+}

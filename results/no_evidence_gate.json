@@ -1,0 +1,2104 @@
+{
+ "records": [
+  {
+   "ds": "hotpotqa",
+   "qid": 1,
+   "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+   "no_evidence_answer": "No. Scott Derrickson is American; Ed Wood was American",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 2,
+   "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+   "no_evidence_answer": "Helen Gahagan Douglas",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 3,
+   "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+   "no_evidence_answer": "The Obernewtyn Chronicles",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 4,
+   "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+   "no_evidence_answer": "No, they are in different neighborhoods",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 5,
+   "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+   "no_evidence_answer": "New York City",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 6,
+   "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+   "no_evidence_answer": "SM Entertainment",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 7,
+   "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 8,
+   "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+   "no_evidence_answer": "4,000 people",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 9,
+   "question": "Who is older, Annie Morton or Terry Richardson?",
+   "no_evidence_answer": "Annie Morton",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 10,
+   "question": "Are Local H and For Against both from the United States?",
+   "no_evidence_answer": "No",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 11,
+   "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+   "no_evidence_answer": "I'm a Jayhawk",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 12,
+   "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 13,
+   "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+   "no_evidence_answer": "1993",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 14,
+   "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+   "no_evidence_answer": "Yes",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 15,
+   "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+   "no_evidence_answer": "1986 to 2013",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 16,
+   "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 17,
+   "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+   "no_evidence_answer": "North Atlantic Conference",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 18,
+   "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+   "no_evidence_answer": "Yes",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 19,
+   "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+   "no_evidence_answer": "1963-1969",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 20,
+   "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+   "no_evidence_answer": "Robert Erskine Childers",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 21,
+   "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+   "no_evidence_answer": "Sergio P\u00e9rez",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 22,
+   "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+   "no_evidence_answer": "Wolf Alice",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 23,
+   "question": "Are both Dictyosperma, and Huernia described as a genus?",
+   "no_evidence_answer": "Yes",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 24,
+   "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+   "no_evidence_answer": "Japan",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 25,
+   "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+   "no_evidence_answer": "Yes",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 26,
+   "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+   "no_evidence_answer": "Letters to Cleo",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 27,
+   "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+   "no_evidence_answer": "No",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 28,
+   "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+   "no_evidence_answer": "Manchester Terrier",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 29,
+   "question": "Are Ferocactus and Silene both types of plant?",
+   "no_evidence_answer": "Yes, both are plants",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 30,
+   "question": "Are both Cypress and Ajuga genera?",
+   "no_evidence_answer": "Yes",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 1,
+   "question": "Who is the father of the director of film Between Strangers?",
+   "no_evidence_answer": "Carlo Ponti",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 2,
+   "question": "Where was the director of film The Smiling Ghost born?",
+   "no_evidence_answer": "New York City, New York",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 3,
+   "question": "What is the place of birth of the director of film Random Encounter (Film)?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 4,
+   "question": "Where was the place of death of Morris Engel's wife?",
+   "no_evidence_answer": "New York City",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 5,
+   "question": "Where did the director of film No Sin On The Alpine Pastures (1950 Film) die?",
+   "no_evidence_answer": "Munich, Germany",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 6,
+   "question": "Which song came out earlier, Can'T Remember To Forget You or Distant Lover?",
+   "no_evidence_answer": "Distant Lover",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 7,
+   "question": "Are both businesses, Quarry (Company) and Fields (Department Store), located in the same country?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 8,
+   "question": "Who was born earlier, Martin Stapleton or Gina Fulton?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 9,
+   "question": "Where was the place of burial of Parysatis Ii's husband?",
+   "no_evidence_answer": "Naqsh-e Rustam, Persia",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 10,
+   "question": "Were Julien Guerrier and Marc Pajot of the same nationality?",
+   "no_evidence_answer": "Yes",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 11,
+   "question": "Which film was released first, The Prince Of Temple Street or Traveler On All Saints' Day?",
+   "no_evidence_answer": "The Prince of Temple Street",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 12,
+   "question": "What is the place of birth of the director of film Behind The Mask (1932 Film)?",
+   "no_evidence_answer": "New York City, United States",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 13,
+   "question": "Who died first, Mizzi Griebl or Constance Stuart Larrabee?",
+   "no_evidence_answer": "Mizzi Griebl",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 14,
+   "question": "Are Can She Bake A Cherry Pie? and Santiago Files both from the same country?",
+   "no_evidence_answer": "Yes",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 15,
+   "question": "Are both mountains, Munti Wayi and Co\u00f1ocranra, located in the same country?",
+   "no_evidence_answer": "Yes",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 16,
+   "question": "Where did Princess Augusta Of W\u00fcrttemberg's father die?",
+   "no_evidence_answer": "Koblenz",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 17,
+   "question": "Where was the place of death of Muqan Qaghan's father?",
+   "no_evidence_answer": "Unknown",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 18,
+   "question": "Who is the spouse of the director of film Cross Country Cruise?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 19,
+   "question": "Who was born later, Haris Bashir or Mokete Mokhosi?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 20,
+   "question": "Where was the place of death of the composer of film Alice (2005 Film)?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 21,
+   "question": "Are L\u00f8navatnet and Nodlandsvatnet both located in the same country?",
+   "no_evidence_answer": "Yes, both are located in Norway",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 22,
+   "question": "Who is younger, Andrea Grendene or Jung Il-Woo?",
+   "no_evidence_answer": "Jung Il-Woo",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 23,
+   "question": "What nationality is the composer of song Inescapable (Song)?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 24,
+   "question": "Who is younger, Mike Ratledge or Kim Ji-Sun?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 25,
+   "question": "What is the place of birth of the director of film Red (2016 Film)?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 26,
+   "question": "Which film came out earlier, Kevin Of The North or No Hay Pan?",
+   "no_evidence_answer": "Kevin of the North",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 27,
+   "question": "Which country Mi Saw U's father is from?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 28,
+   "question": "Are The Pursuit Of Happiness (1934 Film) and East Lynne (1931 Film) from the same country?",
+   "no_evidence_answer": "No",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 29,
+   "question": "Which film was released more recently, Girl Slaves Of Morgana Le Fay or Strawberry Shortcake: Rockaberry Roll?",
+   "no_evidence_answer": "Strawberry Shortcake: Rockaberry Roll",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 30,
+   "question": "Where does Alexander Aris's mother work at?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 101,
+   "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+   "no_evidence_answer": "Yes. Both were American",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 102,
+   "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 103,
+   "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+   "no_evidence_answer": "The Homecoming Saga",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 104,
+   "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+   "no_evidence_answer": "Yes",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 105,
+   "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+   "no_evidence_answer": "New York City",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 106,
+   "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+   "no_evidence_answer": "SM Entertainment",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 107,
+   "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 108,
+   "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+   "no_evidence_answer": "4,000 people",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 109,
+   "question": "Who is older, Annie Morton or Terry Richardson?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 110,
+   "question": "Are Local H and For Against both from the United States?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 111,
+   "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+   "no_evidence_answer": "I\u2019m not sure",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 112,
+   "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+   "no_evidence_answer": "David Diamond",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 113,
+   "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+   "no_evidence_answer": "1988",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 114,
+   "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+   "no_evidence_answer": "Yes",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 115,
+   "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+   "no_evidence_answer": "1986 to 2013",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 116,
+   "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 117,
+   "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+   "no_evidence_answer": "North Atlantic Conference",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 118,
+   "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+   "no_evidence_answer": "Yes",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 119,
+   "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+   "no_evidence_answer": "1969\u20131974",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 120,
+   "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+   "no_evidence_answer": "Robert Erskine Childers",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 121,
+   "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+   "no_evidence_answer": "Sergio P\u00e9rez",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 122,
+   "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+   "no_evidence_answer": "Sonic the Hedgehog",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 123,
+   "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+   "no_evidence_answer": "Apple keyboard",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 124,
+   "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+   "no_evidence_answer": "Badly Drawn Boy",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 125,
+   "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 126,
+   "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+   "no_evidence_answer": "Mack Gordon",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 127,
+   "question": "The 2011\u201312 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+   "no_evidence_answer": "1838",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 128,
+   "question": "Are both Dictyosperma, and Huernia described as a genus?",
+   "no_evidence_answer": "Yes, both are genera",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 129,
+   "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+   "no_evidence_answer": "Henry J. Kaiser",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 130,
+   "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+   "no_evidence_answer": "Solo adventure",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 131,
+   "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 132,
+   "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+   "no_evidence_answer": "Japan",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 133,
+   "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+   "no_evidence_answer": "Charles Nungesser and Fran\u00e7ois Coli",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 134,
+   "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+   "no_evidence_answer": "No",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 135,
+   "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+   "no_evidence_answer": "Letters to Cleo",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 136,
+   "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+   "no_evidence_answer": "In 1922, when the Red Army defeated the White forces",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 137,
+   "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+   "no_evidence_answer": "Since 2003",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 138,
+   "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+   "no_evidence_answer": "World War II",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 139,
+   "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+   "no_evidence_answer": "No. Elko Regional Airport is in Nevada; Gerald R. Ford International Airport is in Michigan",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 140,
+   "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+   "no_evidence_answer": "New York City",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 141,
+   "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+   "no_evidence_answer": "Manchester Terrier",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 142,
+   "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+   "no_evidence_answer": "Bangalore, India",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 143,
+   "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+   "no_evidence_answer": "1962",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 144,
+   "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+   "no_evidence_answer": "independence",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 145,
+   "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+   "no_evidence_answer": "under Vice President Hubert Humphrey",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 146,
+   "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+   "no_evidence_answer": "Yellowcraig coast",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 147,
+   "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+   "no_evidence_answer": "Phil Spector",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 148,
+   "question": "What type of forum did a former Soviet statesman initiate?",
+   "no_evidence_answer": "international forum",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 149,
+   "question": "Are Ferocactus and Silene both types of plant?",
+   "no_evidence_answer": "Yes",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 150,
+   "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+   "no_evidence_answer": "English Electric Canberra",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 151,
+   "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+   "no_evidence_answer": "2009, Big 12 Conference",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 152,
+   "question": "In 1991 Euromarch\u00e9 was bought by a chain that operated how any hypermarkets at the end of 2016?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 153,
+   "question": "What race track in the midwest hosts a 500 mile race eavery May?",
+   "no_evidence_answer": "Indianapolis Motor Speedway",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 154,
+   "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+   "no_evidence_answer": "Rome",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 155,
+   "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+   "no_evidence_answer": "Max Martin, Greg Kurstin, Ryan Tedder, Sia, and Tobias Jesso Jr",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 156,
+   "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+   "no_evidence_answer": "Perth",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 157,
+   "question": "D1NZ is a series based on what oversteering technique?",
+   "no_evidence_answer": "Drifting",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 158,
+   "question": "who is younger Keith Bostic or Jerry Glanville ?",
+   "no_evidence_answer": "Keith Bostic",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 159,
+   "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 160,
+   "question": "Are both Cypress and Ajuga genera?",
+   "no_evidence_answer": "Yes",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 161,
+   "question": "What distinction is held by the former NBA player who was a member of the Charlotte Hornets during their 1992-93 season and was head coach for the WNBA team Charlotte Sting?",
+   "no_evidence_answer": "Larry Johnson",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 162,
+   "question": "What is the name of the executive producer of the film that has a score composed by Jerry Goldsmith?",
+   "no_evidence_answer": "Frank McCarthy",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 163,
+   "question": "Who was born earlier, Emma Bull or Virginia Woolf?",
+   "no_evidence_answer": "Virginia Woolf",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 164,
+   "question": "What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 165,
+   "question": "Scott Parkin has been a vocal critic of Exxonmobil and another corporation that has operations in how many countries ?",
+   "no_evidence_answer": "More than 100 countries",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 166,
+   "question": "What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?",
+   "no_evidence_answer": "Charmed",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 167,
+   "question": "Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?",
+   "no_evidence_answer": "WBC",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 168,
+   "question": "What is the name of the singer who's song was released as the lead single from the album \"Confessions\", and that had popular song stuck behind for eight consecutive weeks?",
+   "no_evidence_answer": "Usher",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 169,
+   "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 170,
+   "question": "The 2017\u201318 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?",
+   "no_evidence_answer": "EFL Cup",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 171,
+   "question": "Which of Tara Strong major voice role in animated series is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\"?",
+   "no_evidence_answer": "Raven",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 172,
+   "question": "What is the inhabitant of the city where  122nd SS-Standarte was formed in2014",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 173,
+   "question": "What color clothing do people of the Netherlands wear during Oranjegekte or to celebrate the national holiday Koningsdag? ",
+   "no_evidence_answer": "Orange clothing",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 174,
+   "question": "What was the name of the 1996 loose adaptation of William Shakespeare's \"Romeo & Juliet\" written by James Gunn?",
+   "no_evidence_answer": "Romeo Is Bleeding",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 175,
+   "question": "Robert Suettinger was the national intelligence officer under which former Governor of Arkansas?",
+   "no_evidence_answer": "Strobe Talbott",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 176,
+   "question": "What American professional Hawaiian surfer born 18 October 1992 won the Rip Curl Pro Portugal?",
+   "no_evidence_answer": "John John Florence",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 177,
+   "question": "What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 178,
+   "question": "Alvaro Mexia had a diplomatic mission with which tribe of indigenous people?",
+   "no_evidence_answer": "Maya",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 179,
+   "question": "What nationality were social anthropologists Alfred Gell and Edmund Leach?",
+   "no_evidence_answer": "British",
+   "gate_abstains": false
+  },
+  {
+   "ds": "hotpotqa",
+   "qid": 180,
+   "question": "In which year was the King who made the 1925 Birthday Honours born?",
+   "no_evidence_answer": "1910",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 101,
+   "question": "Who is the mother of the director of film Polish-Russian War (Film)?",
+   "no_evidence_answer": "Ma\u0142gorzata Braunek",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 102,
+   "question": "Which film came out first, Blind Shaft or The Mask Of Fu Manchu?",
+   "no_evidence_answer": "The Mask of Fu Manchu",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 103,
+   "question": "When did John V, Prince Of Anhalt-Zerbst's father die?",
+   "no_evidence_answer": "1814",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 104,
+   "question": "What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 105,
+   "question": "Where was the director of film Ronnie Rocket born?",
+   "no_evidence_answer": "Kansas City, Missouri",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 106,
+   "question": "Who is Charles Bretagne Marie De La Tr\u00e9moille's paternal grandfather?",
+   "no_evidence_answer": "Charles Bretagne Marie De La Tr\u00e9moille's paternal grandfather was Louis II de La Tr\u00e9moille",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 107,
+   "question": "Where was the father of \u0218tefan I. Neni\u021bescu born?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 108,
+   "question": "Are North Marion High School (Oregon) and Seoul High School both located in the same country?",
+   "no_evidence_answer": "No",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 109,
+   "question": "Which film has the director who was born later, El Extra\u00f1o Viaje or Love In Pawn?",
+   "no_evidence_answer": "El Extra\u00f1o Viaje",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 110,
+   "question": "Who is the maternal grandfather of Antiochus X Eusebes?",
+   "no_evidence_answer": "Ptolemy VIII Euergetes II",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 111,
+   "question": "Which film has the director died first, Crimen A Las Tres or The Working Class Goes To Heaven?",
+   "no_evidence_answer": "Crimen A Las Tres",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 112,
+   "question": "Which film has the director born first, Once A Gentleman or The Girl In White?",
+   "no_evidence_answer": "Once A Gentleman",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 113,
+   "question": "Which film has the director who died earlier, Il Seduttore or The Trial Of Joan Of Arc?",
+   "no_evidence_answer": "The Trial Of Joan Of Arc",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 114,
+   "question": "Where was the director of film Thomas Jefferson (Film) born?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 115,
+   "question": "Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?",
+   "no_evidence_answer": "of tuberculosis",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 116,
+   "question": "Where was the place of death of the director of film Beat Girl?",
+   "no_evidence_answer": "London",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 117,
+   "question": "Who died first, Fleetwood Sheppard or George William Whitaker?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 118,
+   "question": "Which film has the director born first, The Raven'S Dance or Ke\u00efta! L'H\u00e9ritage Du Griot?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 119,
+   "question": "When did Jean Martin (Singer)'s husband die?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 120,
+   "question": "Which film has the director who died earlier, Tangled Destinies or The Daltons' Women?",
+   "no_evidence_answer": "Tangled Destinies",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 121,
+   "question": "Which film was released earlier, Moment Of Danger or The Ballad Of Josie?",
+   "no_evidence_answer": "Moment Of Danger",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 122,
+   "question": "What nationality is the director of film World And Time Enough?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 123,
+   "question": "Which film has the director died earlier, Poker In Bed or The Machine To Kill Bad People?",
+   "no_evidence_answer": "The Machine To Kill Bad People",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 124,
+   "question": "Which film whose director is younger, Heads I Win, Tails You Lose or The Incredible Sarah?",
+   "no_evidence_answer": "Heads I Win, Tails You Lose",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 125,
+   "question": "Who is Catherine Of Pomerania, Countess Palatine Of Neumarkt's father-in-law?",
+   "no_evidence_answer": "Frederick I, Elector Palatine",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 126,
+   "question": "Who is Marie Z\u00e9phyrine Of France's paternal grandmother?",
+   "no_evidence_answer": "Marie Antoinette",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 127,
+   "question": "Which film has the director died earlier, Condemned Women or Faces In The Dark?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 128,
+   "question": "Who is the spouse of the director of film Eden And After?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 129,
+   "question": "Where was the place of death of Anastasia Of Serbia's husband?",
+   "no_evidence_answer": "Hum",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 130,
+   "question": "Are Fire In Hell and The Tiger: An Old Hunter'S Tale from the same country?",
+   "no_evidence_answer": "Yes, both are from South Korea",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 131,
+   "question": "Which film was released more recently, Lo Zappatore or Placer Sangriento?",
+   "no_evidence_answer": "Placer Sangriento",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 132,
+   "question": "Was \u015eemsettin Ba\u015f or Gwenc'Hlan Le Scou\u00ebzec born first?",
+   "no_evidence_answer": "\u015eemsettin Ba\u015f",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 133,
+   "question": "Which film has the director born later, Bhoomiyude Avakashikal or The Majesty Of The Law?",
+   "no_evidence_answer": "The Majesty Of The Law",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 134,
+   "question": "Who is Cornelia (Wife Of Caesar)'s child-in-law?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 135,
+   "question": "Why did John Middleton Murry's wife die?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 136,
+   "question": "Who is the paternal grandfather of Taj Al-Dawla?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 137,
+   "question": "Do both films Payment On Demand and My Cousin From Warsaw have the directors from the same country?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 138,
+   "question": "What is the place of birth of the director of film And The Spring Comes?",
+   "no_evidence_answer": "Xi\u2019an, Shaanxi, China",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 139,
+   "question": "Who died first, Madame Pasca or James A. Donohoe?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 140,
+   "question": "Who was born later, D'Arcy Coulson or Thomas William Adams?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 141,
+   "question": "Are Simonds Catholic College and Saginaw High School (Texas) both located in the same country?",
+   "no_evidence_answer": "No. They are in different countries",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 142,
+   "question": "Which country Prince Nikolaus Wilhelm Of Nassau's mother is from?",
+   "no_evidence_answer": "Germany",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 143,
+   "question": "Which film whose director was born first, 45 Fathers or The Intended?",
+   "no_evidence_answer": "The Intended",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 144,
+   "question": "Who is the paternal grandfather of Alexandre Berthier, 3Rd Prince Of Wagram?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 145,
+   "question": "Where was the husband of Caterina Visconti born?",
+   "no_evidence_answer": "Pavia",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 146,
+   "question": "Which film has the director who was born later, A Quiet Place In The Country or When Were You Born?",
+   "no_evidence_answer": "A Quiet Place in the Country",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 147,
+   "question": "Who was born first, John Beach or Gordon Persons?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 148,
+   "question": "Which film has the director born earlier, The House By The Cemetery or Charlie Chan In Honolulu?",
+   "no_evidence_answer": "Charlie Chan In Honolulu",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 149,
+   "question": "Who is the child of the director of film La Leona (Film)?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 150,
+   "question": "Who is Blanche Of Portugal (1259\u20131321)'s paternal grandmother?",
+   "no_evidence_answer": "Afonso of Portugal",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 151,
+   "question": "Who lived longer, Giuseppe Cesari or Nicos Poulantzas?",
+   "no_evidence_answer": "Giuseppe Cesari",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 152,
+   "question": "Are director of film Nights On The Road and director of film Swann In Love (Film) from the same country?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 153,
+   "question": "Who is older, Aryeh Ben-Eliezer or Jason Pociask?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 154,
+   "question": "Where does the director of film Man At Bath work at?",
+   "no_evidence_answer": "at an engineering company",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 155,
+   "question": "Who is Arthur Gore, 2Nd Earl Of Arran's paternal grandfather?",
+   "no_evidence_answer": "Sir Ralph Gore, 1st Baronet",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 156,
+   "question": "Are both Kaufland and Otrag located in the same country?",
+   "no_evidence_answer": "Yes, both are located in Germany",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 157,
+   "question": "Which film came out earlier, Aanaval Mothiram or Heroes Of The Street?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 158,
+   "question": "Where was the father of Lord Patrick Crichton-Stuart born?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 159,
+   "question": "Which country the director of film Daadagiri is from?",
+   "no_evidence_answer": "India",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 160,
+   "question": "Where was the wife of Douglas Leiterman born?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 161,
+   "question": "What is the place of birth of the performer of song Who...?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 162,
+   "question": "Where was the place of death of the director of film Mole Men Against The Son Of Hercules?",
+   "no_evidence_answer": "Rome, Italy",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 163,
+   "question": "Where was the father of Alexandre Gaydamak born?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 164,
+   "question": "Which film has the director who died earlier, Toen 'T Licht Verdween or Boum Sur Paris?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 165,
+   "question": "Who is Gaston, Duke Of Orl\u00e9ans's paternal grandmother?",
+   "no_evidence_answer": "Jeanne d\u2019Albret, Queen of Navarre",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 166,
+   "question": "Where was the director of film The Half-Way Girl born?",
+   "no_evidence_answer": "Hong Kong",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 167,
+   "question": "Who is the father-in-law of Sophia Of Wittelsbach?",
+   "no_evidence_answer": "Charles IV, Holy Roman Emperor",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 168,
+   "question": "Where was the place of death of Lambert I, Count Of Louvain's father?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 169,
+   "question": "Where was the director of film Highway Dragnet born?",
+   "no_evidence_answer": "Gura Humorului, Romania",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 170,
+   "question": "Where did Prince Gustav Of Thurn And Taxis (1848\u20131914)'s mother die?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 171,
+   "question": "What is the award that the performer of song Sunday Papers earned?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 172,
+   "question": "Which film has the director born first, Antonieta or Dodging The Dole?",
+   "no_evidence_answer": "Dodging The Dole",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 173,
+   "question": "Are both Nikolsk Airport and Svobodny Airport located in the same country?",
+   "no_evidence_answer": "No",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 174,
+   "question": "Who is the maternal grandfather of Amadeus Vii, Count Of Savoy?",
+   "no_evidence_answer": "John, Duke of Berry",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 175,
+   "question": "Are both businesses, Telus and Ztr Control Systems, located in the same country?",
+   "no_evidence_answer": "Yes, both are located in Canada",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 176,
+   "question": "Do both films, Dial M For Murder and Marius (1931 Film), have the directors who are from the same country?",
+   "no_evidence_answer": "No",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 177,
+   "question": "Who is older, Dyson Parody or Gene Watson?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 178,
+   "question": "Are both directors of films The Princess Bride (Film) and I Never Sang For My Father from the same country?",
+   "no_evidence_answer": "Yes, both directors are from the United States",
+   "gate_abstains": false
+  },
+  {
+   "ds": "2wiki",
+   "qid": 179,
+   "question": "When did Prince John Konstantinovich Of Russia's mother die?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "2wiki",
+   "qid": 180,
+   "question": "Which country Audofleda's husband is from?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 61,
+   "question": "What event caused the founder of Australia's liberal party to become Prime Minister?",
+   "no_evidence_answer": "The dismissal of a prime minister",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 62,
+   "question": "What event caused the Liberal Party of Australia's longest-serving leader to become Prime Minister?",
+   "no_evidence_answer": "John Curtin's death",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 63,
+   "question": "What was the average per capita GVA in 2013 of the country which created Burma's academic system?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 64,
+   "question": "Who is the spouse of the creator of The Nanny Reunion: A Nosh to Remember?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 65,
+   "question": "Who founded the publisher of The Final Testament of the Holy Bible?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 66,
+   "question": "During which era was the company that makes Nirbhay founded?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 67,
+   "question": "During what era was the manufacturer of Agni-V founded?",
+   "no_evidence_answer": "1950s",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 68,
+   "question": "In what era was the company known as the manufacturer of Agni-V founded?",
+   "no_evidence_answer": "India",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 69,
+   "question": "What city is located in the county containing Qiantong?",
+   "no_evidence_answer": "Ningbo",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 70,
+   "question": "What is the performer of Heartbeat named after?",
+   "no_evidence_answer": "the song's namesake",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 71,
+   "question": "The Move Ya Body song's band is named after who?",
+   "no_evidence_answer": "Nina Simone",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 72,
+   "question": "When did the spacecraft that detected storms on Neptune leave our solar system?",
+   "no_evidence_answer": "2018",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 73,
+   "question": "The Nicole and Natalie album's band is named after who?",
+   "no_evidence_answer": "Natalie and Nicole",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 74,
+   "question": "Where was the founder of the National Women's Party born?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 75,
+   "question": "What is the place of birth of the person who submitted the first version of the equal rights amendment to congress in 1923?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 76,
+   "question": "The Directory of Public Worship was approved by a parliament whose modern equivalent has been based where since 2004?",
+   "no_evidence_answer": "Edinburgh",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 77,
+   "question": "Where was the person featured on the Chester Arthur coin born?",
+   "no_evidence_answer": "Neosho, Missouri",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 78,
+   "question": "Since 2004, what is the location of the body to which, if a matter is not specifically reserved, it is devolved?",
+   "no_evidence_answer": "Scottish Parliament",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 79,
+   "question": "The city which contains Broadhurst Park shares a border with what town?",
+   "no_evidence_answer": "Bury",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 80,
+   "question": "What is the record label of the Metalworks Studio founder?",
+   "no_evidence_answer": "Metalworks Records",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 81,
+   "question": "What is the mouth of watercourse for the body of water where Bartram's Covered Bridge is located?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 82,
+   "question": "What is the ruler of the underworld in ancient Egypt a part of?",
+   "no_evidence_answer": "the afterlife",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 83,
+   "question": "What pantheon is the God of the underworld in ancient Egypt a part of?",
+   "no_evidence_answer": "The ancient Egyptian pantheon",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 84,
+   "question": "In which district was Alhandra born?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 85,
+   "question": "In which state is Vera Barbosa's place of birth located?",
+   "no_evidence_answer": "Rio de Janeiro",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 86,
+   "question": "In which state is P\u00f3voa de Santa Iria's municipality located?",
+   "no_evidence_answer": "Lisbon District",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 87,
+   "question": "How old was Mary when engaged to the person from whom S\u00e3o Jos\u00e9 dos Campos takes it's name?",
+   "no_evidence_answer": "About 14 years old",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 88,
+   "question": "Where was Mary's betrothed born?",
+   "no_evidence_answer": "Bethlehem",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 89,
+   "question": "Where is the country with ISO code ISO 3166-2:CV located?",
+   "no_evidence_answer": "Cape Verde",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 90,
+   "question": "Where is Assomada located?",
+   "no_evidence_answer": "Assomada is in central Santiago, Cape Verde",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 91,
+   "question": "Where is Am\u00edlcar Cabral International Airport?",
+   "no_evidence_answer": "Cape Verde",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 92,
+   "question": "Where was the person who wrote about the rioting being a dividing factor in Birmingham educated?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 93,
+   "question": "Where was the designer of the Lap Engine educated?",
+   "no_evidence_answer": "Greenock Grammar School",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 94,
+   "question": "Where was the creator of the Lap Engine educated?",
+   "no_evidence_answer": "Greenock Grammar School",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 95,
+   "question": "The 1967 Federation Cup is an instance of this tournament which is named after what organization?",
+   "no_evidence_answer": "The International Tennis Federation (ITF)",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 96,
+   "question": "What is the competition that the 1965 Federation Cup is part of named after?",
+   "no_evidence_answer": "Billie Jean King",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 97,
+   "question": "What is the competition the 1972 Federation Cup is part of named after?",
+   "no_evidence_answer": "Davis Cup",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 98,
+   "question": "What is the capital of the county which contains Hickory Grove Estates, Mississippi?",
+   "no_evidence_answer": "Jackson",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 99,
+   "question": "Who is the father of the performer of Je dis aime?",
+   "no_evidence_answer": "J\u00fcrgen Reil",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 100,
+   "question": "Who is the father of the Labo M performer?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 101,
+   "question": "Who is the father of the performer of Qui de noux deux?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 102,
+   "question": "Who is the child of the cast member of Green Ice?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 103,
+   "question": "Who is the sibling of the actress who played Susan Walker in Miracle on 34th street?",
+   "no_evidence_answer": "Natalie Wood's sister, Lana Wood",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 104,
+   "question": "Who is the sibling of the actress that played the little girl in Miracle on 34th street 1947?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 105,
+   "question": "Whose sister played Susie in miracle on 34th street?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 106,
+   "question": "What company did the company that initiated a successful price war among PC manufacturers in 1994 merge with in 2002?",
+   "no_evidence_answer": "Hewlett-Packard (HP)",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 107,
+   "question": "What company merged in 2002 with the CEMM developer?",
+   "no_evidence_answer": "2002 merger with UOL",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 108,
+   "question": "In 2002, what company merged with the top PC manufacturer from 1994?",
+   "no_evidence_answer": "Hewlett-Packard",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 109,
+   "question": "What body of water includes the terrain feature where Coffee Swamp is located?",
+   "no_evidence_answer": "Caribbean Sea",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 110,
+   "question": "Who has played for both West Ham Ajax and the team that Adam Hammill is on?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 111,
+   "question": "Who has played for West Ham Ajax and the team that David Currie plays for?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 112,
+   "question": "Who has played for West Ham Ajax and the team from the city where Malcolm Graham died?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 113,
+   "question": "Who is the employer of the person Mach's principle was named after?",
+   "no_evidence_answer": "University of Vienna",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 114,
+   "question": "Who is the employer of the physicist who Mach number is named after?",
+   "no_evidence_answer": "Siemens",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 115,
+   "question": "Which university employed the person that Mach bands are named after?",
+   "no_evidence_answer": "University of Manchester",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 116,
+   "question": "Who is the spouse of a cast member from King of the Mountain?",
+   "no_evidence_answer": "Lisa Rinna",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 117,
+   "question": "What is the birthplace of the person after whom S\u00e3o Jos\u00e9 dos Campos was named?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 118,
+   "question": "What year did the author of Prince Prigio die?",
+   "no_evidence_answer": "1912",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 119,
+   "question": "When did military instruction start at the place where Larry Alcala was educated?",
+   "no_evidence_answer": "1912",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 120,
+   "question": "When did the military instruction start in the university that Paulo Manalo attended?",
+   "no_evidence_answer": "1905",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 121,
+   "question": "What county shares a border with Cedar Springs?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 122,
+   "question": "Who is the father of Empress Wang's husband?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 123,
+   "question": "In which county was James Finch born?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 124,
+   "question": "Who is the other child of Chian Hsiao-chang's father?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 125,
+   "question": "Who is the uncle of Liu Bin?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 126,
+   "question": "Who is the child of Chiang Hsiao-wen's father?",
+   "no_evidence_answer": "Chiang Hsiao-wen",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 127,
+   "question": "What is the movie starring Preity Zinta, Madhuri Dixit and the spouse of Kajol?",
+   "no_evidence_answer": "Koyla",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 128,
+   "question": "What film features Anil Devgan's sibling?",
+   "no_evidence_answer": "Raju Chacha",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 129,
+   "question": "What preity zinta and madhuri dixit movie had a cast member from U Me Aur Hum ?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 130,
+   "question": "What is the record label for the band which performed Pythons?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 131,
+   "question": "Who is the child of the actor who is a cast member of Love in Pawn?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 132,
+   "question": "Who is the creator of Mickey Mouse's spouse?",
+   "no_evidence_answer": "Ub Iwerks",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 133,
+   "question": "Who was the US physicist who directed the project that developed the first atomic bomb at the same place where Feynman worked on Water Boiler?",
+   "no_evidence_answer": "J. Robert Oppenheimer",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 134,
+   "question": "What political party does the person that Adversary in the House is based on a member of?",
+   "no_evidence_answer": "Conservative Party",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 135,
+   "question": "What political party was the socialist candidate part of who ran for president in 1912?",
+   "no_evidence_answer": "The Socialist Party",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 136,
+   "question": "What political party was the candidate who garnered a million votes during the 1920 election despite being in prison, a member of?",
+   "no_evidence_answer": "Socialist Party of America",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 137,
+   "question": "What is the river that the Kettle Generating Station is located on a tributary of?",
+   "no_evidence_answer": "Nelson River",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 138,
+   "question": "What is the river where Long Spruce Generating Station is located a tributary of?",
+   "no_evidence_answer": "Nelson River",
+   "gate_abstains": false
+  },
+  {
+   "ds": "musique",
+   "qid": 139,
+   "question": "Of which river is the river Kichi Sipi Bridge crosses a tributary?",
+   "no_evidence_answer": "insufficient knowledge",
+   "gate_abstains": true
+  },
+  {
+   "ds": "musique",
+   "qid": 140,
+   "question": "Who married the publisher of abolitionist newspaper The North Star?",
+   "no_evidence_answer": "Anna Murray Douglass",
+   "gate_abstains": false
+  }
+ ]
+}

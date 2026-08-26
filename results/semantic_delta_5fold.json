@@ -1,0 +1,23 @@
+{
+  "targeted_dist_only": {
+    "f1_mean": 0.6666666666666666,
+    "f1_sd": 0.0,
+    "auroc_mean": 0.517361111111111,
+    "auroc_sd": 0.010868908324282191
+  },
+  "random_dist_only_inv": {
+    "f1_mean": 0.4086345747351949,
+    "f1_sd": 0.018553807102816133,
+    "auroc_mean": 0.7457465277777778,
+    "auroc_sd": 0.01637303276781108
+  },
+  "semantic_cfscore": {
+    "f1_mean": 0.7585251523114354,
+    "f1_sd": 0.027038551857467372,
+    "auroc_mean": 0.7531684027777776,
+    "auroc_sd": 0.020115958419393946
+  },
+  "baseline_exact_match_cfscore": {
+    "note": "F1=0.692, AUROC=0.784 from detection_5fold.json"
+  }
+}
