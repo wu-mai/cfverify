@@ -113,7 +113,7 @@ We examine behavioural evidence dependence of LLM answers along four axes. (i)~\
 \label{sec:headline}
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.75\columnwidth]{figures/cost_breakdown.png}
+    \includegraphics[width=0.95\linewidth]{figures/cost_breakdown.png}
     \caption{Per-question USD cost of CF-Verify vs.\ a single answer call (GPT-5.4 list price). At $K{=}1$ CF-Verify is a $\sim$$4\times$ multiplier on per-query inference cost; the merged prompt saves $\sim$25\% on capable models.}
     \label{fig:cost}
 \end{figure}
@@ -268,7 +268,7 @@ Synthetic rewrites hold on $68\%$ of the extended set: invalid rewrites (which r
 \section{Bootstrap Stability Analysis}
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.75\columnwidth]{figures/bootstrap_convergence.png}
+    \includegraphics[width=\columnwidth]{figures/bootstrap_convergence.png}
     \caption{Bootstrap subsample convergence of the headline CFScore (1{,}000 random subsets per $N$). The mean is constant at $0.929$--$0.931$ and the SD falls from $0.078$ ($N{=}10$) to $0.034$ ($N{=}57$), flattening beyond $N{\approx}40$.}
     \label{fig:bootstrap}
 \end{figure}
